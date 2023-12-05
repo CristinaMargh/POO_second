@@ -242,11 +242,13 @@ public class User extends LibraryEntry{
     }
 
     public String addRemoveInPlaylist(int Id) {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before adding to or removing from the playlist.";
+        }
 
-        if (player.getType().equals("podcast"))
+        if (player.getType().equals("podcast")) {
             return "The loaded source is not a song.";
+        }
 
         if (Id > playlists.size())
             return "The specified playlist does not exist.";
@@ -387,7 +389,8 @@ public class User extends LibraryEntry{
                 return this.username + " has the same song at least twice in this album.";
             }
             albums.add(new Album(name, username, timestamp, description, releaseYear,songsAlbum));
-            if(this.getPlayer().getSource() != null)
+            //player.setType("album");
+            if (this.getPlayer().getSource() != null)
                 this.getPlayer().getSource().setType(Enums.PlayerSourceType.ALBUM);
             List<Song> songs = Admin.getSongs();
             for (SongInput song : songsAlbum) {
@@ -452,7 +455,7 @@ public class User extends LibraryEntry{
             })) {
                 return this.username + " has already added an announcement with this name.";
             }
-            announcements.add(new Announcement(name, owner,timestamp,description));
+            announcements.add(new Announcement(name, owner, timestamp, description));
             return this.username + " has successfully added new announcement.";
         } else {
             return this.username + " is not a host.";

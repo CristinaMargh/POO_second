@@ -3,12 +3,16 @@ package app;
 import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
+import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
+import app.player.Player;
+import app.player.PlayerSource;
 import app.user.User;
 import app.utils.Enums;
 import fileio.input.*;
 
+import javax.xml.transform.Source;
 import java.util.*;
 
 public class Admin {
@@ -217,23 +221,36 @@ public static String deleteUser(CommandInput commandInput) {
         return "The username " + commandInput.getUsername() + " doesn't exist.";
     } else {
         // user has on load a song from the artist's album. can t delete him
-        for (User user : users)
-            if(user.getPlayer().getSource()!= null && foundUser.getPlayer().getSource()!= null &&
-                    user.getPlayer().getSource().getAudioCollection().matchesName(foundUser.getPlayer().getSource().getAudioCollection().getName()))
-                return commandInput.getUsername() + " can't be deleted.";
-        else {
-            users.remove(foundUser);
-            // If it's an artist we delete the album and the songs
-            ArrayList<Album> foundAlbums = foundUser.getAlbums();
-            for(Album album : foundAlbums)
-                for(Song song : album.getSongs())
-                    songs.remove(song);
-            return commandInput.getUsername() + " was successfully deleted.";
-        }
-        return "";
+            if (foundUser.getType() == Enums.userType.ARTIST)
+                if (isListeningToArtistAlbum(foundUser.getAlbums()))
+                    return commandInput.getUsername() + " can't be deleted.";
+
+        users.remove(foundUser);
+        // If it's an artist we delete the album and the songs
+        ArrayList<Album> foundAlbums = foundUser.getAlbums();
+        for (Album album : foundAlbums)
+            for(Song song : album.getSongs()) {
+                songs.remove(song);
+            }
+        return commandInput.getUsername() + " was successfully deleted.";
     }
 }
-public static String addPodcast(CommandInput commandInput, final String name, final String owner, final ArrayList<EpisodeInput> episodes) {
+// We check for the artists
+public static boolean isListeningToArtistAlbum( ArrayList<Album> artistAlbums) {
+    for (User user : users) {
+        if (user.getPlayer().getSource() != null &&
+                user.getPlayer().getSource().getAudioCollection() != null) {
+            for (Album artistAlbum : artistAlbums) {
+                if (user.getPlayer().getSource().getAudioCollection().matchesName(artistAlbum.getName())) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
+
+    public static String addPodcast(CommandInput commandInput, final String name, final String owner, final ArrayList<EpisodeInput> episodes) {
     int ok = 0;
     User found = null;
         for(User user : users) {

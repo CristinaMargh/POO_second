@@ -22,6 +22,9 @@ public final class Album extends AudioCollection {
         this.description = description;
         this.releaseYear = releaseYear;
         this.songsAlbum = songsAlbum;
+        for (SongInput songInput : songsAlbum)
+            this.songs.add(new Song(songInput.getName(),songInput.getDuration(),songInput.getAlbum(),songInput.getTags(),
+                    songInput.getLyrics(),songInput.getGenre(),songInput.getReleaseYear(),songInput.getArtist()));
     }
     @Override
     public int getNumberOfTracks() {

@@ -18,6 +18,7 @@ public class Player {
     @Setter
     private PlayerSource source;
     @Getter
+    @Setter
     private String type;
 
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
@@ -54,6 +55,9 @@ public class Player {
             return new PlayerSource(Enums.PlayerSourceType.PLAYLIST, (AudioCollection) entry);
         } else if ("podcast".equals(type)) {
             return createPodcastSource((AudioCollection) entry, bookmarks);
+
+        } else if ("album".equals(type)) {
+            return new PlayerSource(Enums.PlayerSourceType.ALBUM, (AudioCollection) entry);
         }
 
         return null;

@@ -4883,11 +4883,11 @@
   "user" : "alice22",
   "timestamp" : 5404,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Serendipity Serendipity",
+    "remainedTime" : 259,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4899,11 +4899,11 @@
   "user" : "alice22",
   "timestamp" : 5414,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Serendipity Serendipity",
+    "remainedTime" : 254,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4923,7 +4923,7 @@
   "command" : "shuffle",
   "user" : "alice22",
   "timestamp" : 5429,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -4934,33 +4934,33 @@
   "user" : "alice22",
   "timestamp" : 5434,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Serendipity Serendipity",
+    "remainedTime" : 234,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 5435,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5689,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Rapture Odyssey",
+    "remainedTime" : 144,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5690,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -4982,11 +4982,11 @@
   "user" : "bob35",
   "timestamp" : 5715,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whisper Pulse",
+    "remainedTime" : 274,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4998,11 +4998,11 @@
   "user" : "bob35",
   "timestamp" : 5725,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whisper Pulse",
+    "remainedTime" : 269,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5022,7 +5022,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 5740,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "leslie27",
@@ -5033,33 +5033,33 @@
   "user" : "bob35",
   "timestamp" : 5745,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whisper Pulse",
+    "remainedTime" : 249,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 5746,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6000,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Odyssey Rapture",
+    "remainedTime" : 188,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6001,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -5081,11 +5081,11 @@
   "user" : "carol19",
   "timestamp" : 6026,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 177,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5097,11 +5097,11 @@
   "user" : "carol19",
   "timestamp" : 6036,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5121,49 +5121,49 @@
   "command" : "deleteUser",
   "user" : "cbutler",
   "timestamp" : 6046,
-  "message" : "cbutler was successfully deleted."
+  "message" : "cbutler can't be deleted."
 }, {
   "command" : "shuffle",
   "user" : "carol19",
   "timestamp" : 6051,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "cbutler",
   "timestamp" : 6055,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler deleted the album successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6056,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 152,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 6057,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6311,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whirlwind Solitude",
+    "remainedTime" : 194,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6312,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -5284,11 +5284,11 @@
   "user" : "emily30",
   "timestamp" : 6648,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Serendipity Serendipity",
+    "remainedTime" : 259,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5300,11 +5300,11 @@
   "user" : "emily30",
   "timestamp" : 6658,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Serendipity Serendipity",
+    "remainedTime" : 254,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5324,7 +5324,7 @@
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6673,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5335,33 +5335,33 @@
   "user" : "emily30",
   "timestamp" : 6678,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Serendipity Serendipity",
+    "remainedTime" : 234,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6679,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6933,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Rapture Odyssey",
+    "remainedTime" : 144,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 6934,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -5383,11 +5383,11 @@
   "user" : "frank21",
   "timestamp" : 6959,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Luminescence Crescendo",
+    "remainedTime" : 244,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5399,11 +5399,11 @@
   "user" : "frank21",
   "timestamp" : 6969,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Luminescence Crescendo",
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5423,7 +5423,7 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6984,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "amanda16",
@@ -5434,33 +5434,33 @@
   "user" : "frank21",
   "timestamp" : 6989,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Luminescence Crescendo",
+    "remainedTime" : 219,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 6990,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 7244,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Echo Pinnacle",
+    "remainedTime" : 256,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 7245,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -5482,11 +5482,11 @@
   "user" : "grace25",
   "timestamp" : 7270,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Love Love",
+    "remainedTime" : 251,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5498,11 +5498,11 @@
   "user" : "grace25",
   "timestamp" : 7280,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Love Love",
+    "remainedTime" : 246,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5522,7 +5522,7 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 7295,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "barmstrong",
@@ -5533,33 +5533,33 @@
   "user" : "grace25",
   "timestamp" : 7300,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Love Love",
+    "remainedTime" : 226,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 7301,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Soul Love."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 7555,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Soul Love",
+    "remainedTime" : 36,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 7556,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -5581,11 +5581,11 @@
   "user" : "henry26",
   "timestamp" : 7581,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Luminescence Crescendo",
+    "remainedTime" : 244,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5597,11 +5597,11 @@
   "user" : "henry26",
   "timestamp" : 7591,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Luminescence Crescendo",
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5621,7 +5621,7 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 7606,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "amanda16",
@@ -5632,33 +5632,33 @@
   "user" : "henry26",
   "timestamp" : 7611,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Luminescence Crescendo",
+    "remainedTime" : 219,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 7612,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7866,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Echo Pinnacle",
+    "remainedTime" : 256,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 7867,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -5680,11 +5680,11 @@
   "user" : "irene33",
   "timestamp" : 7892,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Celestial Soul",
+    "remainedTime" : 233,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5696,11 +5696,11 @@
   "user" : "irene33",
   "timestamp" : 7902,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Celestial Soul",
+    "remainedTime" : 228,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5720,7 +5720,7 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 7917,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5731,59 +5731,59 @@
   "user" : "irene33",
   "timestamp" : 7922,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Celestial Soul",
+    "remainedTime" : 208,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 7923,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 8177,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Utopia Harmony",
+    "remainedTime" : 44,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 8178,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8188,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 8193,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 8198,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8203,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 177,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5795,11 +5795,11 @@
   "user" : "jack29",
   "timestamp" : 8213,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5819,44 +5819,44 @@
   "command" : "shuffle",
   "user" : "jack29",
   "timestamp" : 8228,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "cbutler",
   "timestamp" : 8232,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler deleted the album successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8233,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 152,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 8234,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8488,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Whirlwind Solitude",
+    "remainedTime" : 194,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 8489,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "showPlaylists",
   "user" : "alice22",
@@ -8920,17 +8920,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10279,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 10279,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Soul Love."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10279,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -8981,17 +8981,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10289,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10289,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10289,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9103,17 +9103,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10309,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10309,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10309,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9225,17 +9225,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10329,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 10329,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10329,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -9347,17 +9347,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10349,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10349,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10349,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -9408,17 +9408,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10359,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10359,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10359,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -9469,17 +9469,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10369,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10369,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10369,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -9591,17 +9591,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10389,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10389,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10389,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -9652,17 +9652,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10399,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 10399,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Heart Ethereal."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10399,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -9713,17 +9713,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10409,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10409,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10409,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -9774,17 +9774,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10419,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 10419,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Whirlwind Whirlwind."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10419,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -10018,17 +10018,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10459,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10459,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Mystique Euphoria."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10459,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10079,17 +10079,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10469,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10469,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10469,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10140,17 +10140,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10479,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 10479,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10479,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -10323,17 +10323,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10509,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10509,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Whirlwind Whirlwind."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10509,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -10445,17 +10445,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10529,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 10529,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10529,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -10506,17 +10506,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10539,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 10539,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10539,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -10546,8 +10546,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10557,27 +10557,27 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -10628,17 +10628,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10559,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10559,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Soul Love."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10559,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -10689,17 +10689,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10569,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10569,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10569,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -10811,17 +10811,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10589,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10589,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10589,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -10933,17 +10933,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10609,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10609,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10609,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -11116,17 +11116,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10639,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 10639,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Heart Ethereal."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10639,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -11177,17 +11177,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10649,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10649,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10649,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11299,17 +11299,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10669,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10669,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10669,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11360,17 +11360,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10679,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 10679,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10679,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -11421,17 +11421,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10689,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10689,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Heart Ethereal."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10689,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -11543,17 +11543,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10709,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10709,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Sunset Essence."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10709,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -11787,17 +11787,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10749,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10749,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Voyage."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10749,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11848,17 +11848,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10759,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10759,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Soul Love."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10759,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -11888,8 +11888,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11899,27 +11899,27 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -11970,17 +11970,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10779,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 10779,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10779,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12031,17 +12031,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10789,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10789,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10789,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12092,17 +12092,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10799,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 10799,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 10799,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -12132,8 +12132,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12143,27 +12143,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12214,17 +12214,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10819,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 10819,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10819,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12275,17 +12275,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10829,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 10829,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Sunset Essence."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10829,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12336,17 +12336,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10839,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 10839,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10839,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -12397,17 +12397,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10849,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10849,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10849,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -12580,17 +12580,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10879,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 10879,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Heart Ethereal."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10879,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -12641,17 +12641,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10889,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10889,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10889,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -12763,17 +12763,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10909,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10909,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10909,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12824,17 +12824,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10919,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 10919,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Heart Ethereal."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 10919,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -12885,17 +12885,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10929,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 10929,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 10929,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -12946,17 +12946,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10939,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 10939,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Voyage."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 10939,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -13007,17 +13007,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10949,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10949,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10949,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13047,8 +13047,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13058,27 +13058,27 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13190,17 +13190,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10979,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 10979,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 10979,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13251,17 +13251,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10989,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 10989,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10989,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -13373,17 +13373,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11009,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11009,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Sunset Essence."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11009,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -13495,17 +13495,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11029,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 11029,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11029,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -13556,17 +13556,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11039,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 11039,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11039,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -13617,17 +13617,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11049,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 11049,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Sunset Essence."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11049,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -13678,17 +13678,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11059,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11059,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Celestial Harmony."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11059,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13739,17 +13739,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11069,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 11069,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11069,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -13800,17 +13800,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11079,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 11079,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11079,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -13922,17 +13922,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11099,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 11099,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Mystique Euphoria."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11099,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -13983,17 +13983,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11109,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11109,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11109,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14105,17 +14105,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11129,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 11129,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11129,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -14166,17 +14166,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11139,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 11139,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Sunset Essence."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11139,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14288,17 +14288,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11159,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11159,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11159,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -14349,17 +14349,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11169,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 11169,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11169,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -14410,17 +14410,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11179,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 11179,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11179,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -14532,17 +14532,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11199,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 11199,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11199,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -14593,17 +14593,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11209,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11209,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Voyage."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11209,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -14654,17 +14654,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11219,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 11219,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11219,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -14776,17 +14776,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11239,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 11239,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11239,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -14959,17 +14959,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11269,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 11269,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11269,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -15081,17 +15081,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11289,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 11289,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Whirlwind Whirlwind."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11289,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -15264,17 +15264,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11319,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 11319,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Heart Ethereal."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11319,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -15386,17 +15386,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11339,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 11339,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11339,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -15447,17 +15447,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11349,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 11349,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11349,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -15487,8 +15487,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -15498,27 +15498,27 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15630,17 +15630,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11379,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 11379,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Mystique Euphoria."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11379,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -15752,17 +15752,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11399,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 11399,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11399,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -15792,8 +15792,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15803,27 +15803,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -16036,8 +16036,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -16047,27 +16047,27 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -16179,17 +16179,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11469,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 11469,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Soul Love."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11469,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -16240,17 +16240,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11479,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 11479,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmony Mystique."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11479,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16301,17 +16301,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11489,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 11489,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11489,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -16423,17 +16423,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11509,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11509,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11509,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -16484,17 +16484,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11519,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 11519,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Radiance Voyage."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11519,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -16545,17 +16545,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11529,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 11529,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Whirlwind Whirlwind."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11529,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -16728,17 +16728,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11559,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11559,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Whirlwind Whirlwind."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11559,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -16850,17 +16850,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11579,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 11579,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11579,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -16972,17 +16972,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11599,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 11599,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Euphoria Twilight."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11599,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -17012,8 +17012,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -17023,27 +17023,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17094,17 +17094,17 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11619,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 11619,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Euphoria Twilight."
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 11619,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
@@ -17155,17 +17155,17 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11629,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "frank21",
   "timestamp" : 11629,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 11629,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
@@ -17216,17 +17216,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11639,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 11639,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Euphoria Twilight."
 }, {
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 11639,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
@@ -17277,17 +17277,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11649,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 11649,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11649,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -17338,17 +17338,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11659,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11659,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11659,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -17460,17 +17460,17 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11679,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 11679,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paradox Echo."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 11679,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
@@ -17521,17 +17521,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11689,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 11689,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 11689,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
@@ -17582,17 +17582,17 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11699,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 11699,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 11699,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
@@ -17643,17 +17643,17 @@
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11709,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11709,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Utopia Harmony."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11709,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17948,17 +17948,17 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11759,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11759,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Harmonize Eclipse."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11759,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -18009,17 +18009,17 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11769,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 11769,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 11769,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -18183,28 +18183,28 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 11809,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18214,7 +18214,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19155,28 +19155,28 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12079,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19186,7 +19186,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20019,28 +20019,28 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12319,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20050,7 +20050,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20379,28 +20379,28 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12419,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20410,7 +20410,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20487,28 +20487,28 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12449,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20518,7 +20518,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20883,28 +20883,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12559,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -20914,7 +20914,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21243,28 +21243,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12659,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -21274,7 +21274,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21639,28 +21639,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12769,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21670,7 +21670,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -22503,28 +22503,28 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13009,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22534,7 +22534,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -22719,28 +22719,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13069,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone RevolutionDynamic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -22750,7 +22750,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone RevolutionDynamic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -26038,7 +26038,7 @@
 }, {
   "command" : "getAllUsers",
   "timestamp" : 14849,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "cbutler", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 14849,
