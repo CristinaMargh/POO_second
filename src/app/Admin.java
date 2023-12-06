@@ -296,7 +296,8 @@ public static  String removePodcast(CommandInput commandInput, final String name
         return "The username" + commandInput.getUsername() + " doesn't exist.";
     } else {
         if(found.getType() == Enums.userType.HOST) {
-            //podcasts.add(new Podcast(name,owner, episode));
+            // Check for the podcast in the host's list for does not have
+
             return found.getUsername() + " can't delete this podcast.";
         } else {
             return found.getUsername() + " is not a host.";

@@ -54,6 +54,9 @@ public class User extends LibraryEntry{
     @Getter
     @Setter
     private Enums.userType type;
+    @Getter
+    @Setter
+    private boolean changedPage = false;
 
     public User(String username, int age, String city, Enums.userType type) {
         super(username);
@@ -264,7 +267,7 @@ public class User extends LibraryEntry{
         return "Successfully added to playlist.";
     }
 
-    public String switchPlaylistVisibility(Integer playlistId) {
+    public String switchPlaylistVisibility(final Integer playlistId) {
         if (playlistId > playlists.size())
             return "The specified playlist ID is too high.";
 
@@ -411,10 +414,39 @@ public class User extends LibraryEntry{
 
         return albumOutputs;
     }
-    public String removeAlbum() {
-        return this.username + " deleted the album successfully.";
+    public String removeAlbum(final CommandInput commandInput) {
+        if (this.getType() == Enums.userType.ARTIST) {
+            int found = 0;
+            Album foundAlbum = null;
+            for (Album album : this.getAlbums())
+                if (album.getName().equals(commandInput.getName())) {
+                    found = 1;
+                    foundAlbum = album;
+                }
+            if (found == 0) {
+                return  this.username + " doesn't have an album with the given name.";
+            } else {
+                boolean albumReferencedByUser = hasAlbumOrSongsFromAlbum(foundAlbum);
+                if (!albumReferencedByUser) {
+                    albums.remove(foundAlbum);
+                    return this.username + " deleted the album successfully.";
+                } else {
+                    return this.username + " can't delete this album.";
+                }
+            }
+        } else {
+            return this.username + " is not an artist.";
+        }
     }
-    public String addEvent(String name, String owner, int timestamp, String description, String date) {
+    // Used for removeAlbum
+    public boolean hasAlbumOrSongsFromAlbum(final Album album) {
+        return albums.contains(album)
+                || albums.stream().anyMatch(a -> a.getSongs().stream().anyMatch(s -> album.getSongs().contains(s)));
+    }
+
+
+    public String addEvent(final String name, final String owner, final int timestamp,
+                           final String description, final String date) {
         if (this.getType() == Enums.userType.ARTIST) {
             if (events.stream().anyMatch(event -> {
                 String eventName = event.getName();
@@ -565,11 +597,20 @@ public class User extends LibraryEntry{
 
                 StringBuilder builder = new StringBuilder();
 
-                builder.append("Liked songs:\n");
-                builder.append("\t[").append(formatSongList(likedSongs)).append("]\n\n");
+                if (!this.changedPage) {
+                    builder.append("Liked songs:\n");
+                    builder.append("\t[").append(formatSongList(likedSongs)).append("]\n\n");
 
-                builder.append("Followed playlists:\n");
-                builder.append("\t[").append(formatPlaylistList(followedPlaylists)).append("]");
+                    builder.append("Followed playlists:\n");
+                    builder.append("\t[").append(formatPlaylistList(followedPlaylists)).append("]");
+                } else {
+                    // User changed to LikedContentPage
+                    builder.append("Liked songs:\n");
+                    builder.append("\t[").append(formatSongListLikePage(likedSongs)).append("]\n\n");
+
+                    builder.append("Followed playlists:\n");
+                    builder.append("\t[").append(formatPlaylistListLikePage(followedPlaylists)).append("]");
+                }
                 return builder.toString();
             }
     }
@@ -596,7 +637,40 @@ public class User extends LibraryEntry{
         }
         return String.join(", ", playlistNames);
     }
+
+    private String formatSongListLikePage(List<Song> songs) {
+        if (songs.isEmpty()) {
+            return "";
+        }
+
+        List<String> songInfo = new ArrayList<>();
+        for (Song song : songs) {
+            String songName = song.getName();
+            String songArtist = song.getArtist();
+            String songDetails = songName + " - " + songArtist;
+            songInfo.add(songDetails);
+        }
+        return String.join(", ", songInfo);
+    }
+
+    private String formatPlaylistListLikePage(List<Playlist> playlists) {
+        if (playlists.isEmpty()) {
+            return "";
+        }
+
+        List<String> playlistInfo = new ArrayList<>();
+        for (Playlist playlist : playlists) {
+            String playlistName = playlist.getName();
+            String owner = playlist.getOwner();
+
+            String playlistDetails = playlistName + " - " + owner;
+            playlistInfo.add(playlistDetails);
+        }
+        return  String.join(", ", playlistInfo) ;
+    }
+
     public String changePage(CommandInput commandInput) {
+        this.setChangedPage(true);
         return this.username + " accessed " + commandInput.getNextPage() + " successfully.";
     }
     public void simulateTime(int time) {

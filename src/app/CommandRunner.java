@@ -445,7 +445,7 @@ public class CommandRunner {
         objectNode.put("command", commandInput.getCommand());
         String message;
         if(user != null) {
-            message = user.removeAlbum();
+            message = user.removeAlbum(commandInput);
         } else {
             message = "The username " + commandInput.getUsername() + " doesn't exist.";
         }

@@ -137,7 +137,7 @@
   "command" : "removeAlbum",
   "user" : "melodymaster",
   "timestamp" : 430,
-  "message" : "melodymaster deleted the album successfully."
+  "message" : "melodymaster doesn't have an album with the given name."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -226,7 +226,7 @@
   "command" : "removeAlbum",
   "user" : "melodymaster",
   "timestamp" : 1200,
-  "message" : "melodymaster deleted the album successfully."
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -374,7 +374,7 @@
   "command" : "removeAlbum",
   "user" : "melodymaster",
   "timestamp" : 3000,
-  "message" : "melodymaster deleted the album successfully."
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -497,7 +497,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 5000,
-  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[My playlist]"
+  "message" : "Liked songs:\n\t[Digital Dreams - melodymaster]\n\nFollowed playlists:\n\t[My playlist - bob35]"
 }, {
   "command" : "status",
   "user" : "bob35",
