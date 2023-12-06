@@ -55,7 +55,6 @@ public class Player {
             return new PlayerSource(Enums.PlayerSourceType.PLAYLIST, (AudioCollection) entry);
         } else if ("podcast".equals(type)) {
             return createPodcastSource((AudioCollection) entry, bookmarks);
-
         } else if ("album".equals(type)) {
             return new PlayerSource(Enums.PlayerSourceType.ALBUM, (AudioCollection) entry);
         }
@@ -99,6 +98,13 @@ public class Player {
                 source.updateShuffleIndex();
             }
         }
+        if (source.getType() == Enums.PlayerSourceType.ALBUM) {
+            shuffle = !shuffle;
+            if (shuffle) {
+                source.updateShuffleIndex();
+            }
+        }
+
     }
 
     public Enums.RepeatMode repeat() {

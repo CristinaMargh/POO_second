@@ -4923,7 +4923,7 @@
   "command" : "shuffle",
   "user" : "alice22",
   "timestamp" : 5429,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -4937,30 +4937,30 @@
     "name" : "Serendipity Serendipity",
     "remainedTime" : 234,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 5435,
-  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 5689,
   "stats" : {
-    "name" : "Rapture Odyssey",
-    "remainedTime" : 144,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5690,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -5022,7 +5022,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 5740,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "leslie27",
@@ -5036,23 +5036,23 @@
     "name" : "Whisper Pulse",
     "remainedTime" : 249,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 5746,
-  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
+  "message" : "Skipped to next track successfully. The current track is Euphoria Luminescence."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6000,
   "stats" : {
-    "name" : "Odyssey Rapture",
-    "remainedTime" : 188,
+    "name" : "Dance Harmonize",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5121,17 +5121,17 @@
   "command" : "deleteUser",
   "user" : "cbutler",
   "timestamp" : 6046,
-  "message" : "cbutler can't be deleted."
+  "message" : "cbutler was successfully deleted."
 }, {
   "command" : "shuffle",
   "user" : "carol19",
   "timestamp" : 6051,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "cbutler",
   "timestamp" : 6055,
-  "message" : "cbutler can't delete this album."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -5140,23 +5140,23 @@
     "name" : "Heart Bliss",
     "remainedTime" : 152,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "carol19",
   "timestamp" : 6057,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Skipped to next track successfully. The current track is Essence Voyage."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6311,
   "stats" : {
-    "name" : "Whirlwind Solitude",
-    "remainedTime" : 194,
+    "name" : "Whirlwind Serenade",
+    "remainedTime" : 218,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5324,7 +5324,7 @@
   "command" : "shuffle",
   "user" : "emily30",
   "timestamp" : 6673,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5338,23 +5338,23 @@
     "name" : "Serendipity Serendipity",
     "remainedTime" : 234,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 6679,
-  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
+  "message" : "Skipped to next track successfully. The current track is Radiance Starlight."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6933,
   "stats" : {
-    "name" : "Rapture Odyssey",
-    "remainedTime" : 144,
+    "name" : "Dance Pinnacle",
+    "remainedTime" : 171,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5423,7 +5423,7 @@
   "command" : "shuffle",
   "user" : "frank21",
   "timestamp" : 6984,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "amanda16",
@@ -5437,7 +5437,7 @@
     "name" : "Luminescence Crescendo",
     "remainedTime" : 219,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5450,10 +5450,10 @@
   "user" : "frank21",
   "timestamp" : 7244,
   "stats" : {
-    "name" : "Echo Pinnacle",
-    "remainedTime" : 256,
+    "name" : "Colors Rapture",
+    "remainedTime" : 271,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5522,7 +5522,7 @@
   "command" : "shuffle",
   "user" : "grace25",
   "timestamp" : 7295,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "barmstrong",
@@ -5536,7 +5536,7 @@
     "name" : "Love Love",
     "remainedTime" : 226,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5552,7 +5552,7 @@
     "name" : "Soul Love",
     "remainedTime" : 36,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5621,7 +5621,7 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 7606,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "amanda16",
@@ -5635,23 +5635,23 @@
     "name" : "Luminescence Crescendo",
     "remainedTime" : 219,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 7612,
-  "message" : "Skipped to next track successfully. The current track is Bliss Rhythm."
+  "message" : "Skipped to next track successfully. The current track is Zephyr Eclipse."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 7866,
   "stats" : {
-    "name" : "Echo Pinnacle",
-    "remainedTime" : 256,
+    "name" : "Colors Rapture",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5720,7 +5720,7 @@
   "command" : "shuffle",
   "user" : "irene33",
   "timestamp" : 7917,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5734,7 +5734,7 @@
     "name" : "Celestial Soul",
     "remainedTime" : 208,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5750,7 +5750,7 @@
     "name" : "Utopia Harmony",
     "remainedTime" : 44,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5762,28 +5762,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8188,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 8193,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 8198,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8203,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 177,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5795,11 +5795,11 @@
   "user" : "jack29",
   "timestamp" : 8213,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 172,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5819,44 +5819,44 @@
   "command" : "shuffle",
   "user" : "jack29",
   "timestamp" : 8228,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "removeAlbum",
   "user" : "cbutler",
   "timestamp" : 8232,
-  "message" : "cbutler can't delete this album."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8233,
   "stats" : {
-    "name" : "Heart Bliss",
-    "remainedTime" : 152,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 8234,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8488,
   "stats" : {
-    "name" : "Whirlwind Solitude",
-    "remainedTime" : 194,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 8489,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "showPlaylists",
   "user" : "alice22",
@@ -10546,8 +10546,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10557,27 +10557,27 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -11888,8 +11888,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11899,27 +11899,27 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -12132,8 +12132,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12143,27 +12143,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -13047,8 +13047,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13058,27 +13058,27 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15487,8 +15487,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -15498,27 +15498,27 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15792,8 +15792,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15803,27 +15803,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -16036,8 +16036,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -16047,27 +16047,27 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
@@ -17012,8 +17012,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Search returned 1 results",
-  "results" : [ "Heroic Harmonies" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -17023,27 +17023,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Successfully selected Heroic Harmonies."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -18183,28 +18183,28 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : "Albums:\n\t[Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 11809,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18214,7 +18214,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19155,28 +19155,28 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12079,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19186,7 +19186,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20019,28 +20019,28 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12319,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20050,7 +20050,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20379,28 +20379,28 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12419,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20410,7 +20410,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20487,28 +20487,28 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12449,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20518,7 +20518,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20883,28 +20883,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12559,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -20914,7 +20914,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21243,28 +21243,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12659,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -21274,7 +21274,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21639,28 +21639,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12769,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21670,7 +21670,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -22503,28 +22503,28 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13009,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22534,7 +22534,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -22719,28 +22719,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "Search returned 1 results",
-  "results" : [ "cbutler" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "Successfully selected cbutler's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13069,
-  "message" : "cbutler has added new album successfully."
+  "message" : "The username cbutler doesn't exist."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone RevolutionDynamic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -22750,7 +22750,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone RevolutionDynamic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -26038,7 +26038,7 @@
 }, {
   "command" : "getAllUsers",
   "timestamp" : 14849,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "cbutler", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 14849,

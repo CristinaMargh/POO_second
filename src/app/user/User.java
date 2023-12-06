@@ -155,7 +155,7 @@ public class User extends LibraryEntry{
         return "Repeat mode changed to %s.".formatted(repeatStatus);
     }
 
-    public String shuffle(Integer seed) {
+    public String shuffle(final Integer seed) {
         if (player.getCurrentAudioFile() == null)
             return "Please load a source before using the shuffle function.";
 
@@ -444,7 +444,6 @@ public class User extends LibraryEntry{
                 || albums.stream().anyMatch(a -> a.getSongs().stream().anyMatch(s -> album.getSongs().contains(s)));
     }
 
-
     public String addEvent(final String name, final String owner, final int timestamp,
                            final String description, final String date) {
         if (this.getType() == Enums.userType.ARTIST) {
@@ -455,11 +454,22 @@ public class User extends LibraryEntry{
                 return this.username + " has another event with the same name.";
             }
             // format error needed
+            if(verifyData(date)){
             events.add(new Event(name, owner,timestamp,description,date));
-            return this.username + " has added new event successfully.";
+            return this.username + " has added new event successfully.";}
+            else {
+                return  "Event for " + this.username + " does not have a valid date.";
+            }
         } else {
             return this.username + " is not an artist.";
         }
+    }
+    public boolean verifyData(final String date) {
+        String[] dateParts = date.split("-");
+        int month = Integer.parseInt(dateParts[1]);
+        if (month > 12)
+            return false;
+        else return true;
     }
     public String addMerch(String name, String owner, int timestamp, String description, int price) {
         if (this.getType() == Enums.userType.ARTIST) {

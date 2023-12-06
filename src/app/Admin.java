@@ -1,6 +1,7 @@
 package app;
 
 import app.audio.Collections.Album;
+import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.AudioFile;
@@ -39,7 +40,7 @@ public class Admin {
     public static void updateSongList(List<Song> songsUpdate) {
         songs = songsUpdate;
     }
-    public static void setPodcasts(List<PodcastInput> podcastInputList) {
+    public static void setPodcasts(final List<PodcastInput> podcastInputList) {
         podcasts = new ArrayList<>();
         for (PodcastInput podcastInput : podcastInputList) {
             List<Episode> episodes = new ArrayList<>();
@@ -75,7 +76,7 @@ public class Admin {
         return playlists;
     }
 
-    public static User getUser(String username) {
+    public static User getUser(final String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 return user;
@@ -84,7 +85,7 @@ public class Admin {
         return null;
     }
 
-    public static void updateTimestamp(int newTimestamp) {
+    public static void updateTimestamp(final int newTimestamp) {
         int elapsed = newTimestamp - timestamp;
         timestamp = newTimestamp;
         if (elapsed == 0) {
@@ -128,7 +129,7 @@ public static List<String> getTop5Albums() {
     }
     return topAlbums;
 }
-    private static int calculateTotalLikes(Album album) {
+    private static int calculateTotalLikes(final Album album) {
         int totalLikes = 0;
         for (Song song : album.getSongs()) {
             totalLikes += song.getLikes();
@@ -150,7 +151,7 @@ public static List<String> getTop5Albums() {
         }
         return topPlaylists;
     }
-    public static List<Podcast> showPodcasts(CommandInput commandInput) {
+    public static List<Podcast> showPodcasts(final CommandInput commandInput) {
         List<Podcast> podcastList = new ArrayList<>();
         for(Podcast podcast :  podcasts)
             if(podcast.getOwner().equals(commandInput.getUsername()))
@@ -183,7 +184,7 @@ public static List<String> getTop5Albums() {
         }
         return all;
     }
-public static String addUser(CommandInput commandInput) {
+public static String addUser(final CommandInput commandInput) {
     for (User user : users) {
         if (user.getUsername().equals(commandInput.getUsername()))
         {
@@ -207,7 +208,7 @@ public static String addUser(CommandInput commandInput) {
             }
             return "The username " + commandInput.getUsername() + " has been added successfully.";
 }
-public static String deleteUser(CommandInput commandInput) {
+public static String deleteUser(final CommandInput commandInput) {
         int ok = 0;
         User foundUser = null;
         for (User user : users) {
@@ -228,27 +229,34 @@ public static String deleteUser(CommandInput commandInput) {
         users.remove(foundUser);
         // If it's an artist we delete the album and the songs
         ArrayList<Album> foundAlbums = foundUser.getAlbums();
-        for (Album album : foundAlbums)
+        for (Album album : foundAlbums) {
             for(Song song : album.getSongs()) {
                 songs.remove(song);
             }
+        }
         return commandInput.getUsername() + " was successfully deleted.";
     }
 }
-// We check for the artists
-public static boolean isListeningToArtistAlbum( ArrayList<Album> artistAlbums) {
+// We check for the artists songs from all albums and if somebody is listening to one of the songs we can t delete it
+public static boolean isListeningToArtistAlbum(ArrayList<Album> artistAlbums) {
     for (User user : users) {
         if (user.getPlayer().getSource() != null &&
                 user.getPlayer().getSource().getAudioCollection() != null) {
             for (Album artistAlbum : artistAlbums) {
-                if (user.getPlayer().getSource().getAudioCollection().matchesName(artistAlbum.getName())) {
-                    return true;
+                for (Song song : artistAlbum.getSongs()) {
+                    if (isUserListeningToSong(user, song)) {
+                        return true;
+                    }
                 }
             }
         }
     }
     return false;
 }
+    public static boolean isUserListeningToSong(User user, Song song) {
+        AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
+        return userAudio != null && userAudio.matchesName(song.getName());
+    }
 
     public static String addPodcast(CommandInput commandInput, final String name, final String owner, final ArrayList<EpisodeInput> episodes) {
     int ok = 0;
