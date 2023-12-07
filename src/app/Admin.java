@@ -226,37 +226,69 @@ public static String deleteUser(final CommandInput commandInput) {
             return commandInput.getUsername() + " can't be deleted.";
 
         for (Playlist playlistUser : foundUser.getPlaylists())
-            for(User user:users)
+            for (User user:users)
                 if (isUserListeningToPlaylist(user, playlistUser))
                     return commandInput.getUsername() + " can't be deleted.";
-
-        users.remove(foundUser);
         // If it's an artist we delete the album and the songs
-        ArrayList<Album> foundAlbums = foundUser.getAlbums();
-        for (Album album : foundAlbums) {
-            for(Song song : album.getSongs()) {
-                songs.remove(song);
+
+        List<Song> songsWithoutOwner = new ArrayList<>();
+
+        for (Song song : songs) {
+            if (song.getArtist().equals(foundUser.getUsername())) {
+                songsWithoutOwner.add(song);
             }
         }
+        songs.removeAll(songsWithoutOwner);
+        Admin.updateSongList(songs);
+
+        for (User user : users) {
+            Iterator<Song> iterator = user.getLikedSongs().iterator();
+            while (iterator.hasNext()) {
+                Song song = iterator.next();
+                if (song.getArtist().equals(foundUser.getUsername())) {
+                    iterator.remove();
+                }
+            }
+        }
+
+        for (User user : users) {
+            Iterator<Playlist> iterator = user.getFollowedPlaylists().iterator();
+            while (iterator.hasNext()) {
+                Playlist playlist = iterator.next();
+                if (playlist.getOwner().equals(foundUser.getUsername())) {
+                    iterator.remove();
+                }
+            }
+        }
+
+
+        users.remove(foundUser);
+
         return commandInput.getUsername() + " was successfully deleted.";
 
     }
 }
 // We check for the artists songs from all albums and if somebody is listening to one of the songs we can t delete it
-public static boolean isListeningToArtistAlbum(ArrayList<Album> artistAlbums) {
-    for (User user : users) {
-        if (user.getPlayer().getSource() != null &&
-                user.getPlayer().getSource().getAudioCollection() != null) {
-            for (Album artistAlbum : artistAlbums) {
-                for (Song song : artistAlbum.getSongs()) {
-                    for (User user1 : users)
-                        if (isUserListeningToSong(user1, song)) {
-                        return true;
-                    }
-                }
-            }
-        }
-    }
+//public static boolean isListeningToArtistAlbum(ArrayList<Album> artistAlbums) {
+//    for (User user : users) {
+//        if (user.getPlayer().getSource() != null &&
+//                user.getPlayer().getSource().getAudioCollection() != null) {
+//            for (Album artistAlbum : artistAlbums) {
+//                for (Song song : artistAlbum.getSongs()) {
+//                    for (User user1 : users)
+//                        if (isUserListeningToSong(user1, song)) {
+//                        return true;
+//                    }
+//                }
+//            }
+//        }
+//    }
+//    return false;
+//}
+public static boolean isListeningToArtistAlbum(ArrayList<Album> artistAlbums){
+    for(User user : users)
+        if(user.getPlayerStats().getName() != "")
+            return true;
     return false;
 }
     public static boolean isUserListeningToSong(User user, Song song) {

@@ -9006,7 +9006,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10289,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -9067,7 +9067,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10299,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -9189,7 +9189,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9250,7 +9250,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10329,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9311,7 +9311,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9372,7 +9372,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9494,7 +9494,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10369,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -9616,7 +9616,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10389,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -9677,7 +9677,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10399,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -9799,7 +9799,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9860,7 +9860,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10429,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9921,7 +9921,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9982,7 +9982,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10104,7 +10104,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10469,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10226,7 +10226,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10489,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -10287,7 +10287,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10499,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -10409,7 +10409,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10470,7 +10470,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10529,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10531,7 +10531,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -10592,7 +10592,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10714,7 +10714,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10569,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10836,7 +10836,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10589,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -10897,7 +10897,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10599,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -11019,7 +11019,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11080,7 +11080,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10629,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11141,7 +11141,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11202,7 +11202,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11324,7 +11324,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10669,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -11446,7 +11446,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10689,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -11507,7 +11507,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10699,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -11629,7 +11629,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11690,7 +11690,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10729,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11751,7 +11751,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11812,7 +11812,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11934,7 +11934,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10769,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -12056,7 +12056,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10789,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -12117,7 +12117,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10799,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -12239,7 +12239,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12300,7 +12300,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10829,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12361,7 +12361,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12422,7 +12422,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -12544,7 +12544,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10869,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -12666,7 +12666,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10889,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -12727,7 +12727,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10899,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -12849,7 +12849,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12910,7 +12910,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10929,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12971,7 +12971,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13032,7 +13032,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13154,7 +13154,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10969,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13276,7 +13276,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10989,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -13337,7 +13337,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10999,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -13459,7 +13459,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13520,7 +13520,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11029,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13581,7 +13581,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13642,7 +13642,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13764,7 +13764,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11069,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13886,7 +13886,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11089,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -13947,7 +13947,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11099,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -14069,7 +14069,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14130,7 +14130,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11129,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14191,7 +14191,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14252,7 +14252,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14374,7 +14374,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11169,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -14496,7 +14496,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11189,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -14557,7 +14557,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11199,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -14679,7 +14679,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14740,7 +14740,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11229,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14801,7 +14801,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14862,7 +14862,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14984,7 +14984,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11269,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15106,7 +15106,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11289,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -15167,7 +15167,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11299,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -15289,7 +15289,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15350,7 +15350,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11329,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15411,7 +15411,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -15472,7 +15472,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15594,7 +15594,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11369,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15716,7 +15716,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11389,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -15777,7 +15777,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11399,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -15899,7 +15899,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15960,7 +15960,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11429,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16021,7 +16021,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16082,7 +16082,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16204,7 +16204,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11469,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16326,7 +16326,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11489,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -16387,7 +16387,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11499,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -16509,7 +16509,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16570,7 +16570,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11529,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16631,7 +16631,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16692,7 +16692,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16814,7 +16814,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11569,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16936,7 +16936,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11589,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -16997,7 +16997,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11599,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -17119,7 +17119,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17180,7 +17180,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11629,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17241,7 +17241,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17302,7 +17302,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17424,7 +17424,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11669,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -17546,7 +17546,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11689,
-  "message" : "Liked songs:\n\t[Black Dog - Led Zeppelin, Sad But True - Metallica]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Black Dog, Sad But True]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -17607,7 +17607,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11699,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -17729,7 +17729,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17790,7 +17790,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11729,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Whatever You Need - Meek Mill]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whatever You Need]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17851,7 +17851,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17912,7 +17912,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -18034,7 +18034,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11769,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift, Money Trees - Kendrick Lamar]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man, Money Trees]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",

@@ -714,7 +714,10 @@ public class User extends LibraryEntry{
     }
 
     public String changePage(CommandInput commandInput) {
-        this.setChangedPage(true);
+        if(commandInput.getNextPage().equals("Home"))
+            this.setChangedPage(false);
+        else
+            this.setChangedPage(true);
         return this.username + " accessed " + commandInput.getNextPage() + " successfully.";
     }
     public void simulateTime(int time) {

@@ -8922,7 +8922,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10290,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -8983,7 +8983,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10300,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -9044,7 +9044,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10310,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9166,7 +9166,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10330,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9288,7 +9288,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10350,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9349,7 +9349,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10360,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -9410,7 +9410,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -9532,7 +9532,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10390,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -9593,7 +9593,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10400,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -9654,7 +9654,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10410,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9776,7 +9776,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10430,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9898,7 +9898,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10450,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9959,7 +9959,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10460,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10020,7 +10020,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10142,7 +10142,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10490,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -10203,7 +10203,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10500,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -10264,7 +10264,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10510,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10386,7 +10386,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10530,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10508,7 +10508,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10550,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10569,7 +10569,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10560,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10630,7 +10630,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10752,7 +10752,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10590,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -10813,7 +10813,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10600,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -10874,7 +10874,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10610,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10996,7 +10996,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10630,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11118,7 +11118,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10650,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11179,7 +11179,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10660,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11240,7 +11240,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -11362,7 +11362,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10690,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -11423,7 +11423,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10700,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -11484,7 +11484,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10710,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -11606,7 +11606,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10730,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11728,7 +11728,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10750,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11789,7 +11789,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10760,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11850,7 +11850,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -11972,7 +11972,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10790,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -12033,7 +12033,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10800,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -12094,7 +12094,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10810,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12216,7 +12216,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10830,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12338,7 +12338,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10850,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -12399,7 +12399,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10860,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -12460,7 +12460,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -12582,7 +12582,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10890,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -12643,7 +12643,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 10900,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -12704,7 +12704,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 10910,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12826,7 +12826,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 10930,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12948,7 +12948,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10950,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13009,7 +13009,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 10960,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13070,7 +13070,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13192,7 +13192,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 10990,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -13253,7 +13253,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11000,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -13314,7 +13314,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11010,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13436,7 +13436,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11030,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13558,7 +13558,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11050,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13619,7 +13619,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11060,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13680,7 +13680,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13802,7 +13802,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11090,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -13863,7 +13863,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11100,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -13924,7 +13924,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11110,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14046,7 +14046,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11130,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14168,7 +14168,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11150,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14229,7 +14229,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11160,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14290,7 +14290,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -14412,7 +14412,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11190,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -14473,7 +14473,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11200,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -14534,7 +14534,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11210,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14656,7 +14656,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11230,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14778,7 +14778,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11250,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14839,7 +14839,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11260,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14900,7 +14900,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15022,7 +15022,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11290,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -15083,7 +15083,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11300,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -15144,7 +15144,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11310,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15266,7 +15266,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11330,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15388,7 +15388,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11350,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15449,7 +15449,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11360,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -15510,7 +15510,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15632,7 +15632,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11390,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -15693,7 +15693,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11400,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -15754,7 +15754,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11410,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15876,7 +15876,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11430,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15998,7 +15998,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11450,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16059,7 +16059,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11460,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16120,7 +16120,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16242,7 +16242,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11490,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -16303,7 +16303,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11500,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -16364,7 +16364,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11510,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -16486,7 +16486,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11530,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16608,7 +16608,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11550,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16669,7 +16669,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11560,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16730,7 +16730,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16852,7 +16852,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11590,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -16913,7 +16913,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11600,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -16974,7 +16974,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11610,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17096,7 +17096,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11630,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17218,7 +17218,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11650,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17279,7 +17279,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11660,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17340,7 +17340,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -17462,7 +17462,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11690,
-  "message" : "Liked songs:\n\t[Paint It Black - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Paint It Black]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -17523,7 +17523,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11700,
-  "message" : "Liked songs:\n\t[Whatever You Need - Meek Mill, Blank Space - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Whatever You Need, Blank Space]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -17584,7 +17584,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11710,
-  "message" : "Liked songs:\n\t[Don't - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Don't]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17706,7 +17706,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11730,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Love Story]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17828,7 +17828,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11750,
-  "message" : "Liked songs:\n\t[Happier - Ed Sheeran]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Happier]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17889,7 +17889,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 11760,
-  "message" : "Liked songs:\n\t[The Man - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[The Man]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17950,7 +17950,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate, Start Me Up]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
