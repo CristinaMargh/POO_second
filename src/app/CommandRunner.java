@@ -3,6 +3,7 @@ package app;
 import app.audio.Collections.AlbumOutput;
 import app.audio.Collections.PlaylistOutput;
 import app.audio.Collections.Podcast;
+import app.audio.Collections.PodcastOutput;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.user.User;
@@ -279,6 +280,8 @@ public class CommandRunner {
         if (user != null)
             stats = user.getPlayerStats();
         else stats = null;
+        if(user != null && user.getMode() == Enums.UserMode.OFFLINE)
+            stats = stats.changePuase();
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
         objectNode.put("user", commandInput.getUsername());
@@ -301,7 +304,10 @@ public class CommandRunner {
         return objectNode;
     }
     public static ObjectNode showPodcasts(final CommandInput commandInput) {
-        List<Podcast> podcasts = Admin.showPodcasts(commandInput);
+
+
+                User user = Admin.getUser(commandInput.getUsername());
+                ArrayList<PodcastOutput> podcasts = user.showPodcasts();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -311,6 +317,7 @@ public class CommandRunner {
 
         return objectNode;
     }
+
 
     public static ObjectNode getPreferredGenre(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());

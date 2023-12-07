@@ -1,9 +1,6 @@
 package app;
 
-import app.audio.Collections.Album;
-import app.audio.Collections.AudioCollection;
-import app.audio.Collections.Playlist;
-import app.audio.Collections.Podcast;
+import app.audio.Collections.*;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
@@ -151,13 +148,6 @@ public static List<String> getTop5Albums() {
         }
         return topPlaylists;
     }
-    public static List<Podcast> showPodcasts(final CommandInput commandInput) {
-        List<Podcast> podcastList = new ArrayList<>();
-        for(Podcast podcast :  podcasts)
-            if(podcast.getOwner().equals(commandInput.getUsername()))
-                podcastList.add(podcast);
-        return podcastList;
-    }
     public static List<String> getOnlineUsers(){
         List<String> online = new ArrayList<>();
         for (User user : users)
@@ -201,7 +191,7 @@ public static String addUser(final CommandInput commandInput) {
                 newUser.setMode(Enums.UserMode.OFFLINE);
                 users.add(newUser);
             }
-            if (commandInput.getType().equals("host")){
+            if (commandInput.getType().equals("host")) {
                 newUser = new User(commandInput.getUsername(), commandInput.getAge(), commandInput.getCity(), Enums.userType.HOST);
                 newUser.setMode(Enums.UserMode.OFFLINE);
                 users.add(newUser);
@@ -226,6 +216,20 @@ public static String deleteUser(final CommandInput commandInput) {
                 if (isListeningToArtistAlbum(foundUser.getAlbums()))
                     return commandInput.getUsername() + " can't be deleted.";
 
+            if (foundUser.getType() == Enums.userType.ARTIST)
+                for (Album artistAlbum : foundUser.getAlbums())
+                    for(User user:users)
+                        if (isUserListeningToAlbum(user, artistAlbum))
+                            return commandInput.getUsername() + " can't be deleted.";
+            // for Playlist
+        if (isListeningToPlaylist(foundUser.getPlaylists()))
+            return commandInput.getUsername() + " can't be deleted.";
+
+        for (Playlist playlistUser : foundUser.getPlaylists())
+            for(User user:users)
+                if (isUserListeningToPlaylist(user, playlistUser))
+                    return commandInput.getUsername() + " can't be deleted.";
+
         users.remove(foundUser);
         // If it's an artist we delete the album and the songs
         ArrayList<Album> foundAlbums = foundUser.getAlbums();
@@ -235,6 +239,7 @@ public static String deleteUser(final CommandInput commandInput) {
             }
         }
         return commandInput.getUsername() + " was successfully deleted.";
+
     }
 }
 // We check for the artists songs from all albums and if somebody is listening to one of the songs we can t delete it
@@ -244,7 +249,8 @@ public static boolean isListeningToArtistAlbum(ArrayList<Album> artistAlbums) {
                 user.getPlayer().getSource().getAudioCollection() != null) {
             for (Album artistAlbum : artistAlbums) {
                 for (Song song : artistAlbum.getSongs()) {
-                    if (isUserListeningToSong(user, song)) {
+                    for (User user1 : users)
+                        if (isUserListeningToSong(user1, song)) {
                         return true;
                     }
                 }
@@ -254,11 +260,45 @@ public static boolean isListeningToArtistAlbum(ArrayList<Album> artistAlbums) {
     return false;
 }
     public static boolean isUserListeningToSong(User user, Song song) {
-        AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
-        return userAudio != null && userAudio.matchesName(song.getName());
+        if(user.getPlayer().getSource() != null){
+            AudioFile userAudio = user.getPlayer().getSource().getAudioFile();
+             return userAudio != null && userAudio.matchesName(song.getName());}
+        else return false;
     }
 
-    public static String addPodcast(CommandInput commandInput, final String name, final String owner, final ArrayList<EpisodeInput> episodes) {
+    public static boolean isUserListeningToAlbum(User user, Album album) {
+        if(user.getPlayer().getSource() != null) {
+            AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
+            return userAudio != null && userAudio.matchesName(album.getName());
+        }
+        else return false;
+    }
+    public static boolean isUserListeningToPlaylist(User user, Playlist playlist) {
+        if(user.getPlayer().getSource() != null) {
+            AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
+            return userAudio != null && userAudio.matchesName(playlist.getName());
+        }
+        else return false;
+    }
+    public static boolean isListeningToPlaylist(ArrayList<Playlist> playlistArrayList) {
+        for (User user : users) {
+            if (user.getPlayer().getSource() != null &&
+                    user.getPlayer().getSource().getAudioCollection() != null) {
+                for (Playlist playlist : playlistArrayList) {
+                    for (Song song : playlist.getSongs()) {
+                        for (User user1 : users)
+                            if (isUserListeningToSong(user1, song)) {
+                                return true;
+                            }
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public static String addPodcast(CommandInput commandInput, final String name, final String owner,
+                                    final ArrayList<EpisodeInput> episodes) {
     int ok = 0;
     User found = null;
         for(User user : users) {
@@ -305,6 +345,16 @@ public static  String removePodcast(CommandInput commandInput, final String name
     } else {
         if(found.getType() == Enums.userType.HOST) {
             // Check for the podcast in the host's list for does not have
+            boolean podcastFound = false;
+            for (Podcast podcast : found.getPodcastsHost()) {
+                if (podcast.getName().equals(commandInput.getName())) {
+                    podcastFound = true;
+                    break;
+                }
+            }
+            if (!podcastFound) {
+                return found.getUsername() + " doesn't have a podcast with the given name.";
+            }
 
             return found.getUsername() + " can't delete this podcast.";
         } else {

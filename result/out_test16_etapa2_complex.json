@@ -4871,7 +4871,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4970,7 +4970,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5069,7 +5069,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5168,7 +5168,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5299,10 +5299,10 @@
   "timestamp" : 6679,
   "stats" : {
     "name" : "Soul Pandora",
-    "remainedTime" : 167,
+    "remainedTime" : 187,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5398,10 +5398,10 @@
   "timestamp" : 6990,
   "stats" : {
     "name" : "Crescendo Twilight",
-    "remainedTime" : 200,
+    "remainedTime" : 220,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5497,10 +5497,10 @@
   "timestamp" : 7301,
   "stats" : {
     "name" : "Harmony Love",
-    "remainedTime" : 267,
+    "remainedTime" : 287,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5564,7 +5564,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5695,10 +5695,10 @@
   "timestamp" : 7923,
   "stats" : {
     "name" : "Night Aurora",
-    "remainedTime" : 245,
+    "remainedTime" : 265,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5762,7 +5762,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -6181,7 +6181,7 @@
     "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
@@ -6213,7 +6213,7 @@
     "remainedTime" : 114,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -6277,7 +6277,7 @@
     "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -6337,7 +6337,7 @@
     "remainedTime" : 102,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -6382,10 +6382,10 @@
   "timestamp" : 8930,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 14,
+    "remainedTime" : 114,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -6445,22 +6445,22 @@
   "user" : "irene33",
   "timestamp" : 8970,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 224,
+    "name" : "The Man",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 8970,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 224,
+    "name" : "The Man",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -6510,10 +6510,10 @@
   "timestamp" : 9000,
   "stats" : {
     "name" : "Paint It Black",
-    "remainedTime" : 2,
+    "remainedTime" : 102,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -6557,11 +6557,11 @@
   "user" : "emily30",
   "timestamp" : 9030,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 152,
+    "name" : "Start Me Up",
+    "remainedTime" : 114,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -6615,14 +6615,14 @@
   "command" : "prev",
   "user" : "irene33",
   "timestamp" : 9070,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is The Man."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 9070,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "The Man",
+    "remainedTime" : 190,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6641,7 +6641,7 @@
     "remainedTime" : 90,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -6663,14 +6663,14 @@
   "command" : "playPause",
   "user" : "bob35",
   "timestamp" : 9100,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9100,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 133,
+    "name" : "Paint It Black",
+    "remainedTime" : 102,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6722,11 +6722,11 @@
   "user" : "emily30",
   "timestamp" : 9130,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 52,
+    "name" : "Start Me Up",
+    "remainedTime" : 114,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -6764,7 +6764,7 @@
     "remainedTime" : 32,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -6780,13 +6780,13 @@
     "remainedTime" : 116,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
   "user" : "irene33",
   "timestamp" : 9170,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is The Man."
 }, {
   "command" : "prev",
   "user" : "irene33",
@@ -6807,14 +6807,14 @@
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 9180,
-  "message" : "Skipped to next track successfully. The current track is Love Story."
+  "message" : "Skipped to next track successfully. The current track is Delicate."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 9180,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 236,
+    "name" : "Delicate",
+    "remainedTime" : 232,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6845,8 +6845,8 @@
   "user" : "bob35",
   "timestamp" : 9200,
   "stats" : {
-    "name" : "Blank Space",
-    "remainedTime" : 33,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6930,14 +6930,14 @@
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 9250,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9250,
   "stats" : {
-    "name" : "Money Trees",
-    "remainedTime" : 319,
+    "name" : "Delicate",
+    "remainedTime" : 32,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -6984,8 +6984,8 @@
   "user" : "jack29",
   "timestamp" : 9280,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 136,
+    "name" : "Delicate",
+    "remainedTime" : 132,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7016,8 +7016,8 @@
   "user" : "bob35",
   "timestamp" : 9300,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 171,
+    "name" : "Delicate",
+    "remainedTime" : 134,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7109,7 +7109,7 @@
   "timestamp" : 9350,
   "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 219,
+    "remainedTime" : 319,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7149,7 +7149,7 @@
     "remainedTime" : 222,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -7161,11 +7161,11 @@
   "user" : "jack29",
   "timestamp" : 9380,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 36,
+    "name" : "Delicate",
+    "remainedTime" : 32,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -7187,17 +7187,17 @@
   "command" : "next",
   "user" : "bob35",
   "timestamp" : 9400,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Paint It Black."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9400,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Paint It Black",
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -7290,7 +7290,7 @@
   "timestamp" : 9450,
   "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 119,
+    "remainedTime" : 219,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7301,7 +7301,7 @@
   "timestamp" : 9450,
   "stats" : {
     "name" : "Money Trees",
-    "remainedTime" : 119,
+    "remainedTime" : 219,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7354,11 +7354,11 @@
   "user" : "jack29",
   "timestamp" : 9480,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 174,
+    "name" : "Delicate",
+    "remainedTime" : 32,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
@@ -7380,17 +7380,17 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 9500,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9500,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Paint It Black",
+    "remainedTime" : 102,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7438,7 +7438,7 @@
     "remainedTime" : 136,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
@@ -7496,7 +7496,7 @@
     "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -7524,14 +7524,14 @@
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 9580,
-  "message" : "Skipped to next track successfully. The current track is Black Dog."
+  "message" : "Skipped to next track successfully. The current track is Love Story."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 9580,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 294,
+    "name" : "Love Story",
+    "remainedTime" : 236,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7562,17 +7562,17 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 9600,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9600,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -7615,14 +7615,14 @@
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 9630,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9630,
   "stats" : {
     "name" : "Love Story",
-    "remainedTime" : 36,
+    "remainedTime" : 136,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7687,10 +7687,10 @@
   "timestamp" : 9660,
   "stats" : {
     "name" : "Shape of You",
-    "remainedTime" : 40,
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -7718,8 +7718,8 @@
   "user" : "jack29",
   "timestamp" : 9680,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 194,
+    "name" : "Love Story",
+    "remainedTime" : 136,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7751,22 +7751,22 @@
   "user" : "bob35",
   "timestamp" : 9700,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Delicate",
+    "remainedTime" : 134,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9700,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Delicate",
+    "remainedTime" : 134,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -7809,19 +7809,19 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 9730,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Returned to previous track successfully. The current track is Love Story."
 }, {
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 9730,
-  "message" : "Returned to previous track successfully. The current track is Love Story."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9730,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 236,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -7868,11 +7868,11 @@
   "user" : "henry26",
   "timestamp" : 9760,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 224,
+    "name" : "Shape of You",
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -7900,8 +7900,8 @@
   "user" : "jack29",
   "timestamp" : 9780,
   "stats" : {
-    "name" : "Black Dog",
-    "remainedTime" : 94,
+    "name" : "Love Story",
+    "remainedTime" : 36,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7920,23 +7920,23 @@
     "remainedTime" : 222,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 9800,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Delicate."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9800,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Delicate",
+    "remainedTime" : 232,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -7974,14 +7974,14 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 9830,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9830,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 136,
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8026,7 +8026,7 @@
     "remainedTime" : 87,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -8037,14 +8037,14 @@
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 9860,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9860,
   "stats" : {
-    "name" : "Big Pimpin'",
-    "remainedTime" : 124,
+    "name" : "Shape of You",
+    "remainedTime" : 140,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -8069,17 +8069,17 @@
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 9880,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 9880,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -8092,31 +8092,31 @@
   "timestamp" : 9890,
   "stats" : {
     "name" : "Castle on the Hill",
-    "remainedTime" : 122,
+    "remainedTime" : 222,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 9900,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Delicate."
 }, {
   "command" : "prev",
   "user" : "bob35",
   "timestamp" : 9900,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Paint It Black."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 9900,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Paint It Black",
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -8154,14 +8154,14 @@
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 9930,
-  "message" : "Returned to previous track successfully. The current track is Love Story."
+  "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9930,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 236,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8198,24 +8198,24 @@
   "user" : "grace25",
   "timestamp" : 9950,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 199,
+    "name" : "Money Trees",
+    "remainedTime" : 87,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 9960,
-  "message" : "Skipped to next track successfully. The current track is Whatever You Need."
+  "message" : "Skipped to next track successfully. The current track is Money Trees."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9960,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 210,
+    "name" : "Money Trees",
+    "remainedTime" : 387,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -8245,17 +8245,17 @@
   "command" : "shuffle",
   "user" : "jack29",
   "timestamp" : 9980,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 9980,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 194,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -8273,26 +8273,26 @@
   "timestamp" : 9990,
   "stats" : {
     "name" : "Castle on the Hill",
-    "remainedTime" : 22,
+    "remainedTime" : 222,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 10000,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 10000,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Paint It Black",
+    "remainedTime" : 102,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -8330,14 +8330,14 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 10030,
-  "message" : "Skipped to next track successfully. The current track is Dream On."
+  "message" : "Skipped to next track successfully. The current track is Love Story."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 10030,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
+    "name" : "Love Story",
+    "remainedTime" : 236,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8367,14 +8367,14 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 10050,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10050,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8389,8 +8389,8 @@
   "user" : "henry26",
   "timestamp" : 10060,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 110,
+    "name" : "Money Trees",
+    "remainedTime" : 287,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8409,6 +8409,17 @@
     "remainedTime" : 171,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "jack29",
+  "timestamp" : 10080,
+  "stats" : {
+    "name" : "Black Dog",
+    "remainedTime" : 94,
+    "repeat" : "No Repeat",
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -8416,22 +8427,11 @@
   "user" : "jack29",
   "timestamp" : 10080,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 94,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
-  }
-}, {
-  "command" : "status",
-  "user" : "jack29",
-  "timestamp" : 10080,
-  "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -8443,27 +8443,27 @@
   "user" : "alice22",
   "timestamp" : 10090,
   "stats" : {
-    "name" : "Angie",
-    "remainedTime" : 195,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 222,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
   "user" : "bob35",
   "timestamp" : 10100,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 10100,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Paint It Black",
+    "remainedTime" : 2,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -8512,8 +8512,8 @@
   "user" : "emily30",
   "timestamp" : 10130,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 167,
+    "name" : "Love Story",
+    "remainedTime" : 136,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8550,8 +8550,8 @@
   "user" : "grace25",
   "timestamp" : 10150,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -8571,11 +8571,11 @@
   "user" : "henry26",
   "timestamp" : 10160,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 10,
+    "name" : "Money Trees",
+    "remainedTime" : 187,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -8602,30 +8602,30 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10180,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 10180,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Start Me Up",
+    "remainedTime" : 206,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "playPause",
   "user" : "alice22",
   "timestamp" : 10190,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 10190,
   "stats" : {
-    "name" : "Angie",
-    "remainedTime" : 95,
+    "name" : "Castle on the Hill",
+    "remainedTime" : 222,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8634,17 +8634,17 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 10200,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 10200,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Delicate",
+    "remainedTime" : 134,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -8688,8 +8688,8 @@
   "user" : "emily30",
   "timestamp" : 10230,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 67,
+    "name" : "Love Story",
+    "remainedTime" : 36,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8699,8 +8699,8 @@
   "user" : "emily30",
   "timestamp" : 10230,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 67,
+    "name" : "Love Story",
+    "remainedTime" : 36,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -8741,8 +8741,8 @@
   "user" : "grace25",
   "timestamp" : 10250,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 32,
+    "name" : "Start Me Up",
+    "remainedTime" : 12,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -8757,11 +8757,11 @@
   "user" : "henry26",
   "timestamp" : 10260,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 142,
+    "name" : "Money Trees",
+    "remainedTime" : 187,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -8784,22 +8784,22 @@
   "user" : "jack29",
   "timestamp" : 10280,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Start Me Up",
+    "remainedTime" : 106,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 10280,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Start Me Up",
+    "remainedTime" : 106,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "changePage",
@@ -9054,7 +9054,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9095,7 +9095,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9105,7 +9105,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10320,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9359,7 +9359,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9400,7 +9400,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -9410,7 +9410,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10370,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -9664,7 +9664,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9705,7 +9705,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9715,7 +9715,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10420,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9969,7 +9969,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10010,7 +10010,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10020,7 +10020,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10470,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10274,7 +10274,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10315,7 +10315,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10325,7 +10325,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10520,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10579,7 +10579,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -10620,7 +10620,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -10630,7 +10630,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10570,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -10884,7 +10884,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10925,7 +10925,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10935,7 +10935,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10620,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11189,7 +11189,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11230,7 +11230,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11240,7 +11240,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10670,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -11494,7 +11494,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11535,7 +11535,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -11545,7 +11545,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10720,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11799,7 +11799,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -11840,7 +11840,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -11850,7 +11850,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10770,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -12104,7 +12104,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12145,7 +12145,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12155,7 +12155,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10820,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12409,7 +12409,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -12450,7 +12450,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -12460,7 +12460,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10870,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -12714,7 +12714,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12755,7 +12755,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12765,7 +12765,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10920,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13019,7 +13019,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13060,7 +13060,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13070,7 +13070,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 10970,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13324,7 +13324,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13365,7 +13365,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13375,7 +13375,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11020,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13629,7 +13629,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -13670,7 +13670,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -13680,7 +13680,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11070,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -13934,7 +13934,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13975,7 +13975,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13985,7 +13985,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11120,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14239,7 +14239,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14280,7 +14280,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14290,7 +14290,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11170,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -14544,7 +14544,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14585,7 +14585,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14595,7 +14595,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11220,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14849,7 +14849,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -14890,7 +14890,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -14900,7 +14900,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11270,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15154,7 +15154,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15195,7 +15195,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15205,7 +15205,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11320,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15459,7 +15459,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -15500,7 +15500,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -15510,7 +15510,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11370,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -15764,7 +15764,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15805,7 +15805,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15815,7 +15815,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11420,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16069,7 +16069,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16110,7 +16110,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16120,7 +16120,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11470,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16374,7 +16374,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16415,7 +16415,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -16425,7 +16425,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11520,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16679,7 +16679,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -16720,7 +16720,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -16730,7 +16730,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11570,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -16984,7 +16984,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17025,7 +17025,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17035,7 +17035,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11620,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17289,7 +17289,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17330,7 +17330,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17340,7 +17340,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11670,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -17594,7 +17594,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17635,7 +17635,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17645,7 +17645,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11720,
-  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones, Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17899,7 +17899,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -17940,7 +17940,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -17950,7 +17950,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Liked songs:\n\t[Love Story - Taylor Swift]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Delicate - Taylor Swift, Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -25850,7 +25850,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 14800,
-  "result" : [ "Start Me Up", "Love Story" ]
+  "result" : [ ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -25950,7 +25950,7 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 14850,
-  "result" : [ "Love Story" ]
+  "result" : [ "Delicate", "Start Me Up" ]
 }, {
   "command" : "getAllUsers",
   "timestamp" : 14850,
@@ -25962,7 +25962,7 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 14850,
-  "result" : [ "Love Story", "Don't", "Whatever You Need", "Start Me Up", "The Man" ]
+  "result" : [ "Don't", "Whatever You Need", "Start Me Up", "The Man", "Delicate" ]
 }, {
   "command" : "getTop5Albums",
   "timestamp" : 14850,

@@ -4935,10 +4935,10 @@
   "timestamp" : 5434,
   "stats" : {
     "name" : "Serendipity Serendipity",
-    "remainedTime" : 234,
+    "remainedTime" : 254,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5034,10 +5034,10 @@
   "timestamp" : 5745,
   "stats" : {
     "name" : "Whisper Pulse",
-    "remainedTime" : 249,
+    "remainedTime" : 269,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5121,7 +5121,7 @@
   "command" : "deleteUser",
   "user" : "cbutler",
   "timestamp" : 6046,
-  "message" : "cbutler was successfully deleted."
+  "message" : "cbutler can't be deleted."
 }, {
   "command" : "shuffle",
   "user" : "carol19",
@@ -5131,17 +5131,17 @@
   "command" : "removeAlbum",
   "user" : "cbutler",
   "timestamp" : 6055,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler can't delete this album."
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6056,
   "stats" : {
     "name" : "Heart Bliss",
-    "remainedTime" : 152,
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5205,7 +5205,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5336,10 +5336,10 @@
   "timestamp" : 6678,
   "stats" : {
     "name" : "Serendipity Serendipity",
-    "remainedTime" : 234,
+    "remainedTime" : 254,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5435,10 +5435,10 @@
   "timestamp" : 6989,
   "stats" : {
     "name" : "Luminescence Crescendo",
-    "remainedTime" : 219,
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5534,10 +5534,10 @@
   "timestamp" : 7300,
   "stats" : {
     "name" : "Love Love",
-    "remainedTime" : 226,
+    "remainedTime" : 246,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5633,10 +5633,10 @@
   "timestamp" : 7611,
   "stats" : {
     "name" : "Luminescence Crescendo",
-    "remainedTime" : 219,
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5732,10 +5732,10 @@
   "timestamp" : 7922,
   "stats" : {
     "name" : "Celestial Soul",
-    "remainedTime" : 208,
+    "remainedTime" : 228,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -5762,28 +5762,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8188,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 8193,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 8198,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8203,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 177,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5795,11 +5795,11 @@
   "user" : "jack29",
   "timestamp" : 8213,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5819,44 +5819,44 @@
   "command" : "shuffle",
   "user" : "jack29",
   "timestamp" : 8228,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "cbutler",
   "timestamp" : 8232,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler can't delete this album."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8233,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Heart Bliss",
+    "remainedTime" : 172,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 8234,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 8488,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Adventure Cascade",
+    "remainedTime" : 203,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 8489,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "showPlaylists",
   "user" : "alice22",
@@ -6197,7 +6197,7 @@
     "remainedTime" : 226,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -6255,7 +6255,7 @@
     "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -6315,7 +6315,7 @@
     "remainedTime" : 175,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -6437,14 +6437,14 @@
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 8929,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 8929,
   "stats" : {
     "name" : "Gimme Shelter",
-    "remainedTime" : 73,
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6479,7 +6479,7 @@
     "remainedTime" : 69,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -6490,14 +6490,14 @@
   "command" : "playPause",
   "user" : "henry26",
   "timestamp" : 8959,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 8959,
   "stats" : {
     "name" : "Angie",
-    "remainedTime" : 75,
+    "remainedTime" : 175,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6601,7 +6601,7 @@
     "remainedTime" : 94,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
@@ -6613,8 +6613,8 @@
   "user" : "emily30",
   "timestamp" : 9029,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 185,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 73,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6639,14 +6639,14 @@
   "command" : "playPause",
   "user" : "grace25",
   "timestamp" : 9049,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9049,
   "stats" : {
-    "name" : "Under Pressure",
-    "remainedTime" : 213,
+    "name" : "Dream On",
+    "remainedTime" : 69,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6655,14 +6655,14 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 9059,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9059,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 482,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6767,17 +6767,17 @@
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9119,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9119,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 294,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -6790,7 +6790,7 @@
   "timestamp" : 9129,
   "stats" : {
     "name" : "Start Me Up",
-    "remainedTime" : 85,
+    "remainedTime" : 185,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -6817,7 +6817,7 @@
   "timestamp" : 9149,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 113,
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6828,7 +6828,7 @@
   "timestamp" : 9149,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 113,
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6837,19 +6837,19 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9159,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
 }, {
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9159,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9159,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -6954,35 +6954,35 @@
   "command" : "repeat",
   "user" : "david27",
   "timestamp" : 9219,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9219,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Black Dog",
+    "remainedTime" : 194,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
+    "paused" : false
   }
-}, {
-  "command" : "prev",
-  "user" : "emily30",
-  "timestamp" : 9229,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
 }, {
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 9229,
   "message" : "Returned to previous track successfully. The current track is Start Me Up."
 }, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 9229,
+  "message" : "Returned to previous track successfully. The current track is Gimme Shelter."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9229,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 212,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 271,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7014,7 +7014,7 @@
   "timestamp" : 9249,
   "stats" : {
     "name" : "Under Pressure",
-    "remainedTime" : 13,
+    "remainedTime" : 113,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7023,14 +7023,14 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9259,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9259,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7130,25 +7130,25 @@
   "command" : "repeat",
   "user" : "david27",
   "timestamp" : 9319,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9319,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "name" : "Black Dog",
+    "remainedTime" : 94,
+    "repeat" : "Repeat Current Song",
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9329,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 112,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 171,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7158,8 +7158,8 @@
   "user" : "emily30",
   "timestamp" : 9329,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 112,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 171,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7195,11 +7195,11 @@
   "user" : "grace25",
   "timestamp" : 9349,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 180,
+    "name" : "Under Pressure",
+    "remainedTime" : 13,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -7211,8 +7211,8 @@
   "user" : "henry26",
   "timestamp" : 9359,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7222,8 +7222,8 @@
   "user" : "henry26",
   "timestamp" : 9359,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7279,7 +7279,7 @@
     "remainedTime" : 161,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
@@ -7327,17 +7327,17 @@
   "command" : "repeat",
   "user" : "david27",
   "timestamp" : 9419,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9419,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Black Dog",
+    "remainedTime" : 288,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7349,8 +7349,8 @@
   "user" : "emily30",
   "timestamp" : 9429,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 12,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 71,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7386,24 +7386,24 @@
   "user" : "grace25",
   "timestamp" : 9449,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 80,
+    "name" : "Under Pressure",
+    "remainedTime" : 13,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 9459,
-  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 9459,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 482,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7461,10 +7461,10 @@
   "timestamp" : 9489,
   "stats" : {
     "name" : "Castle on the Hill",
-    "remainedTime" : 61,
+    "remainedTime" : 161,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -7513,22 +7513,22 @@
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9519,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Black Dog."
 }, {
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9519,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9519,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
@@ -7540,8 +7540,8 @@
   "user" : "emily30",
   "timestamp" : 9529,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 124,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 242,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7572,14 +7572,14 @@
   "command" : "next",
   "user" : "grace25",
   "timestamp" : 9549,
-  "message" : "Skipped to next track successfully. The current track is The Man."
+  "message" : "Skipped to next track successfully. The current track is Dream On."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9549,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 190,
+    "name" : "Dream On",
+    "remainedTime" : 267,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -7594,8 +7594,8 @@
   "user" : "henry26",
   "timestamp" : 9559,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 382,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7647,14 +7647,14 @@
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 9589,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 9589,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7689,23 +7689,23 @@
     "remainedTime" : 119,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 9619,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9619,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -7717,8 +7717,8 @@
   "user" : "emily30",
   "timestamp" : 9629,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 24,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 142,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7749,8 +7749,8 @@
   "user" : "grace25",
   "timestamp" : 9649,
   "stats" : {
-    "name" : "The Man",
-    "remainedTime" : 90,
+    "name" : "Dream On",
+    "remainedTime" : 167,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -7765,8 +7765,8 @@
   "user" : "henry26",
   "timestamp" : 9659,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 282,
+    "name" : "Angie",
+    "remainedTime" : 73,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -7819,8 +7819,8 @@
   "user" : "alice22",
   "timestamp" : 9689,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 255,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -7852,26 +7852,26 @@
   "timestamp" : 9709,
   "stats" : {
     "name" : "Don't",
-    "remainedTime" : 19,
+    "remainedTime" : 119,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
   "user" : "david27",
   "timestamp" : 9719,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Angie."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9719,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 273,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -7882,17 +7882,17 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 9729,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Start Me Up."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9729,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Start Me Up",
+    "remainedTime" : 212,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
@@ -7919,17 +7919,17 @@
   "command" : "like",
   "user" : "grace25",
   "timestamp" : 9749,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9749,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Dream On",
+    "remainedTime" : 67,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -7947,10 +7947,10 @@
   "timestamp" : 9759,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 182,
+    "remainedTime" : 455,
     "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -8000,8 +8000,8 @@
   "user" : "alice22",
   "timestamp" : 9789,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 32,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 155,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -8044,42 +8044,42 @@
   "timestamp" : 9809,
   "stats" : {
     "name" : "Don't",
-    "remainedTime" : 138,
+    "remainedTime" : 119,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 9819,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9819,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 9829,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9829,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Start Me Up",
+    "remainedTime" : 112,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchVisibility",
@@ -8100,7 +8100,7 @@
     "remainedTime" : 382,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -8111,17 +8111,17 @@
   "command" : "repeat",
   "user" : "grace25",
   "timestamp" : 9849,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9849,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Under Pressure",
+    "remainedTime" : 211,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "shuffle",
@@ -8134,10 +8134,10 @@
   "timestamp" : 9859,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 82,
+    "remainedTime" : 455,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -8153,7 +8153,7 @@
     "remainedTime" : 122,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "prev",
@@ -8186,11 +8186,11 @@
   "user" : "alice22",
   "timestamp" : 9889,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 164,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 55,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -8228,46 +8228,46 @@
   "command" : "shuffle",
   "user" : "david27",
   "timestamp" : 9919,
-  "message" : "Please load a source before using the shuffle function."
+  "message" : "Shuffle function deactivated successfully."
 }, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 9919,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Angie",
+    "remainedTime" : 73,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 9929,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 9929,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Start Me Up",
+    "remainedTime" : 12,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "playPause",
   "user" : "frank21",
   "timestamp" : 9939,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 9939,
   "stats" : {
     "name" : "Stairway to Heaven",
-    "remainedTime" : 282,
+    "remainedTime" : 382,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8276,22 +8276,22 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 9949,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Under Pressure."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 9949,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Dream On."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 9949,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Dream On",
+    "remainedTime" : 267,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
@@ -8303,24 +8303,24 @@
   "user" : "henry26",
   "timestamp" : 9959,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : 184,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 455,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
   "user" : "irene33",
   "timestamp" : 9969,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 9969,
   "stats" : {
     "name" : "Big Pimpin'",
-    "remainedTime" : 22,
+    "remainedTime" : 122,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8351,14 +8351,14 @@
   "command" : "next",
   "user" : "alice22",
   "timestamp" : 9989,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 9989,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : true,
     "paused" : false
@@ -8425,17 +8425,17 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 10029,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Gimme Shelter."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 10029,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Gimme Shelter",
+    "remainedTime" : 271,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
@@ -8457,16 +8457,27 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10049,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Dream On."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10049,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Dream On",
+    "remainedTime" : 267,
+    "repeat" : "Repeat All",
     "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "henry26",
+  "timestamp" : 10059,
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 455,
+    "repeat" : "Repeat All",
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -8474,22 +8485,11 @@
   "user" : "henry26",
   "timestamp" : 10059,
   "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : 84,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 455,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
-  }
-}, {
-  "command" : "status",
-  "user" : "henry26",
-  "timestamp" : 10059,
-  "stats" : {
-    "name" : "Paint It Black",
-    "remainedTime" : 84,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -8506,11 +8506,11 @@
   "user" : "irene33",
   "timestamp" : 10069,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 112,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 22,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -8538,8 +8538,8 @@
   "user" : "alice22",
   "timestamp" : 10089,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 132,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 255,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -8606,15 +8606,15 @@
   "command" : "playPause",
   "user" : "emily30",
   "timestamp" : 10129,
-  "message" : "Please load a source before attempting to pause or resume playback."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 10129,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Gimme Shelter",
+    "remainedTime" : 171,
+    "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : true
   }
@@ -8643,60 +8643,60 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10149,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Dream On."
 }, {
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10149,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Dream On."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10149,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Dream On",
+    "remainedTime" : 267,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10159,
-  "message" : "Like registered successfully."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 10159,
   "stats" : {
-    "name" : "Angie",
-    "remainedTime" : 257,
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 455,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 10169,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 12,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 22,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 10169,
   "stats" : {
-    "name" : "Maps",
-    "remainedTime" : 12,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 22,
     "repeat" : "No Repeat",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
@@ -8718,14 +8718,14 @@
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 10189,
-  "message" : "Returned to previous track successfully. The current track is Delicate."
+  "message" : "Returned to previous track successfully. The current track is Bohemian Rhapsody."
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 10189,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 355,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -8787,15 +8787,15 @@
   "command" : "repeat",
   "user" : "emily30",
   "timestamp" : 10229,
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat current song."
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 10229,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Gimme Shelter",
+    "remainedTime" : 171,
+    "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : true
   }
@@ -8825,30 +8825,30 @@
   "command" : "prev",
   "user" : "grace25",
   "timestamp" : 10249,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Dream On."
 }, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 10249,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Dream On",
+    "remainedTime" : 267,
+    "repeat" : "Repeat All",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10259,
-  "message" : "Skipped to next track successfully. The current track is Delicate."
+  "message" : "Skipped to next track successfully. The current track is Paint It Black."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 10259,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 232,
+    "name" : "Paint It Black",
+    "remainedTime" : 202,
     "repeat" : "Repeat All",
     "shuffle" : true,
     "paused" : false
@@ -8863,11 +8863,11 @@
   "user" : "irene33",
   "timestamp" : 10269,
   "stats" : {
-    "name" : "Whatever You Need",
-    "remainedTime" : 122,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 22,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -8883,7 +8883,7 @@
     "remainedTime" : 219,
     "repeat" : "Repeat All",
     "shuffle" : true,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "changePage",
@@ -9138,7 +9138,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9179,7 +9179,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9189,7 +9189,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10319,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9260,7 +9260,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9301,7 +9301,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9311,7 +9311,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10339,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9321,7 +9321,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9362,7 +9362,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9372,7 +9372,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10349,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -9748,7 +9748,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9789,7 +9789,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -9799,7 +9799,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10419,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -9870,7 +9870,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9911,7 +9911,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -9921,7 +9921,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10439,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9931,7 +9931,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -9972,7 +9972,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -9982,7 +9982,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10449,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10358,7 +10358,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -10399,7 +10399,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -10409,7 +10409,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10519,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -10480,7 +10480,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -10521,7 +10521,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -10531,7 +10531,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10539,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -10541,13 +10541,13 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -10557,32 +10557,32 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 10549,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -10592,7 +10592,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10549,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -10968,7 +10968,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11009,7 +11009,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -11019,7 +11019,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10619,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11090,7 +11090,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11131,7 +11131,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11141,7 +11141,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10639,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11151,7 +11151,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11192,7 +11192,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11202,7 +11202,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10649,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11578,7 +11578,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -11619,7 +11619,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -11629,7 +11629,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10719,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -11700,7 +11700,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -11741,7 +11741,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -11751,7 +11751,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10739,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11761,7 +11761,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -11802,7 +11802,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -11812,7 +11812,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10749,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -11888,8 +11888,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -11899,27 +11899,27 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 10769,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
@@ -12132,8 +12132,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -12143,27 +12143,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 10809,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -12188,7 +12188,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12229,7 +12229,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12239,7 +12239,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10819,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12310,7 +12310,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12351,7 +12351,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12361,7 +12361,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10839,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12371,7 +12371,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -12412,7 +12412,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12422,7 +12422,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10849,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -12798,7 +12798,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -12839,7 +12839,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -12849,7 +12849,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 10919,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -12920,7 +12920,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -12961,7 +12961,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -12971,7 +12971,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 10939,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -12981,7 +12981,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13022,7 +13022,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13032,7 +13032,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 10949,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -13047,8 +13047,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -13058,27 +13058,27 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 10959,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -13408,7 +13408,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13449,7 +13449,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -13459,7 +13459,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11019,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -13530,7 +13530,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13571,7 +13571,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -13581,7 +13581,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11039,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13591,7 +13591,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -13632,7 +13632,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -13642,7 +13642,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11049,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14018,7 +14018,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14059,7 +14059,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14069,7 +14069,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11119,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14140,7 +14140,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14181,7 +14181,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14191,7 +14191,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11139,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14201,7 +14201,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14242,7 +14242,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14252,7 +14252,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11149,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -14628,7 +14628,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14669,7 +14669,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -14679,7 +14679,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11219,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -14750,7 +14750,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14791,7 +14791,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -14801,7 +14801,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11239,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14811,7 +14811,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -14852,7 +14852,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -14862,7 +14862,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11249,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15238,7 +15238,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15279,7 +15279,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15289,7 +15289,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11319,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15360,7 +15360,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15401,7 +15401,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -15411,7 +15411,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11339,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -15421,7 +15421,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -15462,7 +15462,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -15472,7 +15472,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11349,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -15487,8 +15487,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -15498,27 +15498,27 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 11359,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
@@ -15792,8 +15792,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -15803,27 +15803,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11409,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -15848,7 +15848,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15889,7 +15889,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -15899,7 +15899,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11419,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -15970,7 +15970,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16011,7 +16011,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16021,7 +16021,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11439,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16031,13 +16031,13 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -16047,32 +16047,32 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 11449,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16082,7 +16082,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11449,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -16458,7 +16458,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -16499,7 +16499,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -16509,7 +16509,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11519,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -16580,7 +16580,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -16621,7 +16621,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -16631,7 +16631,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11539,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16641,7 +16641,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -16682,7 +16682,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -16692,7 +16692,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11549,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17012,8 +17012,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Heroic Harmonies" ]
 }, {
   "command" : "load",
   "user" : "david27",
@@ -17023,27 +17023,27 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Heroic Harmonies."
 }, {
   "command" : "load",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "command" : "next",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
 }, {
   "command" : "like",
   "user" : "david27",
   "timestamp" : 11609,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Loaded source is not a song."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
@@ -17068,7 +17068,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17109,7 +17109,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17119,7 +17119,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11619,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17190,7 +17190,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17231,7 +17231,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17241,7 +17241,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11639,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17251,7 +17251,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17292,7 +17292,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17302,7 +17302,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11649,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -17678,7 +17678,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -17719,7 +17719,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -17729,7 +17729,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11719,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Start Me Up - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -17800,7 +17800,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -17841,7 +17841,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -17851,7 +17851,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11739,
-  "message" : "Liked songs:\n\t[Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Under Pressure - Queen, David Bowie, Dream On - Aerosmith]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17861,7 +17861,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -17902,7 +17902,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -17912,7 +17912,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 11749,
-  "message" : "Liked songs:\n\t[Stairway to Heaven - Led Zeppelin, Paint It Black - The Rolling Stones, Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
+  "message" : "Liked songs:\n\t[Angie - The Rolling Stones]\n\nFollowed playlists:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -18183,28 +18183,28 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11809,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 11809,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18214,7 +18214,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11809,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -19155,28 +19155,28 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12079,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12079,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19186,7 +19186,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12079,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20019,28 +20019,28 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12319,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12319,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20050,7 +20050,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12319,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20379,28 +20379,28 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12419,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12419,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20410,7 +20410,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12419,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -20487,28 +20487,28 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12449,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12449,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20518,7 +20518,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12449,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -20883,28 +20883,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12559,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12559,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -20914,7 +20914,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12559,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21243,28 +21243,28 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12659,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12659,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -21274,7 +21274,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12659,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21639,28 +21639,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12769,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 12769,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21670,7 +21670,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12769,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -22503,28 +22503,28 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13009,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13009,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22534,7 +22534,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13009,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -22719,28 +22719,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "cbutler" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13069,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected cbutler's page."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
   "timestamp" : 13069,
-  "message" : "The username cbutler doesn't exist."
+  "message" : "cbutler has added new album successfully."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone RevolutionDynamic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -22750,7 +22750,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13069,
-  "message" : ""
+  "message" : "Albums:\n\t[Heroic HarmoniesChill GuideBad ViewTeen HoodAlone AutumnElectric HarmoniesBad DirtHeroic RevolutionDynamic AutumnAlone RevolutionDynamic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -25934,7 +25934,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 14799,
-  "result" : [ ]
+  "result" : [ "Start Me Up" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -25974,7 +25974,7 @@
   "command" : "showPreferredSongs",
   "user" : "grace25",
   "timestamp" : 14819,
-  "result" : [ "Dream On" ]
+  "result" : [ "Under Pressure", "Dream On" ]
 }, {
   "command" : "showPlaylists",
   "user" : "henry26",
@@ -25994,7 +25994,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 14829,
-  "result" : [ "Stairway to Heaven", "Paint It Black", "Angie" ]
+  "result" : [ "Angie" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -26038,7 +26038,7 @@
 }, {
   "command" : "getAllUsers",
   "timestamp" : 14849,
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "barmstrong", "matthewporter", "amanda16", "cbutler", "jacobdean", "matthewfernandez", "leslie27", "nancymontgomery", "conniealvarez", "jenningsbeth", "charlesgarcia" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 14849,
@@ -26046,7 +26046,7 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 14849,
-  "result" : [ "Stairway to Heaven", "Money Trees", "Dream On", "Whatever You Need", "Black Dog" ]
+  "result" : [ "Stairway to Heaven", "Money Trees", "Under Pressure", "Dream On", "Whatever You Need" ]
 }, {
   "command" : "getTop5Albums",
   "timestamp" : 14849,

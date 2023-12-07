@@ -82,7 +82,7 @@
     "remainedTime" : 3081,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "createPlaylist",

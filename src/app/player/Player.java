@@ -197,11 +197,11 @@ public class Player {
         if (source != null && source.getAudioFile() != null) {
             filename = source.getAudioFile().getName();
             duration = source.getDuration();
-            paused = false;
         } else {
             stop();
         }
 
         return new PlayerStats(filename, duration, repeatMode, shuffle, paused);
     }
+
 }

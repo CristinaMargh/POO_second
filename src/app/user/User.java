@@ -3,6 +3,7 @@ package app.user;
 import app.Admin;
 import app.audio.Collections.*;
 import app.audio.Files.AudioFile;
+import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
 import app.player.Player;
@@ -392,7 +393,6 @@ public class User extends LibraryEntry{
                 return this.username + " has the same song at least twice in this album.";
             }
             albums.add(new Album(name, username, timestamp, description, releaseYear,songsAlbum));
-            //player.setType("album");
             if (this.getPlayer().getSource() != null)
                 this.getPlayer().getSource().setType(Enums.PlayerSourceType.ALBUM);
             List<Song> songs = Admin.getSongs();
@@ -411,8 +411,16 @@ public class User extends LibraryEntry{
         for (Album album : albums) {
             albumOutputs.add(new AlbumOutput(album));
         }
-
         return albumOutputs;
+    }
+
+    public ArrayList<PodcastOutput> showPodcasts() {
+        ArrayList<PodcastOutput> podcastOutput = new ArrayList<>();
+        for (Podcast podcast : podcastsHost) {
+            podcastOutput.add(new PodcastOutput(podcast));
+        }
+
+        return podcastOutput;
     }
     public String removeAlbum(final CommandInput commandInput) {
         if (this.getType() == Enums.userType.ARTIST) {
@@ -534,31 +542,51 @@ public class User extends LibraryEntry{
 
     public String printCurrentPage() {
 
-        if (searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host")) {
-            // Host page
-            User host = (User)searchBar.getLastSelected();
+        if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host"))
+
+        ) {
+//             Host page
+
+            User host = (User) searchBar.getLastSelected();
             if (host != null) {
-                //for(Podcast podcast : podcastsHost)
                 List<Podcast> podcastList = host.getPodcastsHost();
                 List<Announcement> announcementList = host.getAnnouncements();
+
                 StringBuilder builder = new StringBuilder();
+
+                // Podcasts
                 builder.append("Podcasts:\n\t[");
-                if ( host.getPodcastsHost()!= null &&  !podcastList.isEmpty()) {
+                if (host.getPodcastsHost() != null && !podcastList.isEmpty()) {
                     for (Podcast podcast : podcastList) {
-                        builder.append(podcast.getName());
+                        builder.append(podcast.getName()).append(":\n\t[");
+                        List<Episode> episodeList = podcast.getEpisodes();
+                        if (!episodeList.isEmpty()) {
+                            for (Episode episode : episodeList) {
+                                builder.append(episode.getName()).append(" - ").append(episode.getDescription()).append(", ");
+                            }
+                            builder.setLength(builder.length() - 2);
+                        }
+                        builder.append("]\n, ");
                     }
+                    builder.setLength(builder.length() - 2);
                 }
                 builder.append("]\n\n");
+
+                // Announcements
                 builder.append("Announcements:\n\t[");
                 if (!announcementList.isEmpty()) {
                     for (Announcement announcement : announcementList) {
-                        builder.append(announcement.getName()).append(" - ").append(announcement.getDescription()).append(", ");
+                        builder.append(announcement.getName()).append(":\n\t").append(announcement.getDescription()).append(", ");
                     }
+                    builder.setLength(builder.length() - 2);
                 }
-                builder.append("]\n\n");
+                builder.append("\n]");
+
                 return builder.toString();
             }
             return "";
+
+
         } else
             if (searchBar.getLastSearchType()!= null &&  searchBar.getLastSearchType().equals("artist")) {
                 // Artist page

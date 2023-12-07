@@ -24,5 +24,9 @@ public class PlayerStats {
         }
         this.shuffle = shuffle;
     }
-
+    public  PlayerStats changePuase() {
+        PlayerStats playerStats = new PlayerStats(this.name, this.remainedTime,
+                Enums.RepeatMode.NO_REPEAT, this.shuffle, !paused);
+        return playerStats;
+    }
 }
