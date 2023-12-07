@@ -58,6 +58,10 @@ public class User extends LibraryEntry{
     @Getter
     @Setter
     private boolean changedPage = false;
+    private boolean pageSet = false;
+    @Getter
+    @Setter
+    private User lastHost;
 
     public User(String username, int age, String city, Enums.userType type) {
         super(username);
@@ -103,6 +107,10 @@ public class User extends LibraryEntry{
         List<User> users = Admin.getUsers();
         for (User user : users) {
             if (user.getUsername().equals(selected.getName())) {
+                if(user.getType() == Enums.userType.HOST) {
+                    pageSet = true;
+                    lastHost = user;
+                }
                 return String.format("Successfully selected %s's page.".formatted(selected.getName()));
             }
         }
@@ -543,11 +551,9 @@ public class User extends LibraryEntry{
     public String printCurrentPage() {
 
         if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host"))
-
-        ) {
+        || pageSet) {
 //             Host page
-
-            User host = (User) searchBar.getLastSelected();
+            User host = lastHost;
             if (host != null) {
                 List<Podcast> podcastList = host.getPodcastsHost();
                 List<Announcement> announcementList = host.getAnnouncements();
