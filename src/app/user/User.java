@@ -11,7 +11,6 @@ import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
-import fileio.input.PodcastInput;
 import fileio.input.SongInput;
 import lombok.Getter;
 import fileio.input.CommandInput;
@@ -21,7 +20,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-public class User extends LibraryEntry{
+public class User extends LibraryEntry {
     @Getter
     private String username;
     @Getter
@@ -43,6 +42,8 @@ public class User extends LibraryEntry{
     @Getter
     private ArrayList<Announcement> announcements = new ArrayList<>();
     @Getter
+    private ArrayList<Episode> episodesHost = new ArrayList<>();
+    @Getter
     private ArrayList<Podcast> podcastsHost = new ArrayList<>();
     @Getter
     @Setter
@@ -58,6 +59,7 @@ public class User extends LibraryEntry{
     @Getter
     @Setter
     private boolean changedPage = false;
+    @Getter
     private boolean pageSet = false;
     @Getter
     @Setter
@@ -82,6 +84,7 @@ public class User extends LibraryEntry{
     public ArrayList<String> search(Filters filters, String type) {
         searchBar.clearSelection();
         player.stop();
+        //pageSet = false;
 
         lastSearched = true;
         ArrayList<String> results = new ArrayList<>();
@@ -375,7 +378,7 @@ public class User extends LibraryEntry{
                 return username + " has changed status successfully.";
             }
         } else {
-            return username + " is not a normal user";
+            return username + " is not a normal user.";
         }
     }
     public String addAlbum(final String name, final String username, final int timestamp,
@@ -445,6 +448,8 @@ public class User extends LibraryEntry{
                 boolean albumReferencedByUser = hasAlbumOrSongsFromAlbum(foundAlbum);
                 if (!albumReferencedByUser) {
                     albums.remove(foundAlbum);
+                    // remove songs too
+
                     return this.username + " deleted the album successfully.";
                 } else {
                     return this.username + " can't delete this album.";
@@ -549,11 +554,11 @@ public class User extends LibraryEntry{
     }
 
     public String printCurrentPage() {
-
-        if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host"))
+        User host = lastHost;
+        if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host") && host != null && searchBar.getLastSelected()!= null )
         || pageSet) {
 //             Host page
-            User host = lastHost;
+//            User host = lastHost;
             if (host != null) {
                 List<Podcast> podcastList = host.getPodcastsHost();
                 List<Announcement> announcementList = host.getAnnouncements();
@@ -591,8 +596,6 @@ public class User extends LibraryEntry{
                 return builder.toString();
             }
             return "";
-
-
         } else
             if (searchBar.getLastSearchType()!= null &&  searchBar.getLastSearchType().equals("artist")) {
                 // Artist page
@@ -714,7 +717,7 @@ public class User extends LibraryEntry{
     }
 
     public String changePage(CommandInput commandInput) {
-        if(commandInput.getNextPage().equals("Home"))
+        if (commandInput.getNextPage().equals("Home"))
             this.setChangedPage(false);
         else
             this.setChangedPage(true);

@@ -110,13 +110,13 @@ public class SearchBar {
                 }
                 break;
             case "artist":
-                entries = new ArrayList<>(Admin.getUsers());
+                entries = new ArrayList<>(Admin.getArtists());
                 if (filters.getName() != null) {
                     entries = filterByName(entries, filters.getName());
                 }
                 break;
             case "host":
-                entries = new ArrayList<>(Admin.getUsers());
+                entries = new ArrayList<>(Admin.getHosts());
                 if (filters.getName() != null) {
                     entries = filterByName(entries, filters.getName());
                 }

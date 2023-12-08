@@ -4882,7 +4882,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 5420,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5420,
@@ -4981,7 +4981,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 5731,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5731,
@@ -5080,7 +5080,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6042,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6042,
@@ -5179,7 +5179,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6353,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6353,
@@ -5278,7 +5278,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6664,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6664,
@@ -5377,7 +5377,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 6975,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6975,
@@ -5476,7 +5476,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7286,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7286,
@@ -5575,7 +5575,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7597,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7597,
@@ -5674,7 +5674,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 7908,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7908,
@@ -5773,7 +5773,7 @@
   "command" : "switchConnectionStatus",
   "user" : "jsimpson",
   "timestamp" : 8219,
-  "message" : "jsimpson is not a normal user"
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 8219,
@@ -17955,18 +17955,18 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11770,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11770,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -17976,7 +17976,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -17986,7 +17986,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11770,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -18027,18 +18027,18 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11790,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11790,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11790,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18048,7 +18048,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11790,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -18058,23 +18058,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11790,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11800,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11800,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11800,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18084,7 +18084,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11800,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -18094,7 +18094,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11800,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -18135,18 +18135,18 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11820,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11820,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -18156,7 +18156,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11820,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -18166,23 +18166,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11820,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 11830,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11830,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18192,7 +18192,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11830,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -18202,7 +18202,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11830,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18279,18 +18279,18 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11860,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11860,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11860,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -18300,7 +18300,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11860,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -18310,7 +18310,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11860,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -18326,7 +18326,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11870,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18336,7 +18336,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11870,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -18346,23 +18346,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11870,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 11880,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11880,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18372,7 +18372,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11880,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -18382,23 +18382,23 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11880,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11890,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11890,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11890,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -18408,7 +18408,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11890,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -18418,23 +18418,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11890,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11900,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 11900,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11900,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18444,7 +18444,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11900,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -18454,23 +18454,23 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 11900,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 11910,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11910,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18480,7 +18480,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11910,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18490,23 +18490,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 11910,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 11920,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11920,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18516,7 +18516,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11920,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -18526,7 +18526,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 11920,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -18542,7 +18542,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11930,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -18552,7 +18552,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11930,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -18562,7 +18562,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 11930,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18639,18 +18639,18 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11960,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 11960,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11960,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -18660,7 +18660,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11960,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -18670,23 +18670,23 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 11960,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 11970,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11970,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18696,7 +18696,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11970,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -18706,7 +18706,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 11970,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -18722,7 +18722,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11980,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -18732,7 +18732,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11980,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -18742,23 +18742,23 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 11980,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 11990,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 11990,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11990,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -18768,7 +18768,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11990,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -18778,7 +18778,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 11990,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "david27",
@@ -18794,7 +18794,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12000,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18804,7 +18804,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12000,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -18814,7 +18814,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12000,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -18830,7 +18830,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12010,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -18840,7 +18840,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12010,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -18850,7 +18850,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12010,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -18866,7 +18866,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12020,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -18876,7 +18876,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12020,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -18886,23 +18886,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12020,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12030,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12030,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18912,7 +18912,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12030,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -18922,7 +18922,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12030,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -18963,18 +18963,18 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12050,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12050,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -18984,7 +18984,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12050,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -18994,7 +18994,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12050,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19010,7 +19010,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12060,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19020,7 +19020,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12060,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -19030,23 +19030,23 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12060,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12070,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12070,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19056,7 +19056,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12070,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -19066,7 +19066,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12070,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -19082,7 +19082,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12080,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19092,7 +19092,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12080,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19102,7 +19102,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12080,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -19118,7 +19118,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12090,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Teen TechnologyElectric ViewTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -19128,7 +19128,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12090,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Teen TechnologyElectric ViewTeen HoodAlone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -19138,23 +19138,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12090,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Teen TechnologyElectric ViewTeen HoodAlone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12100,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12100,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19164,7 +19164,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12100,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -19174,7 +19174,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12100,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19190,7 +19190,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12110,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -19200,7 +19200,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12110,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -19210,23 +19210,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12110,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12120,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12120,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -19236,7 +19236,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12120,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -19246,7 +19246,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12120,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -19262,7 +19262,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12130,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19272,7 +19272,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12130,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -19282,23 +19282,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12130,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12140,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12140,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19308,7 +19308,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12140,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -19318,7 +19318,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12140,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -19334,7 +19334,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12150,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19344,7 +19344,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12150,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -19354,7 +19354,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12150,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19370,7 +19370,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12160,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -19380,7 +19380,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12160,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -19390,23 +19390,23 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12160,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12170,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12170,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19416,7 +19416,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12170,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -19426,23 +19426,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12170,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12180,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12180,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19452,7 +19452,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12180,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19462,7 +19462,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12180,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -19478,7 +19478,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12190,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -19488,7 +19488,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12190,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -19498,23 +19498,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12190,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12200,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12200,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19524,7 +19524,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12200,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -19534,7 +19534,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12200,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19550,7 +19550,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12210,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19560,7 +19560,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12210,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -19570,23 +19570,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12210,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12220,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12220,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19596,7 +19596,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12220,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -19606,23 +19606,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12220,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12230,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12230,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -19632,7 +19632,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12230,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -19642,23 +19642,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12230,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12240,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12240,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19668,7 +19668,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12240,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -19678,7 +19678,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12240,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -19694,7 +19694,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12250,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19704,7 +19704,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12250,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -19714,7 +19714,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12250,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -19730,7 +19730,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12260,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Blue TechnologyGroovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -19740,7 +19740,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12260,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Blue TechnologyGroovy DreamsAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -19750,23 +19750,23 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12260,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Blue TechnologyGroovy DreamsAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12270,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12270,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -19776,7 +19776,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12270,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -19786,23 +19786,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12270,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12280,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12280,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19812,7 +19812,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12280,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -19822,7 +19822,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12280,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -19838,7 +19838,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12290,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -19848,7 +19848,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12290,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -19858,23 +19858,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12290,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12300,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12300,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -19884,7 +19884,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12300,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -19894,7 +19894,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12300,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -19910,7 +19910,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12310,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -19920,7 +19920,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12310,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -19930,23 +19930,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12310,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12320,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12320,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -19956,7 +19956,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12320,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -19966,23 +19966,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12320,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12330,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12330,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -19992,7 +19992,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12330,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -20002,7 +20002,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12330,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20018,7 +20018,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12340,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20028,7 +20028,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12340,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -20038,23 +20038,23 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12340,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12350,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12350,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20064,7 +20064,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12350,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20074,23 +20074,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12350,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12360,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12360,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20100,7 +20100,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12360,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -20110,7 +20110,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12360,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -20126,7 +20126,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12370,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20136,7 +20136,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12370,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -20146,7 +20146,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12370,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -20162,7 +20162,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12380,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20172,7 +20172,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12380,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -20182,23 +20182,23 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12380,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12390,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12390,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20208,7 +20208,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12390,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -20218,23 +20218,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12390,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12400,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12400,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20244,7 +20244,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12400,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -20254,7 +20254,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12400,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -20270,7 +20270,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12410,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20280,7 +20280,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12410,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -20290,23 +20290,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12410,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12420,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12420,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20316,7 +20316,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12420,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20326,23 +20326,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12420,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12430,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12430,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20352,7 +20352,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12430,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -20362,7 +20362,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12430,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -20378,7 +20378,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12440,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20388,7 +20388,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12440,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -20398,23 +20398,23 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12440,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12450,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12450,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -20424,7 +20424,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12450,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20434,23 +20434,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12450,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12460,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12460,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20460,7 +20460,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12460,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -20470,7 +20470,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12460,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -20486,7 +20486,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12470,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20496,7 +20496,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12470,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -20506,23 +20506,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12470,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12480,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12480,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20532,7 +20532,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12480,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -20542,7 +20542,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12480,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20558,7 +20558,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12490,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20568,7 +20568,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12490,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -20578,7 +20578,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12490,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -20594,7 +20594,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12500,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20604,7 +20604,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12500,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -20614,7 +20614,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12500,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -20630,7 +20630,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12510,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20640,7 +20640,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12510,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -20650,23 +20650,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12510,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12520,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12520,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -20676,7 +20676,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12520,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -20686,23 +20686,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12520,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12530,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12530,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20712,7 +20712,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12530,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -20722,23 +20722,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12530,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12540,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12540,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -20748,7 +20748,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12540,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -20758,7 +20758,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12540,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -20774,7 +20774,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12550,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20784,7 +20784,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12550,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -20794,23 +20794,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12550,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12560,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12560,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -20820,7 +20820,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12560,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -20830,7 +20830,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12560,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -20846,7 +20846,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12570,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -20856,7 +20856,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12570,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -20866,7 +20866,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12570,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -20882,7 +20882,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12580,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -20892,7 +20892,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12580,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -20902,7 +20902,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12580,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -20918,7 +20918,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12590,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -20928,7 +20928,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12590,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -20938,7 +20938,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12590,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -20954,7 +20954,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12600,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -20964,7 +20964,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12600,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -20974,23 +20974,23 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12600,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12610,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12610,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -21000,7 +21000,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12610,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -21010,7 +21010,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12610,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -21026,7 +21026,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12620,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -21036,7 +21036,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12620,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21046,23 +21046,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12620,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12630,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12630,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -21072,7 +21072,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12630,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -21082,23 +21082,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12630,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12640,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12640,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -21108,7 +21108,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12640,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -21118,23 +21118,23 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12640,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12650,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12650,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21144,7 +21144,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12650,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -21154,23 +21154,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12650,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12660,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12660,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21180,7 +21180,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12660,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -21190,7 +21190,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12660,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21206,7 +21206,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12670,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -21216,7 +21216,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12670,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21226,7 +21226,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12670,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -21242,7 +21242,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12680,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21252,7 +21252,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12680,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -21262,7 +21262,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12680,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -21278,7 +21278,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12690,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21288,7 +21288,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12690,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -21298,23 +21298,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12690,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12700,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12700,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -21324,7 +21324,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12700,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -21334,23 +21334,23 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12700,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 12710,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12710,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21360,7 +21360,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12710,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -21370,23 +21370,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12710,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12720,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12720,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -21396,7 +21396,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12720,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21406,7 +21406,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12720,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -21422,7 +21422,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12730,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -21432,7 +21432,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12730,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -21442,23 +21442,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12730,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12740,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12740,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -21468,7 +21468,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12740,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -21478,23 +21478,23 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12740,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12750,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12750,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21504,7 +21504,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12750,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -21514,23 +21514,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12750,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12760,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12760,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -21540,7 +21540,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12760,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -21550,7 +21550,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12760,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21566,7 +21566,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12770,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21576,7 +21576,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12770,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21586,7 +21586,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12770,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -21602,7 +21602,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12780,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Blue TechnologyGroovy DreamsAlone Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "anthony22",
@@ -21612,7 +21612,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12780,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Blue TechnologyGroovy DreamsAlone AutumnBreezy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -21622,23 +21622,23 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12780,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Blue TechnologyGroovy DreamsAlone AutumnBreezy Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 12790,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12790,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21648,7 +21648,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12790,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -21658,7 +21658,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12790,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "david27",
@@ -21674,7 +21674,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12800,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21684,7 +21684,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12800,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -21694,7 +21694,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12800,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -21710,7 +21710,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12810,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21720,7 +21720,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12810,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -21730,23 +21730,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12810,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12820,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12820,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -21756,7 +21756,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12820,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -21766,7 +21766,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12820,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -21782,7 +21782,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12830,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21792,7 +21792,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12830,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -21802,7 +21802,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12830,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -21818,7 +21818,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12840,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -21828,7 +21828,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12840,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -21838,7 +21838,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12840,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -21854,7 +21854,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12850,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -21864,7 +21864,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12850,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -21874,23 +21874,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12850,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 12860,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12860,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -21900,7 +21900,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12860,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -21910,7 +21910,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12860,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21926,7 +21926,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12870,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -21936,7 +21936,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12870,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -21946,23 +21946,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12870,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12880,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12880,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -21972,7 +21972,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12880,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -21982,7 +21982,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12880,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -21998,7 +21998,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12890,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic Harmonies]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -22008,7 +22008,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12890,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -22018,23 +22018,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12890,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 12900,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12900,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22044,7 +22044,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12900,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -22054,7 +22054,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 12900,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -22070,7 +22070,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12910,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22080,7 +22080,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12910,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22090,23 +22090,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 12910,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 12920,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12920,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22116,7 +22116,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12920,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -22126,23 +22126,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 12920,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 12930,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12930,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22152,7 +22152,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12930,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -22162,23 +22162,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 12930,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 12940,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12940,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22188,7 +22188,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12940,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -22198,23 +22198,23 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 12940,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 12950,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12950,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22224,7 +22224,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12950,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -22234,7 +22234,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 12950,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -22250,7 +22250,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12960,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Teen TechnologyElectric ViewTeen HoodAlone View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jsimpson",
@@ -22260,7 +22260,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12960,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Teen TechnologyElectric ViewTeen HoodAlone ViewTeen Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -22270,23 +22270,23 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 12960,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Teen TechnologyElectric ViewTeen HoodAlone ViewTeen Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 12970,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12970,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -22296,7 +22296,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12970,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -22306,23 +22306,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 12970,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 12980,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12980,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22332,7 +22332,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12980,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -22342,7 +22342,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 12980,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -22358,7 +22358,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12990,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -22368,7 +22368,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12990,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -22378,7 +22378,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 12990,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
@@ -22394,7 +22394,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13000,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric Revolution]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -22404,7 +22404,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13000,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -22414,23 +22414,23 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13000,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Search returned 1 results",
-  "results" : [ "charlesgarcia" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13010,
-  "message" : "Successfully selected charlesgarcia's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13010,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "charlesgarcia",
@@ -22440,7 +22440,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13010,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22450,7 +22450,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13010,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -22466,7 +22466,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13020,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -22476,7 +22476,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13020,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -22486,23 +22486,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13020,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 13030,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13030,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -22512,7 +22512,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13030,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -22522,7 +22522,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13030,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -22538,7 +22538,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13040,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -22548,7 +22548,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13040,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -22558,7 +22558,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13040,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -22574,7 +22574,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13050,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22584,7 +22584,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13050,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -22594,7 +22594,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13050,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -22610,7 +22610,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13060,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic View]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -22620,7 +22620,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13060,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic ViewTeen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -22630,7 +22630,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13060,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic ViewTeen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -22646,7 +22646,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13070,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -22656,7 +22656,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13070,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric TechnologyDynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -22666,23 +22666,23 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13070,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric TechnologyDynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 13080,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13080,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22692,7 +22692,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13080,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -22702,7 +22702,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13080,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -22718,7 +22718,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13090,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22728,7 +22728,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13090,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -22738,23 +22738,23 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13090,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 13100,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13100,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22764,7 +22764,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13100,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -22774,23 +22774,23 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13100,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13110,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13110,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22800,7 +22800,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13110,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -22810,23 +22810,23 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13110,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 13120,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13120,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22836,7 +22836,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13120,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -22846,23 +22846,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13120,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 13130,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13130,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -22872,7 +22872,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13130,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -22882,23 +22882,23 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13130,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 13140,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13140,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -22908,7 +22908,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13140,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -22918,7 +22918,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13140,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -22934,7 +22934,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13150,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -22944,7 +22944,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13150,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -22954,7 +22954,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13150,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -22970,7 +22970,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13160,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic Autumn]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "glester",
@@ -22980,7 +22980,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13160,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic AutumnChill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -22990,23 +22990,23 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13160,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Alone HoodTeen RevolutionBlue TechnologyGroovy HarmoniesElectric DreamsBlue GuideChill TechnologyTeen AutumnGroovy DirtHeroic ViewElectric TechnologyHeroic HarmoniesHeroic AutumnChill Hood]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "Search returned 1 results",
-  "results" : [ "matthewporter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 13170,
-  "message" : "Successfully selected matthewporter's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13170,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "matthewporter",
@@ -23016,7 +23016,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13170,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "alice22",
@@ -23026,7 +23026,7 @@
   "user" : "alice22",
   "command" : "printCurrentPage",
   "timestamp" : 13170,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -23042,7 +23042,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13180,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric TechnologyDynamic Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "cbutler",
@@ -23052,7 +23052,7 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13180,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric TechnologyDynamic DirtChill Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "bob35",
@@ -23062,23 +23062,23 @@
   "user" : "bob35",
   "command" : "printCurrentPage",
   "timestamp" : 13180,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Breezy ViewBlue AutumnGroovy Funeral Bad AutumnTeen HoodGroovy TechnologyAlone TechnologyGroovy DreamsHeroic Funeral Groovy ViewHeroic HarmoniesElectric RevolutionGroovy GuideElectric TechnologyDynamic DirtChill Funeral ]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "Search returned 1 results",
-  "results" : [ "john99" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 13190,
-  "message" : "Successfully selected john99's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13190,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "john99",
@@ -23088,7 +23088,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13190,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "carol19",
@@ -23098,7 +23098,7 @@
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 13190,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "david27",
@@ -23114,7 +23114,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13200,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue Dirt]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "mccarthyluis",
@@ -23124,7 +23124,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13200,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue DirtGroovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "david27",
@@ -23134,23 +23134,23 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 13200,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Bad RevolutionGroovy HarmoniesTeen HarmoniesChill AutumnAlone HoodChill DirtBreezy HarmoniesElectric TechnologyElectric RevolutionElectric DreamsBad HarmoniesGroovy GuideDynamic AutumnChill HoodBreezy AutumnAlone GuideBlue DirtGroovy Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 13210,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13210,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -23160,7 +23160,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13210,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "emily30",
@@ -23170,7 +23170,7 @@
   "user" : "emily30",
   "command" : "printCurrentPage",
   "timestamp" : 13210,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -23186,7 +23186,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13220,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic ViewTeen Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "jacobdean",
@@ -23196,7 +23196,7 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13220,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic ViewTeen TechnologyChill Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "frank21",
@@ -23206,23 +23206,23 @@
   "user" : "frank21",
   "command" : "printCurrentPage",
   "timestamp" : 13220,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Electric Funeral Bad DirtBad DreamsDynamic DirtBlue GuideTeen HoodGroovy RevolutionHeroic TechnologyHeroic HoodBad Funeral Groovy HoodChill DirtElectric RevolutionAlone DirtTeen GuideBad HoodHeroic ViewTeen TechnologyChill Dreams]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 13230,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13230,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -23232,7 +23232,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13230,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "grace25",
@@ -23242,7 +23242,7 @@
   "user" : "grace25",
   "command" : "printCurrentPage",
   "timestamp" : 13230,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -23258,7 +23258,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13240,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Groovy HoodTeen Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "addAlbum",
   "user" : "amanda16",
@@ -23268,7 +23268,7 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13240,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Groovy HoodTeen GuideAlone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "changePage",
   "user" : "henry26",
@@ -23278,23 +23278,23 @@
   "user" : "henry26",
   "command" : "printCurrentPage",
   "timestamp" : 13240,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : "Albums:\n\t[Groovy HoodTeen GuideAlone Technology]\n\nMerch:\n\t[]\n\nEvents:\n\t[]"
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Search returned 1 results",
-  "results" : [ "barmstrong" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 13250,
-  "message" : "Successfully selected barmstrong's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13250,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "barmstrong",
@@ -23304,7 +23304,7 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13250,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "irene33",
@@ -23314,23 +23314,23 @@
   "user" : "irene33",
   "command" : "printCurrentPage",
   "timestamp" : 13250,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "Search returned 1 results",
-  "results" : [ "fwebb" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 13260,
-  "message" : "Successfully selected fwebb's page."
+  "message" : "The selected ID is too high."
 }, {
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13260,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "addAlbum",
   "user" : "fwebb",
@@ -23340,7 +23340,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13260,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "changePage",
   "user" : "jack29",
@@ -23350,7 +23350,7 @@
   "user" : "jack29",
   "command" : "printCurrentPage",
   "timestamp" : 13260,
-  "message" : "Podcasts:\n\t[]\n\nAnnouncements:\n\t[\n]"
+  "message" : ""
 }, {
   "command" : "search",
   "user" : "alice22",

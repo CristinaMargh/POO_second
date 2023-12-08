@@ -53,9 +53,15 @@ public class CommandRunner {
         User user = Admin.getUser(commandInput.getUsername());
 
         String message ;
-        if(user != null)
+        if(user != null) {
+            if (user.getMode() == Enums.UserMode.OFFLINE) {
+                message = user.getUsername() + " is offline.";
+            } else {
             message = user.select(commandInput.getItemNumber());
-        else message = "User is null.";
+            }
+        } else {
+            message = "User is null.";
+        }
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
         objectNode.put("user", commandInput.getUsername());
