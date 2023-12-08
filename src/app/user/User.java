@@ -60,10 +60,15 @@ public class User extends LibraryEntry {
     @Setter
     private boolean changedPage = false;
     @Getter
-    private boolean pageSet = false;
+    private boolean pageSetHost = false;
+    @Getter
+    private boolean pageSetArtist = false;
     @Getter
     @Setter
     private User lastHost;
+    @Getter
+    @Setter
+    private User lasArtist;
 
     public User(String username, int age, String city, Enums.userType type) {
         super(username);
@@ -84,7 +89,6 @@ public class User extends LibraryEntry {
     public ArrayList<String> search(Filters filters, String type) {
         searchBar.clearSelection();
         player.stop();
-        //pageSet = false;
 
         lastSearched = true;
         ArrayList<String> results = new ArrayList<>();
@@ -111,8 +115,12 @@ public class User extends LibraryEntry {
         for (User user : users) {
             if (user.getUsername().equals(selected.getName())) {
                 if(user.getType() == Enums.userType.HOST) {
-                    pageSet = true;
+                    pageSetHost = true;
                     lastHost = user;
+                }
+                if (user.getType() == Enums.userType.ARTIST) {
+                    pageSetArtist = true;
+                    lasArtist = user;
                 }
                 return String.format("Successfully selected %s's page.".formatted(selected.getName()));
             }
@@ -538,15 +546,16 @@ public class User extends LibraryEntry {
             return commandInput.getUsername() + " is not a host";
         }
     }
-    public String removeEvent(CommandInput commandInput) {
+    public String removeEvent(final CommandInput commandInput) {
         if (this.getType() == Enums.userType.ARTIST) {
-            for (Event event : this.getEvents())
+            for (Event event : this.getEvents()) {
                 if (event.getName().equals(commandInput.getName())) {
                     this.getEvents().remove(event);
                     return commandInput.getUsername() + " deleted the event successfully.";
                 } else {
                     return this.username + " doesn't have an event with the given name.";
                 }
+            }
             return "";
         } else {
             return commandInput.getUsername() + " is not an artist.";
@@ -555,10 +564,10 @@ public class User extends LibraryEntry {
 
     public String printCurrentPage() {
         User host = lastHost;
+        //User artist = lasArtist;
         if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host") && host != null && searchBar.getLastSelected()!= null )
-        || pageSet) {
+        || pageSetHost) {
 //             Host page
-//            User host = lastHost;
             if (host != null) {
                 List<Podcast> podcastList = host.getPodcastsHost();
                 List<Announcement> announcementList = host.getAnnouncements();
@@ -597,9 +606,11 @@ public class User extends LibraryEntry {
             }
             return "";
         } else
-            if (searchBar.getLastSearchType()!= null &&  searchBar.getLastSearchType().equals("artist")) {
+            if ((searchBar.getLastSearchType()!= null &&  searchBar.getLastSearchType().equals("artist")) || (pageSetArtist)) {
                 // Artist page
-                User artist = (User)searchBar.getLastSelected();
+
+                //User artist = (User)searchBar.getLastSelected();
+                User artist = lasArtist;
                 if (artist != null) {
                 List<Album> albumList = artist.getAlbums();
                 List<Merch> merchList = artist.getMerches();
@@ -609,8 +620,9 @@ public class User extends LibraryEntry {
                 builder.append("Albums:\n\t[");
                 if (!albumList.isEmpty()) {
                     for (Album album : albumList) {
-                        builder.append(album.getName());
+                        builder.append(album.getName()).append(", ");
                     }
+                    builder.delete(builder.length() - 2, builder.length());
                 }
                 builder.append("]\n\n");
 
@@ -717,10 +729,17 @@ public class User extends LibraryEntry {
     }
 
     public String changePage(CommandInput commandInput) {
-        if (commandInput.getNextPage().equals("Home"))
+        if (commandInput.getNextPage().equals("Home")) {
             this.setChangedPage(false);
-        else
+            pageSetHost = false;
+            pageSetArtist = false;
+        } else {
             this.setChangedPage(true);
+        }
+        if (commandInput.getNextPage().equals("Like")) {
+            pageSetHost = false;
+            pageSetArtist = false;
+        }
         return this.username + " accessed " + commandInput.getNextPage() + " successfully.";
     }
     public void simulateTime(int time) {

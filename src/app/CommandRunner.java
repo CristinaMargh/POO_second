@@ -369,6 +369,16 @@ public class CommandRunner {
 
         return objectNode;
     }
+    public static ObjectNode getTop5Artists(final CommandInput commandInput) {
+        List<String> songs = Admin.getTop5Artist();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(songs));
+
+        return objectNode;
+    }
     public static ObjectNode switchConnectionStatus(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
         String message;
