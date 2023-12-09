@@ -8,7 +8,7 @@ import lombok.Getter;
 public abstract class AudioCollection extends LibraryEntry {
     private final String owner;
 
-    public AudioCollection(String name, String owner) {
+    public AudioCollection(final String name, final String owner) {
         super(name);
         this.owner = owner;
     }
@@ -18,7 +18,7 @@ public abstract class AudioCollection extends LibraryEntry {
     public abstract AudioFile getTrackByIndex(int index);
 
     @Override
-    public boolean matchesOwner(String user) {
+    public boolean matchesOwner(final String user) {
         return this.getOwner().equals(user);
     }
 }

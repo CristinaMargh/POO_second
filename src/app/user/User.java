@@ -215,6 +215,10 @@ public final class User extends LibraryEntry {
         return "Skipped forward successfully.";
     }
 
+    /**
+     * Used to perform the backward command
+     * @return a specific message which indicates if the operation was performed
+     */
     public String backward() {
         if (player.getCurrentAudioFile() == null) {
             return "Please select a source before rewinding.";
@@ -403,7 +407,12 @@ public final class User extends LibraryEntry {
         String preferredGenre = mostLikedIndex != -1 ? genres[mostLikedIndex] : "unknown";
         return "This user's preferred genre is %s.".formatted(preferredGenre);
     }
-    public String switchConnectionStatus(final CommandInput commandInput) {
+
+    /**
+     * Used to change the status of a normal user from online to offline
+     * @return a message witch indicates if now the user's status has changed
+     */
+    public String switchConnectionStatus() {
         if (type == Enums.userType.USER) {
             if (mode == Enums.UserMode.ONLINE) {
                 mode = Enums.UserMode.OFFLINE;
@@ -417,6 +426,17 @@ public final class User extends LibraryEntry {
             return username + " is not a normal user.";
         }
     }
+
+    /**
+     * Used to add an album in the collection of audio files.
+     * @param name indicates the name of the album we want to add
+     * @param username is the name of the artist which has the album
+     * @param timestamp indicates the current time
+     * @param description is a description of the album
+     * @param releaseYear indicates the release year of the album
+     * @param songsAlbum indicates the list of songs from the album
+     * @return a message which indicates if the album was added or not by the user
+     */
     public String addAlbum(final String name, final String username, final int timestamp,
                            final String description, final String releaseYear,
                            final ArrayList<SongInput> songsAlbum) {
@@ -486,9 +506,11 @@ public final class User extends LibraryEntry {
                     // Remove Songs too
                     List<Song> songsToRemove = foundAlbum.getSongs();
 
-                    for(Song song : songsToRemove)
-                        for(User user : Admin.getUsers())
+                    for(Song song : songsToRemove) {
+                        for(User user : Admin.getUsers()) {
                             user.getLikedSongs().remove(song);
+                        }
+                    }
 
                     List<Song> all = Admin.getSongs();
                     all.removeAll(songsToRemove);

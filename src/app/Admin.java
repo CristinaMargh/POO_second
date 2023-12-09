@@ -18,7 +18,8 @@ public class Admin {
     public static void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
-            users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity(), Enums.userType.USER));
+            users.add(new User(userInput.getUsername(), userInput.getAge(),
+                    userInput.getCity(), Enums.userType.USER));
         }
     }
 
@@ -56,7 +57,7 @@ public class Admin {
     public static List<User> getUsers() {
         return new ArrayList<>(users);
     }
-    public static List<User> getArtists(){
+    public static List<User> getArtists() {
         List<User> all = getUsers();
         List<User> artists = new ArrayList<>();
         for (User user: all) {
@@ -109,19 +110,23 @@ public class Admin {
             return;
         }
         for (User user : users) {
-            if(user.getMode() == Enums.UserMode.ONLINE) {
+            if (user.getMode() == Enums.UserMode.ONLINE) {
                 user.simulateTime(elapsed);
             }
         }
     }
     // Statistics
+
+    /**
+     * It is part of the statistics display functions.
+     * @return a list of the top 5 songs in the library that received the most likes
+     */
     public static List<String> getTop5Songs() {
         List<Song> sortedSongs = new ArrayList<>(songs);
         sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
         List<String> topSongs = new ArrayList<>();
         int count = 0;
         for (Song song : sortedSongs) {
-            //System.out.println(song.getName() + " " + song.getLikes());
             if (count >= 5) break;
             topSongs.add(song.getName());
             count++;
@@ -202,6 +207,11 @@ public static List<String> getTop5Albums() {
         }
         return topPlaylists;
     }
+
+    /**
+     * Used to display the users that are Online at that certain timestamp
+     * @return a list with the names of all Online users
+     */
     public static List<String> getOnlineUsers() {
         List<String> online = new ArrayList<>();
         for (User user : users) {
