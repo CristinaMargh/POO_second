@@ -16,11 +16,9 @@ import lombok.Getter;
 import fileio.input.CommandInput;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
-public class User extends LibraryEntry {
+public final class User extends LibraryEntry {
     @Getter
     private String username;
     @Getter
@@ -69,8 +67,12 @@ public class User extends LibraryEntry {
     @Getter
     @Setter
     private User lasArtist;
+    @Getter
+    @Setter
+    private boolean home = false;
 
-    public User(String username, int age, String city, Enums.userType type) {
+    public User(final String username, final int age,
+                final String city, final Enums.userType type) {
         super(username);
         this.username = username;
         this.age = age;
@@ -86,7 +88,7 @@ public class User extends LibraryEntry {
         this.type = type;
     }
 
-    public ArrayList<String> search(Filters filters, String type) {
+    public ArrayList<String> search(final Filters filters, final String type) {
         searchBar.clearSelection();
         player.stop();
 
@@ -100,16 +102,18 @@ public class User extends LibraryEntry {
         return results;
     }
 
-    public String select(int itemNumber) {
-        if (!lastSearched)
+    public String select(final int itemNumber) {
+        if (!lastSearched) {
             return "Please conduct a search before making a selection.";
+        }
 
         lastSearched = false;
 
         LibraryEntry selected = searchBar.select(itemNumber);
 
-        if (selected == null)
+        if (selected == null) {
             return "The selected ID is too high.";
+        }
 
         List<User> users = Admin.getUsers();
         for (User user : users) {
@@ -130,10 +134,12 @@ public class User extends LibraryEntry {
     }
 
     public String load() {
-        if (searchBar.getLastSelected() == null)
+        if (searchBar.getLastSelected() == null) {
             return "Please select a source before attempting to load.";
+        }
 
-        if (!searchBar.getLastSearchType().equals("song") && ((AudioCollection)searchBar.getLastSelected()).getNumberOfTracks() == 0) {
+        if (!searchBar.getLastSearchType().equals("song")
+                && ((AudioCollection)searchBar.getLastSelected()).getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
         }
 
@@ -146,25 +152,28 @@ public class User extends LibraryEntry {
     }
 
     public String playPause() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before attempting to pause or resume playback.";
+        }
 
         player.pause();
 
-        if (player.getPaused())
+        if (player.getPaused()) {
             return "Playback paused successfully.";
-        else
+        } else {
             return "Playback resumed successfully.";
+        }
     }
 
     public String repeat() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before setting the repeat status.";
+        }
 
         Enums.RepeatMode repeatMode = player.repeat();
         String repeatStatus = "";
 
-        switch(repeatMode) {
+        switch (repeatMode) {
             case NO_REPEAT -> repeatStatus = "no repeat";
             case REPEAT_ONCE -> repeatStatus = "repeat once";
             case REPEAT_ALL -> repeatStatus = "repeat all";
@@ -176,25 +185,30 @@ public class User extends LibraryEntry {
     }
 
     public String shuffle(final Integer seed) {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before using the shuffle function.";
+        }
 
-        if (!player.getType().equals("playlist") && !player.getType().equals("album"))
+        if (!player.getType().equals("playlist") && !player.getType().equals("album")) {
             return "The loaded source is not a playlist or an album.";
+        }
 
         player.shuffle(seed);
 
-        if (player.getShuffle())
+        if (player.getShuffle()) {
             return "Shuffle function activated successfully.";
+        }
         return "Shuffle function deactivated successfully.";
     }
 
     public String forward() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before attempting to forward.";
+        }
 
-        if (!player.getType().equals("podcast"))
+        if (!player.getType().equals("podcast")) {
             return "The loaded source is not a podcast.";
+        }
 
         player.skipNext();
 
@@ -202,11 +216,13 @@ public class User extends LibraryEntry {
     }
 
     public String backward() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please select a source before rewinding.";
+        }
 
-        if (!player.getType().equals("podcast"))
+        if (!player.getType().equals("podcast")) {
             return "The loaded source is not a podcast.";
+        }
 
         player.skipPrev();
 
@@ -214,11 +230,14 @@ public class User extends LibraryEntry {
     }
 
     public String like() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before liking or unliking.";
+        }
 
-        if (!player.getType().equals("song") && !player.getType().equals("playlist"))
+        if (!player.getType().equals("song") && !player.getType().equals("playlist")
+                && !player.getType().equals("album")) {
             return "Loaded source is not a song.";
+        }
 
         Song song = (Song) player.getCurrentAudioFile();
 
@@ -235,36 +254,40 @@ public class User extends LibraryEntry {
     }
 
     public String next() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before skipping to the next track.";
+        }
 
         player.next();
 
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before skipping to the next track.";
+        }
 
         return "Skipped to next track successfully. The current track is %s.".formatted(player.getCurrentAudioFile().getName());
     }
 
     public String prev() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before returning to the previous track.";
+        }
 
         player.prev();
 
         return "Returned to previous track successfully. The current track is %s.".formatted(player.getCurrentAudioFile().getName());
     }
 
-    public String createPlaylist(String name, int timestamp) {
-        if (playlists.stream().anyMatch(playlist -> playlist.getName().equals(name)))
+    public String createPlaylist(final String name, final int timestamp) {
+        if (playlists.stream().anyMatch(playlist -> playlist.getName().equals(name))) {
             return "A playlist with the same name already exists.";
+        }
 
         playlists.add(new Playlist(name, username, timestamp));
 
         return "Playlist created successfully.";
     }
 
-    public String addRemoveInPlaylist(int Id) {
+    public String addRemoveInPlaylist(final int Id) {
         if (player.getCurrentAudioFile() == null) {
             return "Please load a source before adding to or removing from the playlist.";
         }
@@ -273,8 +296,9 @@ public class User extends LibraryEntry {
             return "The loaded source is not a song.";
         }
 
-        if (Id > playlists.size())
+        if (Id > playlists.size()) {
             return "The specified playlist does not exist.";
+        }
 
         Playlist playlist = playlists.get(Id - 1);
 
@@ -288,8 +312,9 @@ public class User extends LibraryEntry {
     }
 
     public String switchPlaylistVisibility(final Integer playlistId) {
-        if (playlistId > playlists.size())
+        if (playlistId > playlists.size()) {
             return "The specified playlist ID is too high.";
+        }
 
         Playlist playlist = playlists.get(playlistId - 1);
         playlist.switchVisibility();
@@ -314,16 +339,19 @@ public class User extends LibraryEntry {
         LibraryEntry selection = searchBar.getLastSelected();
         String type = searchBar.getLastSearchType();
 
-        if (selection == null)
+        if (selection == null) {
             return "Please select a source before following or unfollowing.";
+        }
 
-        if (!type.equals("playlist"))
+        if (!type.equals("playlist")) {
             return "The selected source is not a playlist.";
+        }
 
         Playlist playlist = (Playlist)selection;
 
-        if (playlist.getOwner().equals(username))
+        if (playlist.getOwner().equals(username)) {
             return "You cannot follow or unfollow your own playlist.";
+        }
 
         if (followedPlaylists.contains(playlist)) {
             followedPlaylists.remove(playlist);
@@ -375,13 +403,13 @@ public class User extends LibraryEntry {
         String preferredGenre = mostLikedIndex != -1 ? genres[mostLikedIndex] : "unknown";
         return "This user's preferred genre is %s.".formatted(preferredGenre);
     }
-    public String switchConnectionStatus(CommandInput commandInput) {
+    public String switchConnectionStatus(final CommandInput commandInput) {
         if (type == Enums.userType.USER) {
             if (mode == Enums.UserMode.ONLINE) {
-                player.pause();
                 mode = Enums.UserMode.OFFLINE;
                 return username + " has changed status successfully.";
             } else {
+                player.setWasPaused(player.getPaused());
                 mode = Enums.UserMode.ONLINE;
                 return username + " has changed status successfully.";
             }
@@ -411,14 +439,13 @@ public class User extends LibraryEntry {
             if (hasDuplicates) {
                 return this.username + " has the same song at least twice in this album.";
             }
-            albums.add(new Album(name, username, timestamp, description, releaseYear,songsAlbum));
+
+            Album album = new Album(name, username, timestamp, description, releaseYear, songsAlbum);
+            albums.add(album);
             if (this.getPlayer().getSource() != null)
                 this.getPlayer().getSource().setType(Enums.PlayerSourceType.ALBUM);
             List<Song> songs = Admin.getSongs();
-            for (SongInput song : songsAlbum) {
-                songs.add(new Song(song.getName(), song.getDuration(), song.getAlbum(), song.getTags(), song.getLyrics()
-                ,song.getGenre(),song.getReleaseYear(),song.getArtist()));
-            }
+            songs.addAll(album.getSongs());
             Admin.updateSongList(songs);
             return this.username + " has added new album successfully.";
         } else {
@@ -445,19 +472,28 @@ public class User extends LibraryEntry {
         if (this.getType() == Enums.userType.ARTIST) {
             int found = 0;
             Album foundAlbum = null;
-            for (Album album : this.getAlbums())
+            for (Album album : this.getAlbums()) {
                 if (album.getName().equals(commandInput.getName())) {
                     found = 1;
                     foundAlbum = album;
                 }
+            }
             if (found == 0) {
                 return  this.username + " doesn't have an album with the given name.";
             } else {
                 boolean albumReferencedByUser = hasAlbumOrSongsFromAlbum(foundAlbum);
                 if (!albumReferencedByUser) {
-                    albums.remove(foundAlbum);
-                    // remove songs too
+                    // Remove Songs too
+                    List<Song> songsToRemove = foundAlbum.getSongs();
 
+                    for(Song song : songsToRemove)
+                        for(User user : Admin.getUsers())
+                            user.getLikedSongs().remove(song);
+
+                    List<Song> all = Admin.getSongs();
+                    all.removeAll(songsToRemove);
+                    Admin.updateSongList(all);
+                    albums.remove(foundAlbum);
                     return this.username + " deleted the album successfully.";
                 } else {
                     return this.username + " can't delete this album.";
@@ -483,10 +519,10 @@ public class User extends LibraryEntry {
                 return this.username + " has another event with the same name.";
             }
             // format error needed
-            if(verifyData(date)){
-            events.add(new Event(name, owner,timestamp,description,date));
-            return this.username + " has added new event successfully.";}
-            else {
+            if (verifyData(date)) {
+                events.add(new Event(name, owner, timestamp, description, date));
+                return this.username + " has added new event successfully.";
+            } else {
                 return  "Event for " + this.username + " does not have a valid date.";
             }
         } else {
@@ -496,11 +532,14 @@ public class User extends LibraryEntry {
     public boolean verifyData(final String date) {
         String[] dateParts = date.split("-");
         int month = Integer.parseInt(dateParts[1]);
-        if (month > 12)
+        if (month > 12) {
             return false;
-        else return true;
+        } else {
+            return true;
+        }
     }
-    public String addMerch(String name, String owner, int timestamp, String description, int price) {
+    public String addMerch(final String name, final String owner, final int timestamp,
+                           final String description, final int price) {
         if (this.getType() == Enums.userType.ARTIST) {
             if (merches.stream().anyMatch(merch -> {
                 String merchName = merch.getName();
@@ -511,14 +550,15 @@ public class User extends LibraryEntry {
             if (price < 0) {
                 return "Price for merchandise can not be negative.";
             }
-            merches.add(new Merch(name, owner,timestamp,description,price));
+            merches.add(new Merch(name, owner,timestamp, description, price));
             return this.username + " has added new merchandise successfully.";
         } else {
             return this.username + " is not an artist.";
         }
     }
 
-    public String addAnnouncement(String name, String owner, int timestamp, String description) {
+    public String addAnnouncement(final String name, final String owner,
+                                  final int timestamp, final String description) {
         if (this.getType() == Enums.userType.HOST) {
             if (announcements.stream().anyMatch(announcement -> {
                 String announcementName = announcement.getName();
@@ -532,20 +572,37 @@ public class User extends LibraryEntry {
             return this.username + " is not a host.";
         }
     }
-    public String removeAnnouncement(CommandInput commandInput) {
+
+    /**
+     * Used by Host user
+     * @param commandInput used to extract the name of the announcement and compare it with
+     *                      those we have already entered in announcements list
+     * @return a string with a message indicating whether the host
+     *       was able to remove the announcement or certain errors occurred
+     */
+    public String removeAnnouncement(final CommandInput commandInput) {
         if (this.getType() == Enums.userType.HOST) {
-            for (Announcement announcement : this.getAnnouncements())
+            for (Announcement announcement : this.getAnnouncements()) {
                 if (announcement.getName().equals(commandInput.getName())) {
                     this.getAnnouncements().remove(announcement);
                     return commandInput.getUsername() + " has successfully deleted the announcement.";
                 } else {
                     return this.username + " has no announcement with the given name.";
                 }
+            }
             return "";
         } else {
             return commandInput.getUsername() + " is not a host";
         }
     }
+
+    /**
+     * Used by Artist user
+     * @param commandInput used to extract the name of the event and compare it with
+     *                    those we have already entered in  events list
+     * @return a string with a message indicating whether the artist
+     * was able to remove the event or certain errors occurred
+     */
     public String removeEvent(final CommandInput commandInput) {
         if (this.getType() == Enums.userType.ARTIST) {
             for (Event event : this.getEvents()) {
@@ -564,9 +621,9 @@ public class User extends LibraryEntry {
 
     public String printCurrentPage() {
         User host = lastHost;
-        //User artist = lasArtist;
-        if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host") && host != null && searchBar.getLastSelected()!= null )
-        || pageSetHost) {
+        User artist = lasArtist;
+        if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host") && host != null
+                && searchBar.getLastSelected()!= null ) || pageSetHost) {
 //             Host page
             if (host != null) {
                 List<Podcast> podcastList = host.getPodcastsHost();
@@ -606,11 +663,9 @@ public class User extends LibraryEntry {
             }
             return "";
         } else
-            if ((searchBar.getLastSearchType()!= null &&  searchBar.getLastSearchType().equals("artist")) || (pageSetArtist)) {
+            if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("artist") && artist != null
+                    && searchBar.getLastSelected() != null && !home ) || pageSetArtist) {
                 // Artist page
-
-                //User artist = (User)searchBar.getLastSelected();
-                User artist = lasArtist;
                 if (artist != null) {
                 List<Album> albumList = artist.getAlbums();
                 List<Merch> merchList = artist.getMerches();
@@ -651,41 +706,46 @@ public class User extends LibraryEntry {
                 return "";
             } else {
                 // Home page
-                List<Song> likedSongs = this.getLikedSongs();
-                List<Playlist> followedPlaylists = this.getFollowedPlaylists();
-
                 StringBuilder builder = new StringBuilder();
 
                 if (!this.changedPage) {
+                    List<Song> likedSongs1 = this.getLikedSongs();
+                    List<Playlist> followedPlaylists1 = this.getFollowedPlaylists();
                     builder.append("Liked songs:\n");
-                    builder.append("\t[").append(formatSongList(likedSongs)).append("]\n\n");
+                    builder.append("\t[").append(formatSongList(likedSongs1)).append("]\n\n");
 
                     builder.append("Followed playlists:\n");
-                    builder.append("\t[").append(formatPlaylistList(followedPlaylists)).append("]");
-                } else {
+                    builder.append("\t[").append(formatPlaylistList(followedPlaylists1)).append("]");
+                }
+                if (this.changedPage) {
+                    List<Song> likedSongs2 = this.getLikedSongs();
+                    List<Playlist> followedPlaylists2 = this.getFollowedPlaylists();
                     // User changed to LikedContentPage
                     builder.append("Liked songs:\n");
-                    builder.append("\t[").append(formatSongListLikePage(likedSongs)).append("]\n\n");
+                    builder.append("\t[").append(formatSongListLikePage(likedSongs2)).append("]\n\n");
 
                     builder.append("Followed playlists:\n");
-                    builder.append("\t[").append(formatPlaylistListLikePage(followedPlaylists)).append("]");
+                    builder.append("\t[").append(formatPlaylistListLikePage(followedPlaylists2)).append("]");
                 }
                 return builder.toString();
             }
     }
-    private String formatSongList(List<Song> songs) {
+    private String formatSongList(final List<Song> songs) {
         if (songs.isEmpty()) {
             return "";
         }
-
+        List<Song> sortedSongs = new ArrayList<>(songs);
         List<String> songNames = new ArrayList<>();
-        for (Song song : songs) {
+        sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
+        int count = 0;
+        for (Song song : sortedSongs) {
+            if (count >= 5) break;
             songNames.add(song.getName());
+            count++;
         }
         return String.join(", ", songNames);
     }
-
-    private String formatPlaylistList(List<Playlist> playlists) {
+    private String formatPlaylistList(final List<Playlist> playlists) {
         if (playlists.isEmpty()) {
             return "";
         }
@@ -697,12 +757,13 @@ public class User extends LibraryEntry {
         return String.join(", ", playlistNames);
     }
 
-    private String formatSongListLikePage(List<Song> songs) {
+    private String formatSongListLikePage(final List<Song> songs) {
         if (songs.isEmpty()) {
             return "";
         }
 
         List<String> songInfo = new ArrayList<>();
+
         for (Song song : songs) {
             String songName = song.getName();
             String songArtist = song.getArtist();
@@ -712,7 +773,7 @@ public class User extends LibraryEntry {
         return String.join(", ", songInfo);
     }
 
-    private String formatPlaylistListLikePage(List<Playlist> playlists) {
+    private String formatPlaylistListLikePage(final List<Playlist> playlists) {
         if (playlists.isEmpty()) {
             return "";
         }
@@ -728,21 +789,21 @@ public class User extends LibraryEntry {
         return  String.join(", ", playlistInfo) ;
     }
 
-    public String changePage(CommandInput commandInput) {
+    public String changePage(final CommandInput commandInput) {
         if (commandInput.getNextPage().equals("Home")) {
+            this.setHome(true);
             this.setChangedPage(false);
             pageSetHost = false;
             pageSetArtist = false;
-        } else {
-            this.setChangedPage(true);
         }
-        if (commandInput.getNextPage().equals("Like")) {
+        if (commandInput.getNextPage().equals("LikedContent")) {
+            this.setChangedPage(true);
             pageSetHost = false;
             pageSetArtist = false;
         }
         return this.username + " accessed " + commandInput.getNextPage() + " successfully.";
     }
-    public void simulateTime(int time) {
-        player.simulatePlayer(time);
+    public void simulateTime(final int time) {
+            player.simulatePlayer(time);
     }
 }

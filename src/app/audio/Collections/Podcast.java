@@ -22,7 +22,7 @@ public final class Podcast extends AudioCollection {
     }
 
     @Override
-    public AudioFile getTrackByIndex(int index) {
+    public AudioFile getTrackByIndex(final int index) {
         return episodes.get(index);
     }
 }

@@ -70,8 +70,10 @@ public final class Main {
     public static void action(final String filePath1,
                               final String filePath2) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        LibraryInput library = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + "library/library.json"), LibraryInput.class);
-        CommandInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePath1), CommandInput[].class);
+        LibraryInput library = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
+                + "library/library.json"), LibraryInput.class);
+        CommandInput[] commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH
+                + filePath1), CommandInput[].class);
         ArrayNode outputs = objectMapper.createArrayNode();
 
         Admin.setUsers(library.getUsers());
@@ -96,7 +98,8 @@ public final class Main {
                 case "next" -> outputs.add(CommandRunner.next(command));
                 case "prev" -> outputs.add(CommandRunner.prev(command));
                 case "createPlaylist" -> outputs.add(CommandRunner.createPlaylist(command));
-                case "addRemoveInPlaylist" -> outputs.add(CommandRunner.addRemoveInPlaylist(command));
+                case "addRemoveInPlaylist" ->
+                        outputs.add(CommandRunner.addRemoveInPlaylist(command));
                 case "switchVisibility" -> outputs.add(CommandRunner.switchVisibility(command));
                 case "showPlaylists" -> outputs.add(CommandRunner.showPlaylists(command));
                 case "follow" -> outputs.add(CommandRunner.follow(command));
@@ -106,25 +109,26 @@ public final class Main {
                 case "getTop5Songs" -> outputs.add(CommandRunner.getTop5Songs(command));
                 case "getTop5Playlists" -> outputs.add(CommandRunner.getTop5Playlists(command));
                 case "getTop5Albums" -> outputs.add(CommandRunner.getTop5Albums(command));
-                case "switchConnectionStatus" ->outputs.add(CommandRunner.switchConnectionStatus(command));
-                case "getOnlineUsers" ->outputs.add(CommandRunner.getOnlineUsers(command));
-                case "addUser" ->outputs.add(CommandRunner.addUser(command));
-                case "addAlbum" ->outputs.add(CommandRunner.addAlbum(command));
-                case "removeAlbum" ->outputs.add(CommandRunner.removeAlbum(command));
-                case "showAlbums" ->outputs.add(CommandRunner.showAlbums(command));
-                case "addEvent" ->outputs.add(CommandRunner.addEvent(command));
-                case "removeEvent" ->outputs.add(CommandRunner.removeEvent(command));
-                case "printCurrentPage" ->outputs.add(CommandRunner.printCurrentPage(command));
-                case "getAllUsers" ->outputs.add(CommandRunner.getAllUsers(command));
-                case "deleteUser" ->outputs.add(CommandRunner.deleteUser(command));
-                case "addMerch" ->outputs.add(CommandRunner.addMerch(command));
-                case "addAnnouncement" ->outputs.add(CommandRunner.addAnnouncement(command));
-                case "removeAnnouncement" ->outputs.add(CommandRunner.removeAnnouncement(command));
-                case "addPodcast" ->outputs.add(CommandRunner.addPodcast(command));
-                case "removePodcast" ->outputs.add(CommandRunner.removePodcast(command));
-                case "showPodcasts" ->outputs.add(CommandRunner.showPodcasts(command));
-                case "changePage" ->outputs.add(CommandRunner.changePage(command));
-                case "getTop5Artists" ->outputs.add(CommandRunner.getTop5Artists(command));
+                case "switchConnectionStatus" ->
+                        outputs.add(CommandRunner.switchConnectionStatus(command));
+                case "getOnlineUsers" -> outputs.add(CommandRunner.getOnlineUsers(command));
+                case "addUser" -> outputs.add(CommandRunner.addUser(command));
+                case "addAlbum" -> outputs.add(CommandRunner.addAlbum(command));
+                case "removeAlbum" -> outputs.add(CommandRunner.removeAlbum(command));
+                case "showAlbums" -> outputs.add(CommandRunner.showAlbums(command));
+                case "addEvent" -> outputs.add(CommandRunner.addEvent(command));
+                case "removeEvent" -> outputs.add(CommandRunner.removeEvent(command));
+                case "printCurrentPage" -> outputs.add(CommandRunner.printCurrentPage(command));
+                case "getAllUsers" -> outputs.add(CommandRunner.getAllUsers(command));
+                case "deleteUser" -> outputs.add(CommandRunner.deleteUser(command));
+                case "addMerch" -> outputs.add(CommandRunner.addMerch(command));
+                case "addAnnouncement" -> outputs.add(CommandRunner.addAnnouncement(command));
+                case "removeAnnouncement" -> outputs.add(CommandRunner.removeAnnouncement(command));
+                case "addPodcast" -> outputs.add(CommandRunner.addPodcast(command));
+                case "removePodcast" -> outputs.add(CommandRunner.removePodcast(command));
+                case "showPodcasts" -> outputs.add(CommandRunner.showPodcasts(command));
+                case "changePage" -> outputs.add(CommandRunner.changePage(command));
+                case "getTop5Artists" -> outputs.add(CommandRunner.getTop5Artists(command));
                 default -> System.out.println("Invalid command " + commandName);
             }
         }

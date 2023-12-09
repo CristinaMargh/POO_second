@@ -8,7 +8,8 @@ public class Announcement {
     private final String owner;
     private final String description;
     private final int timestamp;
-    public Announcement(String name, String owner, int timestamp, String description) {
+    public Announcement(final String name, final String owner,
+                        final int timestamp, final String description) {
         this.name = name;
         this.owner = owner;
         this.timestamp = timestamp;

@@ -16,11 +16,12 @@ public final class Playlist extends AudioCollection {
     private Integer followers;
     private int timestamp;
 
-    public Playlist(String name, String owner) {
+    public Playlist(final String name, final String owner) {
+
         this(name, owner, 0);
     }
 
-    public Playlist(String name, String owner, int timestamp) {
+    public Playlist(final String name, final String owner, final int timestamp) {
         super(name, owner);
         this.songs = new ArrayList<>();
         this.visibility = Enums.Visibility.PUBLIC;
@@ -28,18 +29,18 @@ public final class Playlist extends AudioCollection {
         this.timestamp = timestamp;
     }
 
-    public boolean containsSong(Song song) {
+    public boolean containsSong(final Song song) {
         return songs.contains(song);
     }
 
-    public void addSong(Song song) {
+    public void addSong(final Song song) {
         songs.add(song);
     }
 
-    public void removeSong(Song song) {
+    public void removeSong(final Song song) {
         songs.remove(song);
     }
-    public void removeSong(int index) {
+    public void removeSong(final int index) {
         songs.remove(index);
     }
 
@@ -65,22 +66,22 @@ public final class Playlist extends AudioCollection {
     }
 
     @Override
-    public AudioFile getTrackByIndex(int index) {
+    public AudioFile getTrackByIndex(final int index) {
         return songs.get(index);
     }
 
     @Override
     public boolean isVisibleToUser(String user) {
-        return this.getVisibility() == Enums.Visibility.PUBLIC ||
-                (this.getVisibility() == Enums.Visibility.PRIVATE && this.getOwner().equals(user));
+        return this.getVisibility() == Enums.Visibility.PUBLIC
+                || (this.getVisibility() == Enums.Visibility.PRIVATE && this.getOwner().equals(user));
     }
 
     @Override
-    public boolean matchesFollowers(String followers) {
+    public boolean matchesFollowers(final String followers) {
         return filterByFollowersCount(this.getFollowers(), followers);
     }
 
-    private static boolean filterByFollowersCount(int count, String query) {
+    private static boolean filterByFollowersCount(final int count, final String query) {
         if (query.startsWith("<")) {
             return count < Integer.parseInt(query.substring(1));
         } else if (query.startsWith(">")) {

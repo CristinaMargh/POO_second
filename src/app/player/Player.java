@@ -10,7 +10,7 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Player {
+public final class Player {
     private Enums.RepeatMode repeatMode;
     private boolean shuffle;
     private boolean paused;
@@ -20,6 +20,9 @@ public class Player {
     @Getter
     @Setter
     private String type;
+    @Getter
+    @Setter
+    private boolean wasPaused;
 
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
 
@@ -42,13 +45,15 @@ public class Player {
 
     private void bookmarkPodcast() {
         if (source != null && source.getAudioFile() != null) {
-            PodcastBookmark currentBookmark = new PodcastBookmark(source.getAudioCollection().getName(), source.getIndex(), source.getDuration());
+            PodcastBookmark currentBookmark = new PodcastBookmark(source.getAudioCollection().getName(),
+                    source.getIndex(), source.getDuration());
             bookmarks.removeIf(bookmark -> bookmark.getName().equals(currentBookmark.getName()));
             bookmarks.add(currentBookmark);
         }
     }
 
-    public static PlayerSource createSource(String type, LibraryEntry entry, List<PodcastBookmark> bookmarks) {
+    public static PlayerSource createSource(final String type, final LibraryEntry entry,
+                                            final List<PodcastBookmark> bookmarks) {
         if ("song".equals(type)) {
             return new PlayerSource(Enums.PlayerSourceType.LIBRARY, (AudioFile) entry);
         } else if ("playlist".equals(type)) {
@@ -62,7 +67,8 @@ public class Player {
         return null;
     }
 
-    private static PlayerSource createPodcastSource(AudioCollection collection, List<PodcastBookmark> bookmarks) {
+    private static PlayerSource createPodcastSource(final AudioCollection collection,
+                                                    final List<PodcastBookmark> bookmarks) {
         for (PodcastBookmark bookmark : bookmarks) {
             if (bookmark.getName().equals(collection.getName())) {
                 return new PlayerSource(Enums.PlayerSourceType.PODCAST, collection, bookmark);
@@ -71,7 +77,7 @@ public class Player {
         return new PlayerSource(Enums.PlayerSourceType.PODCAST, collection);
     }
 
-    public void setSource(LibraryEntry entry, String type) {
+    public void setSource(final LibraryEntry entry, final String type) {
         if ("podcast".equals(this.type)) {
             bookmarkPodcast();
         }
@@ -87,7 +93,7 @@ public class Player {
         paused = !paused;
     }
 
-    public void shuffle (Integer seed) {
+    public void shuffle (final Integer seed) {
         if (seed != null) {
             source.generateShuffleOrder(seed);
         }

@@ -9,7 +9,8 @@ public class Merch {
     private final String description;
     private final int price;
     private final int timestamp;
-    public Merch(String name, String owner, int timestamp, String description, int price) {
+    public Merch(final String name, final String owner,
+                 final int timestamp, final String description, final int price) {
         this.name = name;
         this.owner = owner;
         this.timestamp = timestamp;

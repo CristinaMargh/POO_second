@@ -9,7 +9,8 @@ public class Event {
     private final String description;
     private final String date;
     private final int timestamp;
-    public Event(String name, String owner, int timestamp, String description, String date) {
+    public Event(final String name, final String owner, final int timestamp,
+                 final String description, final String date) {
         this.name = name;
         this.owner = owner;
         this.timestamp = timestamp;
