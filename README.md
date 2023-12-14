@@ -1,21 +1,33 @@
-# Proiect GlobalWaves  - Etapa 2
-I have used the official skel for the first round of the homework.
+# Project GlobalWaves - second project
+Mărgheanu Cristina-Andreea
 
-<div align="center"><img src="https://tenor.com/view/listening-to-music-spongebob-gif-8009182.gif" width="300px"></div>
+Mentions : I used the official implementation for stage 1.
 
-#### Assignment Link: [https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1](https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa1)
+The program starts in the main class where I entered all the possible commands. These are handled
+with the help of the CommandRunner class, where the necessary operations are performed depending
+on the name of the command and the user.
+In the implementation I used the Singleton design pattern, used to restrict the number of instantiations
+of a class to a single object. In this way I ensured the creation of a single instance of the class, providing 
+a global access point of it.
+The class in which most data storage and management operations are performed is the Admin class.
+Initially I define 3 lists that will contain users, songs and podcasts from the system. They are to
+be modified depending on the operations. Changing the list of songs takes place in several moments, for example:
+when I delete an album, songs from it must also be deleted, or when I delete a user, if he is an artist, we have to
+also delete his songs. In addition, the user, the most important instance in the program, is also added in this class.
+Also, there I set that artists and hosts are always offline when adding them. 
 
-
-## Skel Structure
-
-* src/
-  * checker/ - checker files
-  * fileio/ - contains classes used to read data from the json files
-  * main/
-      * Main - the Main class runs the checker on your implementation. Add the entry point to your implementation in it. Run Main to test your implementation from the IDE or from command line.
-      * Test - run the main method from Test class with the name of the input file from the command line and the result will be written
-        to the out.txt file. Thus, you can compare this result with ref.
-* input/ - contains the tests and library in JSON format
-* ref/ - contains all reference output for the tests in JSON format
-
-<div align="center"><img src="https://tenor.com/view/homework-time-gif-24854817.gif" width="500px"></div>
+The user class counts the most important information for a user. Depending on its type, it can also have a list of 
+events, announcements or merchandise. For these I have created a separate class in which I have introduced their 
+characteristics. A command for which several cases must be handled is the same for deleting a user. We divide these
+cases according to the type of user. If the user is a host and has uploaded a podcast, an episode of a podcast or 
+someone is on his page and has not selected anything else in the meantime, we cannot delete it. Analogous for the 
+artist, only that we replace the podcast and the episode with the album and the songs. For the normal user, we also
+check the case of interactions with a playlist or the songs from one. At the same time, an important command is the
+one that changes the status of a user from online to offline. It is important to simulate a pause in the playback of
+the current source when the user is offline. For this I use the updateTimestamp method from the Admin class. 
+Most of the audio sources in a user's system are displayed when using the printPage command, which specifies according
+to the type of user: liked songs, playlists, or announcements, albums, events.
+In the implementation of this command, I used some new variables that I set true or false ,depending on the case.
+If I made a selection of a host's page before, I set it as the true pageSetHost variable. Analog for the artist. 
+In addition, we have to take into account in order to make the display whether we have changed the page before or not.
+For this, I use the ChangedPage variable, which I modify depending on the case.

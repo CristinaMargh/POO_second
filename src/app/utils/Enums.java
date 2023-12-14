@@ -1,21 +1,9 @@
 package app.utils;
 
 public class Enums {
-    public enum Genre {
-        POP,
-        ROCK,
-        RAP
-    } // etc
-
     public enum Visibility {
         PUBLIC,
         PRIVATE
-    }
-
-    public enum SearchType {
-        SONG,
-        PLAYLIST,
-        PODCAST
     }
 
     public enum RepeatMode {

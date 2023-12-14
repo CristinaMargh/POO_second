@@ -28,8 +28,24 @@ public final class Admin {
     private static List<Podcast> podcasts = new ArrayList<>();
     private static int timestamp = 0;
     private static final int MAX_ALLOWED_ATTEMPTS = 5;
+
+    private static Admin admin = null;
+
     private Admin() {
 
+    }
+    /**
+     * The getInstance method returns an instance of the Admin class using the
+     * Singleton design pattern.
+     * If an instance of the Admin class does not exist, a new one is created;
+     * otherwise, the existing instance is returned.
+     * @return the singleton instance of the Admin class
+     */
+    public static Admin getInstance() {
+        if (admin == null) {
+            admin = new Admin();
+        }
+        return admin;
     }
 
     /**
@@ -37,7 +53,7 @@ public final class Admin {
      * we will manipulate depending on the given operations.
      * @param userInputList represents the list of users we have registered
      */
-    public static void setUsers(final List<UserInput> userInputList) {
+    public void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
             users.add(new User(userInput.getUsername(), userInput.getAge(),
@@ -51,7 +67,7 @@ public final class Admin {
      * @param songInputList represents the list of songs which includes all the details received
      *                      from the input(example : name, Lyrics)
      */
-    public static void setSongs(final List<SongInput> songInputList) {
+    public void setSongs(final List<SongInput> songInputList) {
         songs = new ArrayList<>();
         for (SongInput songInput : songInputList) {
             songs.add(new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(),
@@ -64,7 +80,7 @@ public final class Admin {
      * Used to update the list of songs after a certain operation that adds or deletes songs.
      * @param songsUpdate represents the updated list of songs
      */
-    public static void updateSongList(final List<Song> songsUpdate) {
+    public void updateSongList(final List<Song> songsUpdate) {
         songs = songsUpdate;
     }
 
@@ -74,7 +90,7 @@ public final class Admin {
      * @param podcastInputList represents the list of podcasts which includes all the details
      *                         received from the input(name, owner and episodes)
      */
-    public static void setPodcasts(final List<PodcastInput> podcastInputList) {
+    public void setPodcasts(final List<PodcastInput> podcastInputList) {
         podcasts = new ArrayList<>();
         for (PodcastInput podcastInput : podcastInputList) {
             List<Episode> episodes = new ArrayList<>();
@@ -90,7 +106,7 @@ public final class Admin {
      * Used to obtain the list of songs that we will modify in certain operations.
      * @return the ArrayList of songs
      */
-    public static List<Song> getSongs() {
+    public List<Song> getSongs() {
 
         return new ArrayList<>(songs);
     }
@@ -99,7 +115,7 @@ public final class Admin {
      * Used to obtain the list of podcasts that we will modify in certain operations.
      * @return the ArrayList of podcasts.
      */
-    public static List<Podcast> getPodcasts() {
+    public List<Podcast> getPodcasts() {
 
         return new ArrayList<>(podcasts);
     }
@@ -108,7 +124,7 @@ public final class Admin {
      * Used to obtain the list of users that we will modify in certain operations.
      * @return the Arraylist of users.
      */
-    public static List<User> getUsers() {
+    public List<User> getUsers() {
         return new ArrayList<>(users);
     }
 
@@ -116,8 +132,8 @@ public final class Admin {
      * Used to obtain the list of artists in system.
      * @return an arrayList witch contains all the users that has type Artist.
      */
-    public static List<User> getArtists() {
-        List<User> all = getUsers();
+    public List<User> getArtists() {
+        List<User> all = Admin.getInstance().getUsers();
         List<User> artists = new ArrayList<>();
         for (User user: all) {
             if (user.getType() == Enums.userType.ARTIST) {
@@ -131,8 +147,8 @@ public final class Admin {
      * Used to obtain the list of hosts in system.
      * @return an arrayList witch contains all the users that has type Host.
      */
-    public static List<User> getHosts() {
-        List<User> all = getUsers();
+    public List<User> getHosts() {
+        List<User> all =  Admin.getInstance().getUsers();
         List<User> hosts = new ArrayList<>();
         for (User user: all) {
             if (user.getType() == Enums.userType.HOST) {
@@ -146,7 +162,7 @@ public final class Admin {
      * Used to collect all the albums.
      * @return  a List witch contains all the albums from all artists.
      */
-    public static List<Album> getAlbums() {
+    public List<Album> getAlbums() {
         List<Album> albums = new ArrayList<>();
          for (User user : users) {
             albums.addAll(user.getAlbums());
@@ -158,7 +174,7 @@ public final class Admin {
      * Used to collect all playlists from all users.
      * @return a List witch contains all playlists from all users.
      */
-    public static List<Playlist> getPlaylists() {
+    public List<Playlist> getPlaylists() {
         List<Playlist> playlists = new ArrayList<>();
         for (User user : users) {
             playlists.addAll(user.getPlaylists());
@@ -171,7 +187,7 @@ public final class Admin {
      * @param username used to compare this with the names of the users in system
      * @return the user we were looking for.
      */
-    public static User getUser(final String username) {
+    public User getUser(final String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 return user;
@@ -184,7 +200,7 @@ public final class Admin {
      * Used to modify timestamp
      * @param newTimestamp is the time we want to reach
      */
-    public static void updateTimestamp(final int newTimestamp) {
+    public void updateTimestamp(final int newTimestamp) {
         int elapsed = newTimestamp - timestamp;
         timestamp = newTimestamp;
         if (elapsed == 0) {
@@ -201,7 +217,7 @@ public final class Admin {
      * It is part of the statistics display functions.
      * @return a list of the top 5 songs in the library that received the most likes
      */
-    public static List<String> getTop5Songs() {
+    public List<String> getTop5Songs() {
         List<Song> sortedSongs = new ArrayList<>(songs);
         sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
         List<String> topSongs = new ArrayList<>();
@@ -221,7 +237,7 @@ public final class Admin {
      * @return a list with the artists names ordered according to the number
      * of likes from the songs in the albums
      */
-    public static List<String> getTop5Artist() {
+    public List<String> getTop5Artist() {
         List<User> artist = new ArrayList<>();
         for (User user : users) {
             if (user.getType() == Enums.userType.ARTIST) {
@@ -268,7 +284,7 @@ public final class Admin {
      * @return a list with the names of the 5 most appreciated ones.
      */
     public static List<String> getTop5Albums() {
-    List<Album> albums = new ArrayList<>(getAlbums());
+    List<Album> albums = new ArrayList<>(Admin.getInstance().getAlbums());
     albums.sort(
             Comparator.<Album, Integer>comparing(album -> calculateTotalLikes(album))
                     .reversed()
@@ -306,7 +322,7 @@ public final class Admin {
      * Sort playlists by followers number.
      * @return a list with the sorted names of the playlists.
      */
-    public static List<String> getTop5Playlists() {
+    public List<String> getTop5Playlists() {
         List<Playlist> sortedPlaylists = new ArrayList<>(getPlaylists());
         sortedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers)
                 .reversed()
@@ -327,7 +343,7 @@ public final class Admin {
      * Used to display the users that are Online at that certain timestamp
      * @return a list with the names of all Online users
      */
-    public static List<String> getOnlineUsers() {
+    public List<String> getOnlineUsers() {
         List<String> online = new ArrayList<>();
         for (User user : users) {
             if (user.getMode() == Enums.UserMode.ONLINE) {
@@ -342,7 +358,7 @@ public final class Admin {
                 (first users, then artist and host) in a new list and then display it.
      * @return a list this the names of all users from the system.
      */
-    public static List<String> getAllUsers() {
+    public List<String> getAllUsers() {
         List<String> all = new ArrayList<>();
         for (User user : users) {
             if (user.getType() == Enums.userType.USER) {
@@ -368,7 +384,7 @@ public final class Admin {
      *                     stored information
      * @return a message indicating whether the user was successfully added
      */
-    public static String addUser(final CommandInput commandInput) {
+    public String addUser(final CommandInput commandInput) {
     for (User user : users) {
         if (user.getUsername().equals(commandInput.getUsername())) {
             return "The username " + user.getUsername() + " is already taken.";
@@ -401,7 +417,7 @@ public final class Admin {
      *                      current stored information
      * @return a message indicating whether the user was successfully deleted
      */
-    public static String deleteUser(final CommandInput commandInput) {
+    public String deleteUser(final CommandInput commandInput) {
         int ok = 0;
         User foundUser = null;
         for (User user : users) {
@@ -479,7 +495,7 @@ public final class Admin {
             }
         }
         songs.removeAll(songsWithoutOwner);
-        Admin.updateSongList(songs);
+        Admin.getInstance().updateSongList(songs);
 
         List<Song> remove = new ArrayList<>();
         for (User user : users) {
@@ -493,7 +509,7 @@ public final class Admin {
             }
         }
         songs.removeAll(remove);
-        Admin.updateSongList(songs);
+        Admin.getInstance().updateSongList(songs);
 
         for (User user : users) {
             Iterator<Playlist> iterator = user.getFollowedPlaylists().iterator();
@@ -518,7 +534,7 @@ public final class Admin {
     }
 }
 // We check for the artists songs from all albums and if somebody is listening to one
-// of the songs we can t delete it.
+// of the songs we can't delete it.
 
     /**
      * Check if the user has something in load at the time checking if
@@ -613,6 +629,12 @@ public final class Admin {
             return false;
         }
     }
+
+    /**
+     * Used for delete user checks
+     * @param playlistArrayList is the list of playlists in which we are searching
+     * @return true or false depending on whether the user interacts with the playlist or not.
+     */
     public static boolean isListeningToPlaylist(final ArrayList<Playlist> playlistArrayList) {
         for (User user : users) {
             if (user.getPlayer().getSource() != null
@@ -630,6 +652,11 @@ public final class Admin {
         }
         return false;
     }
+    /**
+     * Used for delete user checks
+     * @param podcastsArraylist is the list of podcasts in which we are searching
+     * @return true or false depending on whether the user interacts with the podcasts or not.
+     */
     public static boolean isListeningToPodcast(final ArrayList<Podcast> podcastsArraylist) {
         for (User user : users) {
             if (user.getPlayer().getSource() != null
@@ -658,7 +685,7 @@ public final class Admin {
      * @param episodes represents the list of episodes of the podcast
      * @return a message with indicates if the add operation succeeded
      */
-    public static String addPodcast(final CommandInput commandInput,
+    public String addPodcast(final CommandInput commandInput,
                                     final String name, final String owner,
                                     final ArrayList<EpisodeInput> episodes) {
     int ok = 0;
@@ -703,7 +730,7 @@ public final class Admin {
      * @param commandInput used to compare the current information with the input ones.
      * @return a message indicating whether the podcast was successfully deleted or not.
      */
-    public static  String removePodcast(final CommandInput commandInput) {
+    public String removePodcast(final CommandInput commandInput) {
 
     int ok = 0;
     User found = null;
@@ -733,7 +760,7 @@ public final class Admin {
             boolean loadedByNormalUser = false;
             for (User user : users) {
                 if (user.getPlayer().getCurrentAudioFile() != null
-                        && user.getPlayer().getSource().getAudioCollection().matchesName(podcastToRemove.getName())) {
+    && user.getPlayer().getSource().getAudioCollection().matchesName(podcastToRemove.getName())) {
                     loadedByNormalUser = true;
                     break;
                 }
@@ -758,7 +785,7 @@ public final class Admin {
     /**
      * Used to reset all important Lists of users, songs, podcasts and also the timestamp.
      */
-    public static void reset() {
+    public void reset() {
         users = new ArrayList<>();
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();

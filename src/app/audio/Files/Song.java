@@ -82,11 +82,15 @@ public final class Song extends AudioFile {
         }
     }
 
-
+    /**
+     * Used to increase the number of likes.
+     */
     public void like() {
         likes++;
     }
-
+    /**
+     * Used to decrease the number of likes.
+     */
     public void dislike() {
         likes--;
     }

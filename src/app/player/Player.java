@@ -25,6 +25,8 @@ public final class Player {
     private boolean wasPaused;
 
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
+    private static final int SKIP_NEXT = -90;
+    private static final int SKIP_PREV = 90;
 
 
     public Player() {
@@ -33,7 +35,8 @@ public final class Player {
     }
     /**
      * Stops the current playback.
-     * Resets repeat mode to NO_REPEAT, pauses the playback, clears the source, and turns off shuffle.
+     * Resets repeat mode to NO_REPEAT, pauses the playback, clears the source,
+     * and turns off shuffle.
      */
     public void stop() {
         if ("podcast".equals(this.type)) {
@@ -48,8 +51,8 @@ public final class Player {
 
     private void bookmarkPodcast() {
         if (source != null && source.getAudioFile() != null) {
-            PodcastBookmark currentBookmark = new PodcastBookmark(source.getAudioCollection().getName(),
-                    source.getIndex(), source.getDuration());
+            PodcastBookmark currentBookmark = new PodcastBookmark(source.getAudioCollection().
+                    getName(), source.getIndex(), source.getDuration());
             bookmarks.removeIf(bookmark -> bookmark.getName().equals(currentBookmark.getName()));
             bookmarks.add(currentBookmark);
         }
@@ -93,18 +96,27 @@ public final class Player {
         }
         return new PlayerSource(Enums.PlayerSourceType.PODCAST, collection);
     }
-
-    public void setSource(final LibraryEntry entry, final String type) {
+    /**
+     * Sets source.
+     *
+     * @param entry the entry
+     * @param sourceType  the sourceType
+     */
+    public void setSource(final LibraryEntry entry, final String sourceType) {
         if ("podcast".equals(this.type)) {
             bookmarkPodcast();
         }
 
-        this.type = type;
+        this.type = sourceType;
         this.source = createSource(type, entry, bookmarks);
         this.repeatMode = Enums.RepeatMode.NO_REPEAT;
         this.shuffle = false;
         this.paused = true;
     }
+
+    /**
+     * Used to change the player paused stat.
+     */
 
     public void pause() {
         paused = !paused;
@@ -160,18 +172,23 @@ public final class Player {
 
         return repeatMode;
     }
-
-    public void simulatePlayer(int time) {
-        if (source != null && !paused) {
-            while (time >= source.getDuration()) {
-                time -= source.getDuration();
+    /**
+     * Simulate player.
+     *
+     * @param time the time
+     */
+    public void simulatePlayer(final int time) {
+        int elapsedTime = time;
+        if (!paused) {
+            while (elapsedTime >= source.getDuration()) {
+                elapsedTime -= source.getDuration();
                 next();
                 if (paused) {
                     break;
                 }
             }
-            if (!paused && source != null) {
-                source.skip(-time);
+            if (!paused) {
+                source.skip(-elapsedTime);
             }
         }
     }
@@ -200,26 +217,35 @@ public final class Player {
     /**
      * Used for "skip" command.
      */
-    private void skip(int duration) {
+    private void skip(final int duration) {
         source.skip(duration);
         paused = false;
     }
-
+    /**
+     * Skip next.
+     */
     public void skipNext() {
         if (source.getType() == Enums.PlayerSourceType.PODCAST) {
-            skip(-90);
+            skip(SKIP_NEXT);
         }
     }
-
+    /**
+     * Skip prev.
+     */
     public void skipPrev() {
         if (source.getType() == Enums.PlayerSourceType.PODCAST) {
-            skip(90);
+            skip(SKIP_PREV);
         }
     }
 
+    /**
+     * Used to get the current audio file after checking that is not null.
+     * @return the current audio file.
+     */
     public AudioFile getCurrentAudioFile() {
-        if (source == null)
+        if (source == null) {
             return null;
+        }
         return source.getAudioFile();
     }
 
@@ -230,7 +256,11 @@ public final class Player {
     public boolean getShuffle() {
         return shuffle;
     }
-
+    /**
+     * Gets stats.
+     *
+     * @return the stats
+     */
     public PlayerStats getStats() {
         String filename = "";
         int duration = 0;
