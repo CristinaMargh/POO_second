@@ -31,7 +31,10 @@ public final class Player {
         this.repeatMode = Enums.RepeatMode.NO_REPEAT;
         this.paused = true;
     }
-
+    /**
+     * Stops the current playback.
+     * Resets repeat mode to NO_REPEAT, pauses the playback, clears the source, and turns off shuffle.
+     */
     public void stop() {
         if ("podcast".equals(this.type)) {
             bookmarkPodcast();
@@ -52,6 +55,14 @@ public final class Player {
         }
     }
 
+    /**
+     * Used to create a song, playlist, podcast or album depending on the type
+     * @param type is the type of teh source we want to create
+     * @param entry the LibraryEntry or AudioCollection entry to create the PlayerSource from.
+     * @param bookmarks used when creating a podcast source.
+     * @return A PlayerSource based on the provided type and entry, or null if the type is unknown.
+       */
+
     public static PlayerSource createSource(final String type, final LibraryEntry entry,
                                             final List<PodcastBookmark> bookmarks) {
         if ("song".equals(type)) {
@@ -67,6 +78,12 @@ public final class Player {
         return null;
     }
 
+    /**
+     * Used to create a podcast source.
+     * @param collection AudioCollection entry to create the PlayerSource from.
+     * @param bookmarks used when creating a podcast source.
+     * @return a PlayerSource podcast.
+     */
     private static PlayerSource createPodcastSource(final AudioCollection collection,
                                                     final List<PodcastBookmark> bookmarks) {
         for (PodcastBookmark bookmark : bookmarks) {
@@ -93,7 +110,12 @@ public final class Player {
         paused = !paused;
     }
 
-    public void shuffle (final Integer seed) {
+    /**
+     * Used for the shuffle function depending on the source type
+     * @param seed the seed value to initialize the shuffling algorithm;
+     *              it influences the randomness of the shuffle process
+     *  */
+    public void shuffle(final Integer seed) {
         if (seed != null) {
             source.generateShuffleOrder(seed);
         }
@@ -113,6 +135,10 @@ public final class Player {
 
     }
 
+    /**
+     * Used for repeat function
+     * @return the current repeat mode based on previous commands
+     */
     public Enums.RepeatMode repeat() {
         if (repeatMode == Enums.RepeatMode.NO_REPEAT) {
             if (source.getType() == Enums.PlayerSourceType.LIBRARY) {
@@ -150,6 +176,9 @@ public final class Player {
         }
     }
 
+    /**
+     * Used for "next" command
+     */
     public void next() {
         paused = source.setNextAudioFile(repeatMode, shuffle);
         if (repeatMode == Enums.RepeatMode.REPEAT_ONCE) {
@@ -161,11 +190,16 @@ public final class Player {
         }
     }
 
+    /**
+     * Used for "prev" command.
+     */
     public void prev() {
         source.setPrevAudioFile(shuffle);
         paused = false;
     }
-
+    /**
+     * Used for "skip" command.
+     */
     private void skip(int duration) {
         source.skip(duration);
         paused = false;

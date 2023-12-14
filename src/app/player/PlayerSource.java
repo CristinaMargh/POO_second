@@ -53,6 +53,13 @@ public final class PlayerSource {
         return remainedDuration;
     }
 
+    /**
+     * Used to manipulate audio sources.
+     * @param repeatMode is the current case of repeating
+     * @param shuffle indicate whether the source should be in this mode or not
+     * @return if the source si on pause or not.
+     */
+
     public boolean setNextAudioFile(final Enums.RepeatMode repeatMode, final boolean shuffle) {
         boolean isPaused = false;
 
@@ -105,6 +112,10 @@ public final class PlayerSource {
         return isPaused;
     }
 
+    /**
+     * Make an update for the source.
+     * @param shuffle used for the specific checks of this function.
+     */
     public void setPrevAudioFile(final boolean shuffle) {
         if (type == Enums.PlayerSourceType.LIBRARY) {
             remainedDuration = audioFile.getDuration();
@@ -129,7 +140,10 @@ public final class PlayerSource {
             }
         }
     }
-
+    /**
+     * Generates a shuffled order of indices based on the provided seed.
+     * @param seed The seed for initializing the randomization algorithm.
+     */
     public void generateShuffleOrder(final Integer seed) {
         indices.clear();
         Random random = new Random(seed);
@@ -138,6 +152,9 @@ public final class PlayerSource {
         }
         Collections.shuffle(indices, random);
     }
+    /**
+     * Updates indexes after the shuffle operation.
+     */
 
     public void updateShuffleIndex() {
         for (int i = 0; i < indices.size(); i++) {
@@ -147,7 +164,10 @@ public final class PlayerSource {
             }
         }
     }
-
+    /**
+     * Skips the playback by a specified duration.
+     * @param duration is the duration by which to skip the playback.
+     */
     public void skip(final int duration) {
         remainedDuration += duration;
         if (remainedDuration > audioFile.getDuration()) {
@@ -163,7 +183,7 @@ public final class PlayerSource {
         setAudioFile(audioCollection.getTrackByIndex(index));
     }
 
-    public void setAudioFile(AudioFile audioFile) {
+    public void setAudioFile(final AudioFile audioFile) {
         this.audioFile = audioFile;
     }
 

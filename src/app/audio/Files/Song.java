@@ -31,18 +31,19 @@ public final class Song extends AudioFile {
     }
 
     @Override
-    public boolean matchesAlbum(final String album) {
-        return this.getAlbum().equalsIgnoreCase(album);
+    public boolean matchesAlbum(final String albumName) {
+
+        return this.getAlbum().equalsIgnoreCase(albumName);
     }
 
     @Override
-    public boolean matchesTags(final ArrayList<String> tags) {
+    public boolean matchesTags(final ArrayList<String> tagsNames) {
         List<String> songTags = new ArrayList<>();
         for (String tag : this.getTags()) {
             songTags.add(tag.toLowerCase());
         }
 
-        for (String tag : tags) {
+        for (String tag : tagsNames) {
             if (!songTags.contains(tag.toLowerCase())) {
                 return false;
             }
@@ -50,24 +51,25 @@ public final class Song extends AudioFile {
         return true;
     }
     @Override
-    public boolean matchesLyrics(final String lyrics) {
-        return this.getLyrics().toLowerCase().contains(lyrics.toLowerCase());
+    public boolean matchesLyrics(final String lyricsNames) {
+        return this.getLyrics().toLowerCase().contains(lyricsNames.toLowerCase());
     }
 
     @Override
-    public boolean matchesGenre(final String genre) {
+    public boolean matchesGenre(final String genreName) {
 
-        return this.getGenre().equalsIgnoreCase(genre);
+        return this.getGenre().equalsIgnoreCase(genreName);
     }
 
     @Override
-    public boolean matchesArtist(final String artist) {
-        return this.getArtist().equalsIgnoreCase(artist);
+    public boolean matchesArtist(final String artistName) {
+
+        return this.getArtist().equalsIgnoreCase(artistName);
     }
 
     @Override
-    public boolean matchesReleaseYear(final String releaseYear) {
-        return filterByYear(this.getReleaseYear(), releaseYear);
+    public boolean matchesReleaseYear(final String releaseYearEntry) {
+        return filterByYear(this.getReleaseYear(), releaseYearEntry);
     }
 
     private static boolean filterByYear(final int year, final String query) {

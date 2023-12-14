@@ -70,6 +70,8 @@ public final class User extends LibraryEntry {
     @Getter
     @Setter
     private boolean home = false;
+    private static final int MAX_ALLOWED= 5;
+    private static final int MONTHS = 12;
 
     public User(final String username, final int age,
                 final String city, final Enums.userType type) {
@@ -174,11 +176,21 @@ public final class User extends LibraryEntry {
         String repeatStatus = "";
 
         switch (repeatMode) {
-            case NO_REPEAT -> repeatStatus = "no repeat";
-            case REPEAT_ONCE -> repeatStatus = "repeat once";
-            case REPEAT_ALL -> repeatStatus = "repeat all";
-            case REPEAT_INFINITE -> repeatStatus = "repeat infinite";
-            case REPEAT_CURRENT_SONG -> repeatStatus = "repeat current song";
+            case NO_REPEAT :
+                repeatStatus = "no repeat";
+                break;
+            case REPEAT_ONCE :
+                repeatStatus = "repeat once";
+                break;
+            case REPEAT_ALL :
+                repeatStatus = "repeat all";
+                break;
+            case REPEAT_INFINITE :
+                repeatStatus = "repeat infinite";
+                break;
+            case REPEAT_CURRENT_SONG :
+                repeatStatus = "repeat current song";
+                break;
         }
 
         return "Repeat mode changed to %s.".formatted(repeatStatus);
@@ -306,12 +318,12 @@ public final class User extends LibraryEntry {
 
         Playlist playlist = playlists.get(Id - 1);
 
-        if (playlist.containsSong((Song)player.getCurrentAudioFile())) {
-            playlist.removeSong((Song)player.getCurrentAudioFile());
+        if (playlist.containsSong((Song) player.getCurrentAudioFile())) {
+            playlist.removeSong((Song) player.getCurrentAudioFile());
             return "Successfully removed from playlist.";
         }
 
-        playlist.addSong((Song)player.getCurrentAudioFile());
+        playlist.addSong((Song) player.getCurrentAudioFile());
         return "Successfully added to playlist.";
     }
 
@@ -472,6 +484,11 @@ public final class User extends LibraryEntry {
             return this.username + " is not an artist.";
         }
     }
+
+    /**
+     * Used to store the characteristics of albums using AlbumOutput format.
+     * @return the list of albums
+     */
     public ArrayList<AlbumOutput> showAlbums() {
         ArrayList<AlbumOutput> albumOutputs = new ArrayList<>();
         for (Album album : albums) {
@@ -479,7 +496,10 @@ public final class User extends LibraryEntry {
         }
         return albumOutputs;
     }
-
+    /**
+     * Used to store the characteristics of podcasts using PodcastOutput format.
+     * @return the list of podcasts.
+     */
     public ArrayList<PodcastOutput> showPodcasts() {
         ArrayList<PodcastOutput> podcastOutput = new ArrayList<>();
         for (Podcast podcast : podcastsHost) {
@@ -488,6 +508,12 @@ public final class User extends LibraryEntry {
 
         return podcastOutput;
     }
+
+    /**
+     * Used to remove an album from the system. Don't forget to remove its songs too.
+     * @param commandInput is used to get the album's name.
+     * @return a message which indicates if the album was deleted successfully.
+     */
     public String removeAlbum(final CommandInput commandInput) {
         if (this.getType() == Enums.userType.ARTIST) {
             int found = 0;
@@ -503,11 +529,11 @@ public final class User extends LibraryEntry {
             } else {
                 boolean albumReferencedByUser = hasAlbumOrSongsFromAlbum(foundAlbum);
                 if (!albumReferencedByUser) {
-                    // Remove Songs too
+                    // Remove Songs too.
                     List<Song> songsToRemove = foundAlbum.getSongs();
 
-                    for(Song song : songsToRemove) {
-                        for(User user : Admin.getUsers()) {
+                    for (Song song : songsToRemove) {
+                        for (User user : Admin.getUsers()) {
                             user.getLikedSongs().remove(song);
                         }
                     }
@@ -531,6 +557,15 @@ public final class User extends LibraryEntry {
                 || albums.stream().anyMatch(a -> a.getSongs().stream().anyMatch(s -> album.getSongs().contains(s)));
     }
 
+    /**
+     * Used to add an event in the artist's list of events.
+     * @param name represents the name of the event
+     * @param owner is the owner's name.
+     * @param timestamp is the current timestamp
+     * @param description is the event's description
+     * @param date is the vent's date
+     * @return a message which indicates if the operation worked.
+     */
     public String addEvent(final String name, final String owner, final int timestamp,
                            final String description, final String date) {
         if (this.getType() == Enums.userType.ARTIST) {
@@ -551,10 +586,16 @@ public final class User extends LibraryEntry {
             return this.username + " is not an artist.";
         }
     }
+
+    /**
+     * Used to verify if the event's date is a valid one.
+     * @param date is the date that we want to check.
+     * @return true if the date respects the validity requirements.
+     */
     public boolean verifyData(final String date) {
         String[] dateParts = date.split("-");
         int month = Integer.parseInt(dateParts[1]);
-        if (month > 12) {
+        if (month > MONTHS) {
             return false;
         } else {
             return true;
@@ -572,7 +613,7 @@ public final class User extends LibraryEntry {
             if (price < 0) {
                 return "Price for merchandise can not be negative.";
             }
-            merches.add(new Merch(name, owner,timestamp, description, price));
+            merches.add(new Merch(name, owner, timestamp, description, price));
             return this.username + " has added new merchandise successfully.";
         } else {
             return this.username + " is not an artist.";
@@ -641,11 +682,17 @@ public final class User extends LibraryEntry {
         }
     }
 
+    /**
+     * Used for the printPage command
+     * @return a String with the current page in the required format for
+     * each type of page
+     */
     public String printCurrentPage() {
         User host = lastHost;
         User artist = lasArtist;
-        if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("host") && host != null
-                && searchBar.getLastSelected()!= null ) || pageSetHost) {
+        if ((searchBar.getLastSearchType() != null
+                && searchBar.getLastSearchType().equals("host") && host != null
+                && searchBar.getLastSelected() != null ) || pageSetHost) {
 //             Host page
             if (host != null) {
                 List<Podcast> podcastList = host.getPodcastsHost();
@@ -685,8 +732,9 @@ public final class User extends LibraryEntry {
             }
             return "";
         } else
-            if ((searchBar.getLastSearchType() != null && searchBar.getLastSearchType().equals("artist") && artist != null
-                    && searchBar.getLastSelected() != null && !home ) || pageSetArtist) {
+            if ((searchBar.getLastSearchType() != null
+                    && searchBar.getLastSearchType().equals("artist") && artist != null
+                    && searchBar.getLastSelected() != null && !home) || pageSetArtist) {
                 // Artist page
                 if (artist != null) {
                 List<Album> albumList = artist.getAlbums();
@@ -752,6 +800,11 @@ public final class User extends LibraryEntry {
                 return builder.toString();
             }
     }
+    /**
+     * Used to set a certain format for the list of songs
+     * @param songs represents the list that we want to manipulate
+     * @return the list in the format required to display in Home Page
+     */
     private String formatSongList(final List<Song> songs) {
         if (songs.isEmpty()) {
             return "";
@@ -761,12 +814,19 @@ public final class User extends LibraryEntry {
         sortedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
         int count = 0;
         for (Song song : sortedSongs) {
-            if (count >= 5) break;
+            if (count >= MAX_ALLOWED) {
+                break;
+            }
             songNames.add(song.getName());
             count++;
         }
         return String.join(", ", songNames);
     }
+    /**
+     * Used to set a certain format for the list of playlists
+     * @param playlists represents the list that we want to manipulate
+     * @return the list in the format required to display in Home Page
+     */
     private String formatPlaylistList(final List<Playlist> playlists) {
         if (playlists.isEmpty()) {
             return "";
@@ -779,6 +839,11 @@ public final class User extends LibraryEntry {
         return String.join(", ", playlistNames);
     }
 
+    /**
+     * Used to set a certain format for the list of Songs for the Like Page
+     * @param songs represents the list that we want to manipulate
+     * @return the list in the format required to display in Like Page
+     */
     private String formatSongListLikePage(final List<Song> songs) {
         if (songs.isEmpty()) {
             return "";
@@ -795,6 +860,11 @@ public final class User extends LibraryEntry {
         return String.join(", ", songInfo);
     }
 
+    /**
+     * Used to set a certain format for the list of playlists
+     * @param playlists represents the list that we want to manipulate
+     * @return the list in the format required to display in Like Page
+     */
     private String formatPlaylistListLikePage(final List<Playlist> playlists) {
         if (playlists.isEmpty()) {
             return "";
@@ -811,6 +881,11 @@ public final class User extends LibraryEntry {
         return  String.join(", ", playlistInfo) ;
     }
 
+    /**
+     * Used for changePage command
+     * @param commandInput used to find out which page the user changes to
+     * @return a corresponding message after the completion of the operation
+     */
     public String changePage(final CommandInput commandInput) {
         if (commandInput.getNextPage().equals("Home")) {
             this.setHome(true);
@@ -825,6 +900,11 @@ public final class User extends LibraryEntry {
         }
         return this.username + " accessed " + commandInput.getNextPage() + " successfully.";
     }
+
+    /**
+     * Used for time management
+     * @param time it is the time we want to reach
+     */
     public void simulateTime(final int time) {
             player.simulatePlayer(time);
     }

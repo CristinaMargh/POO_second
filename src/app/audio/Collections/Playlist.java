@@ -14,7 +14,7 @@ public final class Playlist extends AudioCollection {
     private Enums.Visibility visibility;
     @Setter
     private Integer followers;
-    private int timestamp;
+    private final int timestamp;
 
     public Playlist(final String name, final String owner) {
 
@@ -28,22 +28,34 @@ public final class Playlist extends AudioCollection {
         this.followers = 0;
         this.timestamp = timestamp;
     }
-
+    /**
+     * Checks if the playback contains a specific song.
+     * @param song The song to check for.
+     * @return true if the song is found , false otherwise.
+     */
     public boolean containsSong(final Song song) {
         return songs.contains(song);
     }
 
+    /**
+     * Used to add a song in the general list of songs.
+     * @param song is the song we want to add.
+     */
     public void addSong(final Song song) {
         songs.add(song);
     }
 
+    /**
+     * Used to remove a song from the general list of songs.
+     * @param song is the song we want to remove.
+     */
     public void removeSong(final Song song) {
         songs.remove(song);
     }
-    public void removeSong(final int index) {
-        songs.remove(index);
-    }
 
+    /**
+     * Used to change visibility from public to private or inverse.
+     */
     public void switchVisibility() {
         if (visibility == Enums.Visibility.PUBLIC) {
             visibility = Enums.Visibility.PRIVATE;
@@ -52,10 +64,16 @@ public final class Playlist extends AudioCollection {
         }
     }
 
+    /**
+     * Used to increase the number of followers.
+     */
     public void increaseFollowers() {
         followers++;
     }
 
+    /**
+     * Used to decrease the number of followers.
+     */
     public void decreaseFollowers() {
         followers--;
     }
@@ -71,9 +89,10 @@ public final class Playlist extends AudioCollection {
     }
 
     @Override
-    public boolean isVisibleToUser(String user) {
+    public boolean isVisibleToUser(final String user) {
         return this.getVisibility() == Enums.Visibility.PUBLIC
-                || (this.getVisibility() == Enums.Visibility.PRIVATE && this.getOwner().equals(user));
+                || (this.getVisibility() == Enums.Visibility.PRIVATE
+                && this.getOwner().equals(user));
     }
 
     @Override

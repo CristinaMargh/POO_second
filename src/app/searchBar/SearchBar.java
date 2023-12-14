@@ -3,16 +3,25 @@ package app.searchBar;
 
 import app.Admin;
 import app.audio.LibraryEntry;
-import app.user.User;
 import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static app.searchBar.FilterUtils.*;
+// Filters
+import static app.searchBar.FilterUtils.filterByAlbum;
+import static app.searchBar.FilterUtils.filterByArtist;
+import static app.searchBar.FilterUtils.filterByDescription;
+import static app.searchBar.FilterUtils.filterByGenre;
+import static app.searchBar.FilterUtils.filterByLyrics;
+import static app.searchBar.FilterUtils.filterByName;
+import static app.searchBar.FilterUtils.filterByOwner;
+import static app.searchBar.FilterUtils.filterByPlaylistVisibility;
+import static app.searchBar.FilterUtils.filterByReleaseYear;
+import static app.searchBar.FilterUtils.filterByTags;
 import static app.searchBar.FilterUtils.filterByFollowers;
 
-public class SearchBar {
+public final class SearchBar {
     private List<LibraryEntry> results;
     private final String user;
     private static final Integer MAX_RESULTS = 5;
@@ -22,15 +31,25 @@ public class SearchBar {
     @Getter
     private LibraryEntry lastSelected;
 
-    public SearchBar(String user) {
+    public SearchBar(final String user) {
         this.results = new ArrayList<>();
         this.user = user;
     }
 
+    /**
+     * Used before starting a new search.
+     */
     public void clearSelection() {
         lastSelected = null;
         lastSearchType = null;
     }
+
+    /**
+     * Used to perform a search depending on what we are looking for
+     * @param filters used to search something based on certain criteria.
+     * @param type is the type of the entity we are searching
+     * @return the results of the search in a list.
+     */
     public List<LibraryEntry> search(final Filters filters, final String type) {
         List<LibraryEntry> entries;
 
@@ -134,7 +153,12 @@ public class SearchBar {
         return this.results;
     }
 
-    public LibraryEntry select(Integer itemNumber) {
+    /**
+     * Used to set a selection
+     * @param itemNumber used to find the item we want to select
+     * @return the last Selected item.
+     */
+    public LibraryEntry select(final Integer itemNumber) {
         if (this.results.size() < itemNumber) {
             results.clear();
 

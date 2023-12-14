@@ -1,20 +1,42 @@
 package app;
 
-import app.audio.Collections.*;
+import app.audio.Collections.AudioCollection;
+import app.audio.Collections.Playlist;
+import app.audio.Collections.Album;
+import app.audio.Collections.Podcast;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.user.User;
 import app.utils.Enums;
-import fileio.input.*;
-import java.util.*;
 
-public class Admin {
+import fileio.input.CommandInput;
+import fileio.input.SongInput;
+import fileio.input.PodcastInput;
+import fileio.input.EpisodeInput;
+import fileio.input.UserInput;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Objects;
+import java.util.Iterator;
+import java.util.Comparator;
+
+public final class Admin {
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
     private static int timestamp = 0;
+    private static final int MAX_ALLOWED_ATTEMPTS = 5;
+    private Admin() {
 
+    }
+
+    /**
+     * Used to set and add all the users in a general list in which we will store them all and which
+     * we will manipulate depending on the given operations.
+     * @param userInputList represents the list of users we have registered
+     */
     public static void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
@@ -23,6 +45,12 @@ public class Admin {
         }
     }
 
+    /**
+     * Used to set and add all the songs in a general list in which we will store them all and which
+     *      we will manipulate depending on the given operations.
+     * @param songInputList represents the list of songs which includes all the details received
+     *                      from the input(example : name, Lyrics)
+     */
     public static void setSongs(final List<SongInput> songInputList) {
         songs = new ArrayList<>();
         for (SongInput songInput : songInputList) {
@@ -31,32 +59,63 @@ public class Admin {
                     songInput.getReleaseYear(), songInput.getArtist()));
         }
     }
+
+    /**
+     * Used to update the list of songs after a certain operation that adds or deletes songs.
+     * @param songsUpdate represents the updated list of songs
+     */
     public static void updateSongList(final List<Song> songsUpdate) {
         songs = songsUpdate;
     }
+
+    /**
+     * Used to set and add all the podcasts in a general list in which we
+     * will store them all and which we will manipulate depending on the given operations.
+     * @param podcastInputList represents the list of podcasts which includes all the details
+     *                         received from the input(name, owner and episodes)
+     */
     public static void setPodcasts(final List<PodcastInput> podcastInputList) {
         podcasts = new ArrayList<>();
         for (PodcastInput podcastInput : podcastInputList) {
             List<Episode> episodes = new ArrayList<>();
             for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
-                episodes.add(new Episode(episodeInput.getName(), episodeInput.getDuration(), episodeInput.getDescription()));
+                episodes.add(new Episode(episodeInput.getName(), episodeInput.getDuration(),
+                        episodeInput.getDescription()));
             }
             podcasts.add(new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes));
         }
     }
 
+    /**
+     * Used to obtain the list of songs that we will modify in certain operations.
+     * @return the ArrayList of songs
+     */
     public static List<Song> getSongs() {
 
         return new ArrayList<>(songs);
     }
 
+    /**
+     * Used to obtain the list of podcasts that we will modify in certain operations.
+     * @return the ArrayList of podcasts.
+     */
     public static List<Podcast> getPodcasts() {
 
         return new ArrayList<>(podcasts);
     }
+
+    /**
+     * Used to obtain the list of users that we will modify in certain operations.
+     * @return the Arraylist of users.
+     */
     public static List<User> getUsers() {
         return new ArrayList<>(users);
     }
+
+    /**
+     * Used to obtain the list of artists in system.
+     * @return an arrayList witch contains all the users that has type Artist.
+     */
     public static List<User> getArtists() {
         List<User> all = getUsers();
         List<User> artists = new ArrayList<>();
@@ -67,6 +126,11 @@ public class Admin {
         }
         return artists;
     }
+
+    /**
+     * Used to obtain the list of hosts in system.
+     * @return an arrayList witch contains all the users that has type Host.
+     */
     public static List<User> getHosts() {
         List<User> all = getUsers();
         List<User> hosts = new ArrayList<>();
@@ -78,6 +142,10 @@ public class Admin {
         return hosts;
     }
 
+    /**
+     * Used to collect all the albums.
+     * @return  a List witch contains all the albums from all artists.
+     */
     public static List<Album> getAlbums() {
         List<Album> albums = new ArrayList<>();
          for (User user : users) {
@@ -86,6 +154,10 @@ public class Admin {
      return albums;
     }
 
+    /**
+     * Used to collect all playlists from all users.
+     * @return a List witch contains all playlists from all users.
+     */
     public static List<Playlist> getPlaylists() {
         List<Playlist> playlists = new ArrayList<>();
         for (User user : users) {
@@ -94,6 +166,11 @@ public class Admin {
         return playlists;
     }
 
+    /**
+     * Used to find a certain user by username.
+     * @param username used to compare this with the names of the users in system
+     * @return the user we were looking for.
+     */
     public static User getUser(final String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
@@ -103,6 +180,10 @@ public class Admin {
         return null;
     }
 
+    /**
+     * Used to modify timestamp
+     * @param newTimestamp is the time we want to reach
+     */
     public static void updateTimestamp(final int newTimestamp) {
         int elapsed = newTimestamp - timestamp;
         timestamp = newTimestamp;
@@ -116,7 +197,6 @@ public class Admin {
         }
     }
     // Statistics
-
     /**
      * It is part of the statistics display functions.
      * @return a list of the top 5 songs in the library that received the most likes
@@ -127,12 +207,20 @@ public class Admin {
         List<String> topSongs = new ArrayList<>();
         int count = 0;
         for (Song song : sortedSongs) {
-            if (count >= 5) break;
+            if (count >= MAX_ALLOWED_ATTEMPTS) {
+                break;
+            }
             topSongs.add(song.getName());
             count++;
         }
         return topSongs;
     }
+
+    /**
+     * Used to show the top 5 Artists
+     * @return a list with the artists names ordered according to the number
+     * of likes from the songs in the albums
+     */
     public static List<String> getTop5Artist() {
         List<User> artist = new ArrayList<>();
         for (User user : users) {
@@ -149,12 +237,21 @@ public class Admin {
         List<String> topArtists = new ArrayList<>();
         int count = 0;
         for (User user : sortedArtist) {
-            if (count >= 5) break;
+            if (count >= MAX_ALLOWED_ATTEMPTS) {
+                break;
+            }
             topArtists.add(user.getName());
             count++;
         }
         return topArtists;
     }
+
+    /**
+     * Used to calculate the total number of likes for a given artist , iterating through
+     * all albums and all songs from each album
+     * @param artist is the artists for whom we want to calculate the number of likes
+     * @return the total number of likes for the artist's songs
+     */
     private static int calculateTotalLikesArtist(final User artist) {
         int totalLikes = 0;
         for (Album album : artist.getAlbums()) {
@@ -165,7 +262,12 @@ public class Admin {
         return totalLikes;
     }
 
-public static List<String> getTop5Albums() {
+    /**
+     * Used to create a statistic: it displays the first 5 albums
+     * according to the number of likes in each one
+     * @return a list with the names of the 5 most appreciated ones.
+     */
+    public static List<String> getTop5Albums() {
     List<Album> albums = new ArrayList<>(getAlbums());
     albums.sort(
             Comparator.<Album, Integer>comparing(album -> calculateTotalLikes(album))
@@ -176,7 +278,7 @@ public static List<String> getTop5Albums() {
     List<String> topAlbums = new ArrayList<>();
     int count = 0;
     for (Album album : albums) {
-        if (count >= 5) {
+        if (count >= MAX_ALLOWED_ATTEMPTS) {
             break;
         }
         topAlbums.add(album.getName());
@@ -184,6 +286,13 @@ public static List<String> getTop5Albums() {
     }
     return topAlbums;
 }
+
+    /**
+     * Used to calculate the number of likes for an album by collecting
+     * the number of likes for each individual song
+     * @param album is the album for which we want to perform the calculation
+     * @return the number of likes used for sorting
+     */
 
     private static int calculateTotalLikes(final Album album) {
         int totalLikes = 0;
@@ -193,6 +302,10 @@ public static List<String> getTop5Albums() {
         return totalLikes;
     }
 
+    /**
+     * Sort playlists by followers number.
+     * @return a list with the sorted names of the playlists.
+     */
     public static List<String> getTop5Playlists() {
         List<Playlist> sortedPlaylists = new ArrayList<>(getPlaylists());
         sortedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers)
@@ -201,7 +314,9 @@ public static List<String> getTop5Albums() {
         List<String> topPlaylists = new ArrayList<>();
         int count = 0;
         for (Playlist playlist : sortedPlaylists) {
-            if (count >= 5) break;
+            if (count >= MAX_ALLOWED_ATTEMPTS) {
+                break;
+            }
             topPlaylists.add(playlist.getName());
             count++;
         }
@@ -221,6 +336,12 @@ public static List<String> getTop5Albums() {
         }
         return online;
     }
+
+    /**
+     * Used to add the names of the users depending on their type
+                (first users, then artist and host) in a new list and then display it.
+     * @return a list this the names of all users from the system.
+     */
     public static List<String> getAllUsers() {
         List<String> all = new ArrayList<>();
         for (User user : users) {
@@ -240,10 +361,16 @@ public static List<String> getTop5Albums() {
         }
         return all;
     }
-public static String addUser(final CommandInput commandInput) {
+
+    /**
+     * Used to add a new User
+     * @param commandInput used to compare what we have from the input with the current
+     *                     stored information
+     * @return a message indicating whether the user was successfully added
+     */
+    public static String addUser(final CommandInput commandInput) {
     for (User user : users) {
-        if (user.getUsername().equals(commandInput.getUsername()))
-        {
+        if (user.getUsername().equals(commandInput.getUsername())) {
             return "The username " + user.getUsername() + " is already taken.";
         }
     }
@@ -267,7 +394,14 @@ public static String addUser(final CommandInput commandInput) {
             }
             return "The username " + commandInput.getUsername() + " has been added successfully.";
 }
-public static String deleteUser(final CommandInput commandInput) {
+
+    /**
+     * Used to delete a user from the list of users
+     * @param commandInput  commandInput used to compare what we have from the input with the
+     *                      current stored information
+     * @return a message indicating whether the user was successfully deleted
+     */
+    public static String deleteUser(final CommandInput commandInput) {
         int ok = 0;
         User foundUser = null;
         for (User user : users) {
@@ -321,7 +455,8 @@ public static String deleteUser(final CommandInput commandInput) {
         }
 
         // for Playlist
-        if (foundUser.getType() == Enums.userType.ARTIST || foundUser.getType() == Enums.userType.USER) {
+        if (foundUser.getType() == Enums.userType.ARTIST
+                || foundUser.getType() == Enums.userType.USER) {
             if (isListeningToPlaylist(foundUser.getPlaylists())) {
                 return commandInput.getUsername() + " can't be deleted.";
             }
@@ -382,15 +517,30 @@ public static String deleteUser(final CommandInput commandInput) {
 
     }
 }
-// We check for the artists songs from all albums and if somebody is listening to one of the songs we can t delete it
+// We check for the artists songs from all albums and if somebody is listening to one
+// of the songs we can t delete it.
 
-public static boolean isListening() {
-    for (User user : users)
+    /**
+     * Check if the user has something in load at the time checking if
+     * the source name si null or not.
+     * @return true or false
+     */
+    public static boolean isListening() {
+    for (User user : users) {
         if (!Objects.equals(user.getPlayerStats().getName(), "")) {
             return true;
         }
+    }
     return false;
 }
+
+    /**
+     * Check for non-null sources if the name of the source the user is listening to at that moment
+     * has the same name as the current song we are checking
+     * @param user is the user for whom we are performing the verification.
+     * @param song is the song for each we are performing the verification.
+     * @return a positive or negative answer.
+     */
     public static boolean isUserListeningToSong(final User user, final Song song) {
         if (user.getPlayer().getSource() != null) {
             AudioFile userAudio = user.getPlayer().getSource().getAudioFile();
@@ -399,6 +549,14 @@ public static boolean isListening() {
             return false;
         }
     }
+    /**
+     * Check for non-null sources if the name of the source the user is listening to at that moment
+     * has the same name as the current episode we are checking.
+     * @param user is the user for whom we are performing the verification.
+     * @param episode is the episode for each we are performing the verification.
+     * @return a positive or negative answer depending on whether the user has the episode with
+     * that name on loud at that moment. If so, we cannot delete that user.
+     */
     public static boolean isUserListeningToEpisode(final User user, final Episode episode) {
         if (user.getPlayer().getSource() != null) {
             AudioFile userAudio = user.getPlayer().getSource().getAudioFile();
@@ -407,7 +565,14 @@ public static boolean isListening() {
             return false;
         }
     }
-
+    /**
+     * Check for non-null sources if the name of the source the user has on load at that moment
+     * has the same name as the current album we are checking.
+     * @param user is the user for whom we are performing the verification.
+     * @param album is the album for each we are performing the verification.
+     * @return a positive or negative answer depending on whether the user has an album with
+     * that name on loud at that moment. If so, we cannot delete that user.
+     */
     public static boolean isUserListeningToAlbum(final User user, final Album album) {
         if (user.getPlayer().getSource() != null) {
             AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
@@ -416,6 +581,14 @@ public static boolean isListening() {
             return false;
         }
     }
+    /**
+     * Check for non-null sources if the name of the source the user has on load at that moment
+     * has the same name as the current podcast we are checking.
+     * @param user is the user for whom we are performing the verification.
+     * @param podcast is the podcast for each we are performing the verification.
+     * @return a positive or negative answer depending on whether the user has a podcast with
+     * that name on loud at that moment. If so, we cannot delete that user.
+     */
     public static boolean isUserListeningToPodcast(final User user, final Podcast podcast) {
         if (user.getPlayer().getSource() != null) {
             AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
@@ -424,6 +597,14 @@ public static boolean isListening() {
             return false;
         }
     }
+    /**
+     * Check for non-null sources if the name of the source the user has on load at that moment
+     * has the same name as the current playlist we are checking.
+     * @param user is the user for whom we are performing the verification.
+     * @param playlist is the playlist for each we are performing the verification.
+     * @return a positive or negative answer depending on whether the user has a playlist with
+     * that name on loud at that moment. If so, we cannot delete that user.
+     */
     public static boolean isUserListeningToPlaylist(final User user, final Playlist playlist) {
         if (user.getPlayer().getSource() != null) {
             AudioCollection userAudio = user.getPlayer().getSource().getAudioCollection();
@@ -434,8 +615,8 @@ public static boolean isListening() {
     }
     public static boolean isListeningToPlaylist(final ArrayList<Playlist> playlistArrayList) {
         for (User user : users) {
-            if (user.getPlayer().getSource() != null &&
-                    user.getPlayer().getSource().getAudioCollection() != null) {
+            if (user.getPlayer().getSource() != null
+                    && user.getPlayer().getSource().getAudioCollection() != null) {
                 for (Playlist playlist : playlistArrayList) {
                     for (Song song : playlist.getSongs()) {
                         for (User user1 : users) {
@@ -451,11 +632,11 @@ public static boolean isListening() {
     }
     public static boolean isListeningToPodcast(final ArrayList<Podcast> podcastsArraylist) {
         for (User user : users) {
-            if (user.getPlayer().getSource() != null &&
-                    user.getPlayer().getSource().getAudioCollection() != null) {
+            if (user.getPlayer().getSource() != null
+                    && user.getPlayer().getSource().getAudioCollection() != null) {
                 for (Podcast podcast : podcastsArraylist) {
                     for (Episode episode : podcast.getEpisodes()) {
-                        for (User user1 : users){
+                        for (User user1 : users) {
                             if (isUserListeningToEpisode(user1, episode)) {
                                 return true;
                             }
@@ -467,6 +648,16 @@ public static boolean isListening() {
         return false;
     }
 
+    /**
+     * Used to add a podcast in the List of podcasts
+     * @param commandInput used to compare the input information with
+     *                    data at which we are at a certain moment, for example
+     *                     for iterating through the list of users
+     * @param name represents the name of the podcast we want to add
+     * @param owner represents the name of the podcast's owner
+     * @param episodes represents the list of episodes of the podcast
+     * @return a message with indicates if the add operation succeeded
+     */
     public static String addPodcast(final CommandInput commandInput,
                                     final String name, final String owner,
                                     final ArrayList<EpisodeInput> episodes) {
@@ -478,7 +669,7 @@ public static boolean isListening() {
                 found = user;
             }
         }
-        if(ok == 0) {
+        if (ok == 0) {
             return "The username" + commandInput.getUsername() + " doesn't exist.";
         } else {
             if (found.getType() == Enums.userType.HOST) {
@@ -488,13 +679,13 @@ public static boolean isListening() {
                 })) {
                     return found.getUsername() + " has another podcast with the same name.";
                 }
-
+                // We add the episodes too.
                 List<Episode> episode = new ArrayList<>();
                 for (EpisodeInput episodeInput : episodes) {
                     episode.add(new Episode(episodeInput.getName(), episodeInput.getDuration(),
                             episodeInput.getDescription()));
-                    found.getEpisodesHost().add(new Episode(episodeInput.getName(), episodeInput.getDuration(),
-                            episodeInput.getDescription()));
+                    found.getEpisodesHost().add(new Episode(episodeInput.getName(),
+                            episodeInput.getDuration(), episodeInput.getDescription()));
                 }
                 if (found.getPodcastsHost() != null) {
                     found.getPodcastsHost().add(new Podcast(name, owner, episode));
@@ -506,9 +697,15 @@ public static boolean isListening() {
         }
     }
 }
-    public static  String removePodcast(final CommandInput commandInput){
 
-        int ok = 0;
+    /**
+     * Used to remove a Podcast (by a host) from the podcasts general list.
+     * @param commandInput used to compare the current information with the input ones.
+     * @return a message indicating whether the podcast was successfully deleted or not.
+     */
+    public static  String removePodcast(final CommandInput commandInput) {
+
+    int ok = 0;
     User found = null;
     for (User user : users) {
         if (commandInput.getUsername().equals(user.getUsername())) {
@@ -535,7 +732,7 @@ public static boolean isListening() {
             }
             boolean loadedByNormalUser = false;
             for (User user : users) {
-                if ( user.getPlayer().getCurrentAudioFile()!= null
+                if (user.getPlayer().getCurrentAudioFile() != null
                         && user.getPlayer().getSource().getAudioCollection().matchesName(podcastToRemove.getName())) {
                     loadedByNormalUser = true;
                     break;
@@ -557,6 +754,10 @@ public static boolean isListening() {
         }
     }
 }
+
+    /**
+     * Used to reset all important Lists of users, songs, podcasts and also the timestamp.
+     */
     public static void reset() {
         users = new ArrayList<>();
         songs = new ArrayList<>();
